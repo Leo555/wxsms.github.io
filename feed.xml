@@ -468,7 +468,7 @@ ReactDOM.render(
   );
 }
 </code></pre>
-]]></description><pubDate>Wed Feb 08 2017 19:33:00 GMT+0800 (China Standard Time)</pubDate><link>https://wxsm.space/p/react-note-basic</link><guid isPermaLink="true">https://wxsm.space/p/react-note-basic</guid></item><item><title>2016</title><description><![CDATA[<p>刚刚过完了一个非常无聊的元旦。虽然像是很快过了一年的样子，但是又感觉过了很久。因为我已经想不起来年初我在做些什么了。</p>
+]]></description><pubDate>Wed Feb 08 2017 19:33:00 GMT+0800 (中国标准时间)</pubDate><link>https://wxsm.space/p/react-note-basic</link><guid isPermaLink="true">https://wxsm.space/p/react-note-basic</guid></item><item><title>2016</title><description><![CDATA[<p>刚刚过完了一个非常无聊的元旦。虽然像是很快过了一年的样子，但是又感觉过了很久。因为我已经想不起来年初我在做些什么了。</p>
 <p>这次主要说些职业生涯和工作上的东西。其它的，想到再说。</p>
 <!--more-->
 <h2 role="anchor">
@@ -500,14 +500,14 @@ ReactDOM.render(
 <p>CSS3 某些前沿属性是我目前的基础短板，Codepen 上面很多酷炫的作品如此亮瞎，希望可以找个时间好好学习一番。</p>
 <p>希望可以多些涉及移动端开发。不要再在 Web 领域固步自封（当然，也许是通过 RN 或者其它基于 JS 的工具）。</p>
 <p>希望新的一年可以赚到更多的钱，还起房贷来没那么大压力，欠父母的钱早日还清。如果还有余钱，考虑买个代步工具。</p>
-]]></description><pubDate>Tue Jan 03 2017 16:59:00 GMT+0800 (China Standard Time)</pubDate><link>https://wxsm.space/p/2016</link><guid isPermaLink="true">https://wxsm.space/p/2016</guid></item><item><title>Fix Outlook Wrong Unread Number Issue</title><description><![CDATA[<p>Sometimes we can see unread numbers on inbox label, but can&#39;t actually find them.</p>
+]]></description><pubDate>Tue Jan 03 2017 16:59:00 GMT+0800 (中国标准时间)</pubDate><link>https://wxsm.space/p/2016</link><guid isPermaLink="true">https://wxsm.space/p/2016</guid></item><item><title>Fix Outlook Wrong Unread Number Issue</title><description><![CDATA[<p>Sometimes we can see unread numbers on inbox label, but can&#39;t actually find them.</p>
 <p>Fix steps:</p>
 <ol>
 <li>In the &quot;Search Current Mailbox (Ctrl+E)&quot; box, type: <code>read:no</code> and hit <kbd>Enter</kbd>.</li>
 <li>When it shows &quot;Find More on Server&quot; link, click it. Then the unread email(s) should appear.</li>
 </ol>
 <p><img src="/static/images/outlook-wrong-unread-num.png" alt=""></p>
-]]></description><pubDate>Thu Dec 22 2016 17:17:00 GMT+0800 (China Standard Time)</pubDate><link>https://wxsm.space/p/outlook-wrong-unread-num</link><guid isPermaLink="true">https://wxsm.space/p/outlook-wrong-unread-num</guid></item><item><title>Github Pages and SSL</title><description><![CDATA[<p>经过一些努力，把博客迁移到了 Github Pages，将域名改成了自定义，并且成功启用了 SSL，以下是步骤（就不截图了）。</p>
+]]></description><pubDate>Thu Dec 22 2016 17:17:00 GMT+0800 (中国标准时间)</pubDate><link>https://wxsm.space/p/outlook-wrong-unread-num</link><guid isPermaLink="true">https://wxsm.space/p/outlook-wrong-unread-num</guid></item><item><title>Github Pages and SSL</title><description><![CDATA[<p>经过一些努力，把博客迁移到了 Github Pages，将域名改成了自定义，并且成功启用了 SSL，以下是步骤（就不截图了）。</p>
 <h2 role="anchor">
             <a name="部署代码" role="anchor">部署代码</a>
           </h2><p>Github Pages 支持两种级别的部署：</p>
@@ -549,7 +549,7 @@ ReactDOM.render(
 <li>生效后可以打开网站查看是否正常。控制台页面上方有一个 Crypto Tab，点开，SSL 选择 <code>Flexible</code> 或者 <code>Full</code>，同样需要等待一段时间生效</li>
 <li>生效后即可以通过 <code>https</code> 访问网站了，如果需要强制 SSL，可以到 Page Rules Tab，添加一些记录，为某些域名段设置强制 SSL <code>Aways use https</code></li>
 </ol>
-]]></description><pubDate>Fri Dec 09 2016 01:00:00 GMT+0800 (China Standard Time)</pubDate><link>https://wxsm.space/p/github-pages-and-ssl</link><guid isPermaLink="true">https://wxsm.space/p/github-pages-and-ssl</guid></item><item><title>D3 Note - Interpolate</title><description><![CDATA[<p><code>d3-interpolate</code> 是 D3 的核心模块之一，与比例尺有些类似，<code>interpolate</code> （插值）所做的也是一些数值映射的工作。区别是，<code>interpolate</code> 的定义域始终是 <strong>0 ~ 1</strong>，并且始终为线性的。所以，更多时候它用来与 D3 的一些其他模组集成使用（如 transition, scale 等）。</p>
+]]></description><pubDate>Fri Dec 09 2016 01:00:00 GMT+0800 (中国标准时间)</pubDate><link>https://wxsm.space/p/github-pages-and-ssl</link><guid isPermaLink="true">https://wxsm.space/p/github-pages-and-ssl</guid></item><item><title>D3 Note - Interpolate</title><description><![CDATA[<p><code>d3-interpolate</code> 是 D3 的核心模块之一，与比例尺有些类似，<code>interpolate</code> （插值）所做的也是一些数值映射的工作。区别是，<code>interpolate</code> 的定义域始终是 <strong>0 ~ 1</strong>，并且始终为线性的。所以，更多时候它用来与 D3 的一些其他模组集成使用（如 transition, scale 等）。</p>
 <p>举个例子：</p>
 <pre><code class="lang-js">let i = d3.interpolateNumber(<span class="hljs-number">10</span>, <span class="hljs-number">20</span>); <span class="hljs-comment">// 10 as a, and 20 as b</span>
 i(<span class="hljs-number">0.0</span>); <span class="hljs-comment">// 10</span>
@@ -599,7 +599,7 @@ i(<span class="hljs-number">1.0</span>); // {colors: [<span class="hljs-string">
      <span class="hljs-regexp">//</span> <span class="hljs-keyword">do</span> something...        
   })
 </code></pre>
-]]></description><pubDate>Mon Dec 05 2016 22:17:00 GMT+0800 (China Standard Time)</pubDate><link>https://wxsm.space/p/d3-note-interpolate</link><guid isPermaLink="true">https://wxsm.space/p/d3-note-interpolate</guid></item><item><title>D3 Note - Scale</title><description><![CDATA[<p>之前做的柱状图例子：</p>
+]]></description><pubDate>Mon Dec 05 2016 22:17:00 GMT+0800 (中国标准时间)</pubDate><link>https://wxsm.space/p/d3-note-interpolate</link><guid isPermaLink="true">https://wxsm.space/p/d3-note-interpolate</guid></item><item><title>D3 Note - Scale</title><description><![CDATA[<p>之前做的柱状图例子：</p>
 <pre><code class="lang-js">let data = [<span class="hljs-number">250</span>, <span class="hljs-number">210</span>, <span class="hljs-number">170</span>, <span class="hljs-number">100</span>, <span class="hljs-number">190</span>]
 
 let rectWidth = <span class="hljs-number">25</span>
@@ -783,7 +783,7 @@ ordinal(<span class="hljs-string">"grapefruit"</span>); <span class="hljs-commen
 <span class="hljs-built_in">point</span>(<span class="hljs-string">"banana"</span>); <span class="hljs-comment">// 66.66666666666667</span>
 <span class="hljs-built_in">point</span>(<span class="hljs-string">"grapefruit"</span>); <span class="hljs-comment">// 100</span>
 </code></pre>
-]]></description><pubDate>Tue Nov 22 2016 17:00:00 GMT+0800 (China Standard Time)</pubDate><link>https://wxsm.space/p/d3-note-scale</link><guid isPermaLink="true">https://wxsm.space/p/d3-note-scale</guid></item><item><title>Static Blog Built with Vue</title><description><![CDATA[<p>博客再次迁移，这次是从 Wordpress 转向静态博客（自建）。</p>
+]]></description><pubDate>Tue Nov 22 2016 17:00:00 GMT+0800 (中国标准时间)</pubDate><link>https://wxsm.space/p/d3-note-scale</link><guid isPermaLink="true">https://wxsm.space/p/d3-note-scale</guid></item><item><title>Static Blog Built with Vue</title><description><![CDATA[<p>博客再次迁移，这次是从 Wordpress 转向静态博客（自建）。</p>
 <p>技术栈:</p>
 <ul>
 <li>前端：vue + vue-router + vuex + bootstrap + webpack</li>
@@ -793,7 +793,7 @@ ordinal(<span class="hljs-string">"grapefruit"</span>); <span class="hljs-commen
 <p>整站打包后，一次加载所有资源（HTML + CSS + JS + DATA）300K 不到（gzip 后 80K+），秒速渲染，与先前真的是天差地别。</p>
 <p>图片资源从本地服务器搬迁到免费云。 写作使用 Markdown，从此 IDE 写博客不是梦。</p>
 <p>代码地址：<a href="https://github.com/wxsms/wxsms.github.io/tree/src">https://github.com/wxsms/wxsms.github.io/tree/src</a></p>
-]]></description><pubDate>Thu Nov 17 2016 00:55:00 GMT+0800 (China Standard Time)</pubDate><link>https://wxsm.space/p/static-blog-built-with-vue</link><guid isPermaLink="true">https://wxsm.space/p/static-blog-built-with-vue</guid></item><item><title>D3 Note - Enter, Update and Exit</title><description><![CDATA[<p>在 D3 的使用过程中，我们见得最多的应当是类似如下的代码：</p>
+]]></description><pubDate>Thu Nov 17 2016 00:55:00 GMT+0800 (中国标准时间)</pubDate><link>https://wxsm.space/p/static-blog-built-with-vue</link><guid isPermaLink="true">https://wxsm.space/p/static-blog-built-with-vue</guid></item><item><title>D3 Note - Enter, Update and Exit</title><description><![CDATA[<p>在 D3 的使用过程中，我们见得最多的应当是类似如下的代码：</p>
 <pre><code><span class="hljs-keyword">let</span> div = d3.select(<span class="hljs-string">'body'</span>)
   .selectAll(<span class="hljs-string">'p'</span>)
   .data([<span class="hljs-number">3</span>, <span class="hljs-number">6</span>, <span class="hljs-number">9</span>, <span class="hljs-number">12</span>, <span class="hljs-number">15</span>])
@@ -843,13 +843,13 @@ ordinal(<span class="hljs-string">"grapefruit"</span>); <span class="hljs-commen
 <p>通常，对于 <code>exit</code> 集的操作，都是 <code>remove</code>：</p>
 <pre><code>selection.<span class="hljs-keyword">exit</span>().remove()
 </code></pre><p>&nbsp;</p>
-]]></description><pubDate>Thu Nov 10 2016 19:43:10 GMT+0800 (China Standard Time)</pubDate><link>https://wxsm.space/p/d3-note-enter-update-and-exit</link><guid isPermaLink="true">https://wxsm.space/p/d3-note-enter-update-and-exit</guid></item><item><title>Webpack HMR Not Work in IDEA</title><description><![CDATA[<ol>
+]]></description><pubDate>Thu Nov 10 2016 19:43:10 GMT+0800 (中国标准时间)</pubDate><link>https://wxsm.space/p/d3-note-enter-update-and-exit</link><guid isPermaLink="true">https://wxsm.space/p/d3-note-enter-update-and-exit</guid></item><item><title>Webpack HMR Not Work in IDEA</title><description><![CDATA[<ol>
 <li>goto &#39;File | Settings | Appearance &amp; Behavior | System Settings&#39;;</li>
 <li>uncheck &#39;Use save write&#39; option</li>
 </ol>
 <p><img src="/static/images/hmr-idea-issue.jpg" alt=""></p>
 <p>Problem solved.</p>
-]]></description><pubDate>Mon Nov 07 2016 17:44:41 GMT+0800 (China Standard Time)</pubDate><link>https://wxsm.space/p/webpack-hmr-not-work-in-idea</link><guid isPermaLink="true">https://wxsm.space/p/webpack-hmr-not-work-in-idea</guid></item><item><title>Node.js Web Spider Note - 2</title><description><![CDATA[<h2 role="anchor">
+]]></description><pubDate>Mon Nov 07 2016 17:44:41 GMT+0800 (中国标准时间)</pubDate><link>https://wxsm.space/p/webpack-hmr-not-work-in-idea</link><guid isPermaLink="true">https://wxsm.space/p/webpack-hmr-not-work-in-idea</guid></item><item><title>Node.js Web Spider Note - 2</title><description><![CDATA[<h2 role="anchor">
             <a name="Cookie-amp-Session" role="anchor">Cookie &amp; Session</a>
           </h2><p>HTTP 是一种无状态协议，服务器与客户端之间储存状态信息主要靠 Session，但是，Session 在浏览器关闭后就会失效，再次开启先前所储存的状态都会丢失，因此还需要借助 Cookie</p>
 <p>一般来说，网络爬虫不是浏览器，因此，只能靠手动记住 Cookie 来与服务器“保持联系”。</p>
@@ -933,7 +933,7 @@ ordinal(<span class="hljs-string">"grapefruit"</span>); <span class="hljs-commen
 };
 </code></pre><p>在这种模式下，Cookie / Session / 请求等各种细节都不用关心了。只需要按部就班地执行操作即可。模拟浏览器的代价是效率太低，内存开销大，但在某些特定需求情况下，却比一般爬虫要简单得多。</p>
 <p>&nbsp;</p>
-]]></description><pubDate>Sat Nov 05 2016 22:45:26 GMT+0800 (China Standard Time)</pubDate><link>https://wxsm.space/p/node-js-web-spider-note-2</link><guid isPermaLink="true">https://wxsm.space/p/node-js-web-spider-note-2</guid></item><item><title>D3 Note - Basis</title><description><![CDATA[<p>D3 (Data-Driven Documents) 是一个 JavaScript Library，用来做 Web 端的数据可视化实现以及各种绘图。</p>
+]]></description><pubDate>Sat Nov 05 2016 22:45:26 GMT+0800 (中国标准时间)</pubDate><link>https://wxsm.space/p/node-js-web-spider-note-2</link><guid isPermaLink="true">https://wxsm.space/p/node-js-web-spider-note-2</guid></item><item><title>D3 Note - Basis</title><description><![CDATA[<p>D3 (Data-Driven Documents) 是一个 JavaScript Library，用来做 Web 端的数据可视化实现以及各种绘图。</p>
 <blockquote>
 <p><strong>D3.js</strong> is a JavaScript library for manipulating documents based on data. <strong>D3</strong> helps you bring data to life using HTML, SVG, and CSS.</p>
 </blockquote>
@@ -1061,7 +1061,7 @@ svg.selectAll(<span class="hljs-string">'rect'</span>)
 </code></pre><p><code>rectWidth</code> 表示柱子的宽度，至于坐标、宽高则分别通过 x / y 以及 height / width 属性来控制，效果如下：</p>
 <p><img src="/static/images/d3-chart.gif" alt=""></p>
 <p>可以发现，这里并没有指定需要插入的 <code>rect</code> 个数，但 D3 却根据数据量自动地把图画出来了，这个工作是通过 <code>enter</code> 语句完成的。关于其工作原理，下回分解。</p>
-]]></description><pubDate>Tue Oct 25 2016 18:40:44 GMT+0800 (China Standard Time)</pubDate><link>https://wxsm.space/p/d3-note-basis</link><guid isPermaLink="true">https://wxsm.space/p/d3-note-basis</guid></item><item><title>香港两日游</title><description><![CDATA[<p>工作原因，国庆前去了一趟香港。</p>
+]]></description><pubDate>Tue Oct 25 2016 18:40:44 GMT+0800 (中国标准时间)</pubDate><link>https://wxsm.space/p/d3-note-basis</link><guid isPermaLink="true">https://wxsm.space/p/d3-note-basis</guid></item><item><title>香港两日游</title><description><![CDATA[<p>工作原因，国庆前去了一趟香港。</p>
 <p>当天早上 7 点多从珠海九州港出发，搭船到香港中港城，行程一小时十分钟。住一晚后第二天下班再从中环港澳码头搭船回到九州港，约一小时。</p>
 <p>公司在新界科学园，住所位于沙田，吃、住、行均由公司报销，相比于平时来说感觉像是极尽奢侈的两天。但是，虽然吃的东西贵且有特色，却并不怎么觉得好吃。或者说符合中国人口味的不多。</p>
 <p>和珠海有些不同的是，那边的科技园启动电梯是需要刷工作卡的，某个公司的卡只能去到该公司的楼层。进厕所（女厕）也是需要刷卡的（不知道会不会有卡的持有者必须是女性这样的设定）。感觉就是严格了很多。公司的门禁卡不用刷，只需要人持卡走到门前自然就开了。不知道是什么原理。</p>
@@ -1098,7 +1098,7 @@ svg.selectAll(<span class="hljs-string">'rect'</span>)
 <p>第二天午饭：野菜腐皮拉面</p>
 <p><img src="/static/images/IMG_1317.jpg" alt="中环港澳码头回程"></p>
 <p>中环港澳码头回程</p>
-]]></description><pubDate>Thu Oct 13 2016 18:57:52 GMT+0800 (China Standard Time)</pubDate><link>https://wxsm.space/p/2-days-in-hk</link><guid isPermaLink="true">https://wxsm.space/p/2-days-in-hk</guid></item><item><title>换了手机</title><description><![CDATA[<p>旧的 iPhone 5 用了两年，存在以下问题：</p>
+]]></description><pubDate>Thu Oct 13 2016 18:57:52 GMT+0800 (中国标准时间)</pubDate><link>https://wxsm.space/p/2-days-in-hk</link><guid isPermaLink="true">https://wxsm.space/p/2-days-in-hk</guid></item><item><title>换了手机</title><description><![CDATA[<p>旧的 iPhone 5 用了两年，存在以下问题：</p>
 <ol>
 <li>耳机插孔坏，插任何耳机都只响一边</li>
 <li>一天三充，有时候还越充越少</li>
@@ -1111,7 +1111,7 @@ svg.selectAll(<span class="hljs-string">'rect'</span>)
 <p>纠结了很久，终于狠下心来买了新手机（主要是因为旧机虽然问题多多，但没有一个是致命伤）。本来打算买 SE 的，看到官网有无息分期后觉得还是 7 比较值。</p>
 <p>官网预定，一周到货：</p>
 <p><img src="/static/images/IMG_1269.jpg" alt=""></p>
-]]></description><pubDate>Tue Sep 27 2016 00:22:42 GMT+0800 (China Standard Time)</pubDate><link>https://wxsm.space/p/new-phone</link><guid isPermaLink="true">https://wxsm.space/p/new-phone</guid></item><item><title>WordPress 掉坑记录</title><description><![CDATA[<p>忍无可忍，长期更新。</p>
+]]></description><pubDate>Tue Sep 27 2016 00:22:42 GMT+0800 (中国标准时间)</pubDate><link>https://wxsm.space/p/new-phone</link><guid isPermaLink="true">https://wxsm.space/p/new-phone</guid></item><item><title>WordPress 掉坑记录</title><description><![CDATA[<p>忍无可忍，长期更新。</p>
 <p>（其实我很想自己重新做一个 blog，但是太麻烦，也没什么实践价值了，无非 CRUD，而且维护起来很容易忽略 blog 本身的目的所在）</p>
 <!--more-->
 <h2 role="anchor">
@@ -1127,7 +1127,7 @@ svg.selectAll(<span class="hljs-string">'rect'</span>)
 <p>然后文章的格式就完了，而且是全完。</p>
 <p>所以，解决办法是，不要使用 Crayon 的行内模式，也不要让它扫描行内代码，直接使用 <code>code</code> 标签，然后去改 style，改得跟块级代码差不多就行了。</p>
 <p>注：写完这些我就把 Crayon 这插件给删了。一个乱搞用户数据库，而且不用标准标签的东西，不要也罢。就直接用 <code>code</code> 和 <code>pre</code>，还方便以后向其它平台转移。</p>
-]]></description><pubDate>Tue Sep 20 2016 23:14:47 GMT+0800 (China Standard Time)</pubDate><link>https://wxsm.space/p/wordpress-hole-record</link><guid isPermaLink="true">https://wxsm.space/p/wordpress-hole-record</guid></item><item><title>Node.js Web Spider Note - 1</title><description><![CDATA[<p>项目地址：<a href="https://github.com/edisond/zhihu-spider" target="_blank">https://github.com/edisond/zhihu-spider</a></p>
+]]></description><pubDate>Tue Sep 20 2016 23:14:47 GMT+0800 (中国标准时间)</pubDate><link>https://wxsm.space/p/wordpress-hole-record</link><guid isPermaLink="true">https://wxsm.space/p/wordpress-hole-record</guid></item><item><title>Node.js Web Spider Note - 1</title><description><![CDATA[<p>项目地址：<a href="https://github.com/edisond/zhihu-spider" target="_blank">https://github.com/edisond/zhihu-spider</a></p>
 <p>简介：使用 Node.js 实现的一个简单的知乎爬虫，可以以一个用户为入口，爬取其账号下的一些基本信息，关注者，关注话题等。再通过关注者的 ID 继续爬取其他用户，以此循环。</p>
 <p>实现功能：登录知乎（因为调用一些知乎 API 需要保存 session），解析页面，访问 AJAX API，保存到数据库。</p>
 <!--more-->
@@ -1311,7 +1311,7 @@ let thread = async(<span class="hljs-name">function</span> (<span class="hljs-na
 <p>第一次发现的时候觉得有点逗，感觉就像自己生了五个孩子后来死剩两个一样。</p>
 <p>09/12/2016 更新：目前发现了一个原因，即有些知乎用户的个人主页被屏蔽了，导致解析失败，但是又没有 catch 导致线程无限挂住。解决这个以后问题依然存在，高度怀疑是因为 session 过期。</p>
 <p>09/14/2016 更新：果然是 session 过期的原因。在登录的表单中加入一个字段 <code>remember_me: true</code> 以后，线程死掉的问题就解决了！Excited！</p>
-]]></description><pubDate>Sun Sep 11 2016 07:12:05 GMT+0800 (China Standard Time)</pubDate><link>https://wxsm.space/p/node-js-web-spider-note-1</link><guid isPermaLink="true">https://wxsm.space/p/node-js-web-spider-note-1</guid></item><item><title>JavaScript Promise</title><description><![CDATA[<p>知乎上有一个黑 JavaScript 的段子，大概是说：</p>
+]]></description><pubDate>Sun Sep 11 2016 07:12:05 GMT+0800 (中国标准时间)</pubDate><link>https://wxsm.space/p/node-js-web-spider-note-1</link><guid isPermaLink="true">https://wxsm.space/p/node-js-web-spider-note-1</guid></item><item><title>JavaScript Promise</title><description><![CDATA[<p>知乎上有一个黑 JavaScript 的段子，大概是说：</p>
 <blockquote>
 <p>N 年后，外星人截获了 NASA 发射的飞行器并破解其源代码，翻到最后发现好几页的 }}}}}}&#8230;&#8230;</p>
 </blockquote>
@@ -1543,9 +1543,9 @@ main()
             <a name="支持性" role="anchor">支持性</a>
           </h2><p>由于是 ES6 语法，目前在浏览器端支持不是特别好，很多移动端浏览器以及 IE 家族均不支持（具体可查看 MDN）。如果要在浏览器端使用需要借助 Babel 编译器。</p>
 <p>至于 Node.js 环境则毫无问题。</p>
-]]></description><pubDate>Tue Sep 06 2016 01:27:26 GMT+0800 (China Standard Time)</pubDate><link>https://wxsm.space/p/javascript-promise</link><guid isPermaLink="true">https://wxsm.space/p/javascript-promise</guid></item><item><title>WP 2016 主题使用摘要</title><description><![CDATA[<p>2016 主题设置里没有提供是否使用摘要的选项，因此如果文章不做任何操作，首页以及归档页都会显示全文，导致页面非常地长。但是，一番机缘巧合，我发现只要在文章里面插入了 <code>more</code> 标签，主题就会自动检测到并且切换到摘要模式。</p>
+]]></description><pubDate>Tue Sep 06 2016 01:27:26 GMT+0800 (中国标准时间)</pubDate><link>https://wxsm.space/p/javascript-promise</link><guid isPermaLink="true">https://wxsm.space/p/javascript-promise</guid></item><item><title>WP 2016 主题使用摘要</title><description><![CDATA[<p>2016 主题设置里没有提供是否使用摘要的选项，因此如果文章不做任何操作，首页以及归档页都会显示全文，导致页面非常地长。但是，一番机缘巧合，我发现只要在文章里面插入了 <code>more</code> 标签，主题就会自动检测到并且切换到摘要模式。</p>
 <p>妄我在 Google 上苦苦探索，搜集到一堆垃圾代码，然而并没有什么用。</p>
-]]></description><pubDate>Thu Sep 01 2016 01:15:31 GMT+0800 (China Standard Time)</pubDate><link>https://wxsm.space/p/using-excerpt-in-wp-2016-theme</link><guid isPermaLink="true">https://wxsm.space/p/using-excerpt-in-wp-2016-theme</guid></item><item><title>令牌软件使用体验</title><description><![CDATA[<p>所谓令牌，就是说，一个账号在登录的时候，除了要提供常规密码外，还要提供一组动态密码。而动态密码的来源，可以是实体设备，也可以是软件。</p>
+]]></description><pubDate>Thu Sep 01 2016 01:15:31 GMT+0800 (中国标准时间)</pubDate><link>https://wxsm.space/p/using-excerpt-in-wp-2016-theme</link><guid isPermaLink="true">https://wxsm.space/p/using-excerpt-in-wp-2016-theme</guid></item><item><title>令牌软件使用体验</title><description><![CDATA[<p>所谓令牌，就是说，一个账号在登录的时候，除了要提供常规密码外，还要提供一组动态密码。而动态密码的来源，可以是实体设备，也可以是软件。</p>
 <p>这里就说两个手机 APP：Steam 令牌与网易将军令。</p>
 <p>APP 的功能很简单：在用户需要登录的时候提供动态密码。</p>
 <ul>
@@ -1560,9 +1560,9 @@ main()
 <p>除了是否要主动打开 APP 以外，手机软件还有一个隐藏区别：用户是否已解锁。显然，使用推送方式谁都能看到敏感的动态密码，而打开 APP 则必须要有用户手机已解锁的前提。</p>
 <p>这样一来，万一用户的账号在使用令牌的情况下被盗，责任划分可就不一样了。Steam 不好说，可能要扯皮，反正网易将军令肯定是 100% 免责：用户不设手机密码，手机密码被盗或破解，越狱，ROOT 等情况或行为，均与网易无关。</p>
 <p>（不过这些可能在服务条款里声明也没什么事，毕竟银行提供的还是实体设备，其安全与否就只能看用户是否持有设备。难道网易是真的没考虑过主动推送？）</p>
-]]></description><pubDate>Tue Aug 30 2016 00:22:07 GMT+0800 (China Standard Time)</pubDate><link>https://wxsm.space/p/token-apps-usage-experiences</link><guid isPermaLink="true">https://wxsm.space/p/token-apps-usage-experiences</guid></item><item><title>2016-08-25</title><description><![CDATA[<p>今天下班路上看到一对情侣，一路欢声笑语，走在没有信号灯的斑马线上，也要往马路上面站，车流离他们不到十米吧，女生不时地尝试走向对面又马上退回，脸上带着无忧无虑笑容，男友也丝毫没有阻止的意思。</p>
+]]></description><pubDate>Tue Aug 30 2016 00:22:07 GMT+0800 (中国标准时间)</pubDate><link>https://wxsm.space/p/token-apps-usage-experiences</link><guid isPermaLink="true">https://wxsm.space/p/token-apps-usage-experiences</guid></item><item><title>2016-08-25</title><description><![CDATA[<p>今天下班路上看到一对情侣，一路欢声笑语，走在没有信号灯的斑马线上，也要往马路上面站，车流离他们不到十米吧，女生不时地尝试走向对面又马上退回，脸上带着无忧无虑笑容，男友也丝毫没有阻止的意思。</p>
 <p>我在后面看着，有种奇怪的感觉。觉得，这世界上也许有些人就是注定要死得早些吧。不过，又有点希望自己也能做一个这样的人。</p>
-]]></description><pubDate>Fri Aug 26 2016 03:17:54 GMT+0800 (China Standard Time)</pubDate><link>https://wxsm.space/p/2016-08-25</link><guid isPermaLink="true">https://wxsm.space/p/2016-08-25</guid></item><item><title>无题</title><description><![CDATA[<p>最近，工作地所在的园区推出了一款 App，宣传的主要功能是获取园区动态以及扫码付款，感觉这样吃饭可以方便一些，因此就下载了。</p>
+]]></description><pubDate>Fri Aug 26 2016 03:17:54 GMT+0800 (中国标准时间)</pubDate><link>https://wxsm.space/p/2016-08-25</link><guid isPermaLink="true">https://wxsm.space/p/2016-08-25</guid></item><item><title>无题</title><description><![CDATA[<p>最近，工作地所在的园区推出了一款 App，宣传的主要功能是获取园区动态以及扫码付款，感觉这样吃饭可以方便一些，因此就下载了。</p>
 <p>应用的名字叫“园圈”，在 App Store 上搜索出来，底下是一个没有见过的开发商。我觉得还算正常吧，一般这种小范围应用，不都是外包的吗。只是，这使我对于这个应用的使用埋下了一丝戒心。（后来我搜索了一下这家公司，网站充斥着强烈的国企风）</p>
 <p>进入应用，首先要我注册，这很简单，手机号码验证码啪啪啪就输完了。然后，它要求我输入一个密码。我毫不犹豫地就输入了常用密码，在即将要点下一步的时候，却犹豫了一下。</p>
 <!--more-->
@@ -1590,14 +1590,14 @@ main()
 <p>我突然觉得，这是一波实实在在的送温暖行动。</p>
 <p>这让我想起几个月前在一家米粉店付款的时候，我选择使用支付宝，从店家的微信公众号直接跳转到了一个要求输入账号密码的，UI 跟支付宝一模一样的页面。几乎是本能反应的我点了“使用浏览器打开”，果然这不是一个 alipay 域名下的网站。</p>
 <p>然而，如果用户不是一个程序员，或者不熟悉互联网的点点滴滴，他有多大几率能注意到并且发现诸如此类的事情呢？</p>
-]]></description><pubDate>Thu Aug 04 2016 18:15:11 GMT+0800 (China Standard Time)</pubDate><link>https://wxsm.space/p/untitled-3</link><guid isPermaLink="true">https://wxsm.space/p/untitled-3</guid></item><item><title>Windows 无法删除 Node_modules 文件夹的解决方案</title><description><![CDATA[<p>在 Windows 操作系统下开发 NodeJS 项目的时候经常会遇到无法删除 Node_modules 文件夹的尴尬（因为依赖过多，文件路径长度爆炸），解决办法如下。</p>
+]]></description><pubDate>Thu Aug 04 2016 18:15:11 GMT+0800 (中国标准时间)</pubDate><link>https://wxsm.space/p/untitled-3</link><guid isPermaLink="true">https://wxsm.space/p/untitled-3</guid></item><item><title>Windows 无法删除 Node_modules 文件夹的解决方案</title><description><![CDATA[<p>在 Windows 操作系统下开发 NodeJS 项目的时候经常会遇到无法删除 Node_modules 文件夹的尴尬（因为依赖过多，文件路径长度爆炸），解决办法如下。</p>
 <p>全局安装 <code>rimraf</code> 模块到系统下：</p>
 <pre><code>npm <span class="hljs-keyword">install</span> -g rimraf
 </code></pre><p>CD 到相应文件夹，执行如下指令：</p>
 <pre><code><span class="hljs-attribute">rimraf</span> node_modules
 </code></pre><p>等待其完成即可。</p>
 <p>其实这个模块也可以用来删除其它无法正常删除的东西，挺好用的。Node 用习惯了以后可以为系统提供许多便利，比如说现在我都不怎么使用系统自带的计算器了，直接 WIN + R + NODE 就可以得到一个 Node 环境下的计算器，非常快捷。</p>
-]]></description><pubDate>Fri Jul 29 2016 00:56:40 GMT+0800 (China Standard Time)</pubDate><link>https://wxsm.space/p/solution-to-windows-cant-remove-node-modules-folder</link><guid isPermaLink="true">https://wxsm.space/p/solution-to-windows-cant-remove-node-modules-folder</guid></item><item><title>删除了一个游戏</title><description><![CDATA[<p>今天，在N连跪呕心沥血终于推倒对面一座塔赢了以后，我把皇室战争这个游戏删了。</p>
+]]></description><pubDate>Fri Jul 29 2016 00:56:40 GMT+0800 (中国标准时间)</pubDate><link>https://wxsm.space/p/solution-to-windows-cant-remove-node-modules-folder</link><guid isPermaLink="true">https://wxsm.space/p/solution-to-windows-cant-remove-node-modules-folder</guid></item><item><title>删除了一个游戏</title><description><![CDATA[<p>今天，在N连跪呕心沥血终于推倒对面一座塔赢了以后，我把皇室战争这个游戏删了。</p>
 <p>通常来说，删除一个游戏的原因无非几种：没兴趣，不好玩，玩腻了，等等。但是，皇室战争这个游戏，却比较特别。</p>
 <p>要说它不好玩呢，其实挺有意思的，也挺符合现代游戏的节奏，不需要长时间在线，有空抽几分钟玩一局即可。</p>
 <p>要说玩腻了呢，其实也没有，虽说已经玩了好几个月，但是很多酷炫的卡我依然还没有开到。</p>
@@ -1630,7 +1630,7 @@ main()
 <p>啊，终于，发现了一条可行的路子。但是，我依然要保持一定的负场率，不然还是会在吊打菜狗的过程中不知不觉爬回到原本的竞技场，继续被吊打。</p>
 <p>其实有很多人也确实是这么做了。我经常玩着玩着看到一些人掏出几个 9 级甚至 10 级的卡片，就会想，你这么厉害，还在这里干什么啊。然后就只能等死。这真是一个忧伤的故事。</p>
 <p>其实这游戏有一个缺陷：它只有一种游戏模式。虽然它对游戏性把握得比较好，不容易感到疲倦，但是，这也就导致了我完全无法回避上面所提出的种种问题。最近新出的一个锦标赛模式就不谈了，我连加入都从来没有成功过，谈何体验。</p>
-]]></description><pubDate>Wed Jul 27 2016 23:13:22 GMT+0800 (China Standard Time)</pubDate><link>https://wxsm.space/p/deleted-a-game</link><guid isPermaLink="true">https://wxsm.space/p/deleted-a-game</guid></item><item><title>WordPress 更改后台字体为雅黑</title><description><![CDATA[<p>这个问题其实困扰了我很久。默认的后台字体实在是惨不忍睹。今天终于发现了一个很好的方案，完美解决。</p>
+]]></description><pubDate>Wed Jul 27 2016 23:13:22 GMT+0800 (中国标准时间)</pubDate><link>https://wxsm.space/p/deleted-a-game</link><guid isPermaLink="true">https://wxsm.space/p/deleted-a-game</guid></item><item><title>WordPress 更改后台字体为雅黑</title><description><![CDATA[<p>这个问题其实困扰了我很久。默认的后台字体实在是惨不忍睹。今天终于发现了一个很好的方案，完美解决。</p>
 <p>在当前主题的 <code>functions.php</code> 中，加上如下代码：</p>
 <pre><code>/**
  * 更改后台字体为雅黑
@@ -1709,7 +1709,7 @@ select,
     <span class="hljs-attribute">font-family</span>: <span class="hljs-string">'Helvetica Neue'</span>, Helvetica, <span class="hljs-string">'Microsoft Yahei'</span>, <span class="hljs-string">'Hiragino Sans GB'</span>, <span class="hljs-string">'WenQuanYi Micro Hei'</span>, sans-serif;
 }
 </code></pre><p>&nbsp;</p>
-]]></description><pubDate>Thu May 26 2016 03:33:45 GMT+0800 (China Standard Time)</pubDate><link>https://wxsm.space/p/wordpress-change-admin-panel-font</link><guid isPermaLink="true">https://wxsm.space/p/wordpress-change-admin-panel-font</guid></item><item><title>MEAN.JS 搭配 forever 使用以防止 app crash</title><description><![CDATA[<p>MEANJS 预设的 Grunt task 中没有提供类似出错自动重启的任务，因此当实际使用它搭建了一个 app 部署到服务器上后发现经常有一些奇怪的问题导致其崩溃挂掉。然而根据 log 来看问题应该不是由于项目代码导致的，可能是 MEANJS 本身的问题，也可能是某些 Lib 的问题。这种情况下，我能想到的暂时性解决方案就是使用 forever 了。</p>
+]]></description><pubDate>Thu May 26 2016 03:33:45 GMT+0800 (中国标准时间)</pubDate><link>https://wxsm.space/p/wordpress-change-admin-panel-font</link><guid isPermaLink="true">https://wxsm.space/p/wordpress-change-admin-panel-font</guid></item><item><title>MEAN.JS 搭配 forever 使用以防止 app crash</title><description><![CDATA[<p>MEANJS 预设的 Grunt task 中没有提供类似出错自动重启的任务，因此当实际使用它搭建了一个 app 部署到服务器上后发现经常有一些奇怪的问题导致其崩溃挂掉。然而根据 log 来看问题应该不是由于项目代码导致的，可能是 MEANJS 本身的问题，也可能是某些 Lib 的问题。这种情况下，我能想到的暂时性解决方案就是使用 forever 了。</p>
 <p>个人觉得 MEANJS 在 production mode 中也使用 nodemon 来跑 watch 任务有些鸡肋，因为我们并不需要在产品服务器上频繁地更改代码。因此，我直接把它替换掉了。</p>
 <!--more-->
 <p>这里需要注意的是，我们不能直接用 forever 去跑 <code>server.js</code> 脚本，因为这样的话下层代码拿不到 env settings，就会把启动模式设置为默认的开发模式。</p>
@@ -1738,7 +1738,7 @@ select,
 </code></pre><p>停止服务器：</p>
 <pre><code><span class="hljs-selector-tag">grunt</span> <span class="hljs-selector-tag">forever</span><span class="hljs-selector-pseudo">:server</span><span class="hljs-selector-pseudo">:stop</span>
 </code></pre><p>&nbsp;</p>
-]]></description><pubDate>Thu May 19 2016 23:24:46 GMT+0800 (China Standard Time)</pubDate><link>https://wxsm.space/p/mean-js-use-forever-to-prevent-app-crash</link><guid isPermaLink="true">https://wxsm.space/p/mean-js-use-forever-to-prevent-app-crash</guid></item><item><title>记一次项目经历</title><description><![CDATA[<p>前几天收到一个项目请求，其实是某人希望做个简单的毕设代码实现。因为去年毕业季的时候帮同学的一些朋友做过毕设项目，因此找到了我，希望继续帮忙。因为这种东西一般都比较简单，所以我也没想很多就答应了。</p>
+]]></description><pubDate>Thu May 19 2016 23:24:46 GMT+0800 (中国标准时间)</pubDate><link>https://wxsm.space/p/mean-js-use-forever-to-prevent-app-crash</link><guid isPermaLink="true">https://wxsm.space/p/mean-js-use-forever-to-prevent-app-crash</guid></item><item><title>记一次项目经历</title><description><![CDATA[<p>前几天收到一个项目请求，其实是某人希望做个简单的毕设代码实现。因为去年毕业季的时候帮同学的一些朋友做过毕设项目，因此找到了我，希望继续帮忙。因为这种东西一般都比较简单，所以我也没想很多就答应了。</p>
 <!--more-->
 <p>这位同学通过 QQ 联系上了我。她的具体需求是一个基于 C# 的 ASP.NET 网站，就几个页面，非常简单，但是相比去年做的那几个稍复杂些，因此我提高了要价，开价 500，为了让对方确信我没有在坐地起价，我还把她师姐们的需求文档都发了过去，让她自己对比。</p>
 <p>然而，对方依然觉得太贵了，说想要“友情价”。我觉得挺搞笑的，脸皮很厚嘛。不过我也不想扯皮，就当你是个穷困潦倒的学生吧，大家都经历过，我也当做好事了，于是就降到了 400，说实话这个价格我是真不想做。虽然只需要一天，但是没意思，就跟上班一天一样，而且还是加班，还没有双倍工资。</p>
@@ -1753,7 +1753,7 @@ select,
 <p>最终，在“将作弊行为告知导师”的压力下，项目主人现身道歉，并且支付了全款。</p>
 <p>后来，我反思了一下。我是以在校学生的思维方式来对待这件事情的，其实最近我也越发觉得这种思维方式让自己在社会中非常吃亏。现在来说，至少我也应该尊重自己的劳动力吧。同时，自己的错误也给别人带来了不必要的麻烦。</p>
 <p>至于项目主人那边的几位，我只能说“人各有志”。收到钱的第二分钟，她们就全在我的黑名单里面了。</p>
-]]></description><pubDate>Tue Apr 05 2016 22:47:06 GMT+0800 (China Standard Time)</pubDate><link>https://wxsm.space/p/some-project-memo</link><guid isPermaLink="true">https://wxsm.space/p/some-project-memo</guid></item><item><title>JavaScript 事件代理</title><description><![CDATA[<p>jQuery 曾经存在 3 种绑定事件的方法：bind / live / delegate，后来 live 被砍掉了，只留下 bind 与 delegate，它们之间的区别是，通过 bind 方法绑定的事件，只对当前存在的元素生效，而通过 delegate 则可以绑定“现在”以及“将来”的所有元素。</p>
+]]></description><pubDate>Tue Apr 05 2016 22:47:06 GMT+0800 (中国标准时间)</pubDate><link>https://wxsm.space/p/some-project-memo</link><guid isPermaLink="true">https://wxsm.space/p/some-project-memo</guid></item><item><title>JavaScript 事件代理</title><description><![CDATA[<p>jQuery 曾经存在 3 种绑定事件的方法：bind / live / delegate，后来 live 被砍掉了，只留下 bind 与 delegate，它们之间的区别是，通过 bind 方法绑定的事件，只对当前存在的元素生效，而通过 delegate 则可以绑定“现在”以及“将来”的所有元素。</p>
 <p>为“将来”元素绑定事件的适用场景还是挺多的。比如一个列表，或者一个表格，它可能会动态地被插入或者移除一些子元素，然后每个元素都需要有一个点击事件，这样的话我们就需要保证“现在”已存在的元素以及“将来”可能被添加进去的元素都能够正常工作。怎么办呢，我们总不能每插入一个元素就给它绑一次事件吧（事实上我以前没少干这事），因此 jQuery 就为我们提供了后者的方法。</p>
 <p>一开始我觉得很奇怪，像 delegate 这样的方法是怎么实现的呢？通过监听 DOM 树变化吗？性能开销会不会特别大？后来知道了 JavaScript 有一种机制叫事件代理（event delegation），也就是本文要说的东西，才明白，原来一切都很简单。</p>
 <!--more-->
@@ -1798,7 +1798,7 @@ select,
   }
 }
 </code></pre><p>&nbsp;</p>
-]]></description><pubDate>Fri Apr 01 2016 19:38:12 GMT+0800 (China Standard Time)</pubDate><link>https://wxsm.space/p/javascript-event-delegation</link><guid isPermaLink="true">https://wxsm.space/p/javascript-event-delegation</guid></item><item><title>高效 CSS 与 Reflow &amp; Repaint</title><description><![CDATA[<h2 role="anchor">
+]]></description><pubDate>Fri Apr 01 2016 19:38:12 GMT+0800 (中国标准时间)</pubDate><link>https://wxsm.space/p/javascript-event-delegation</link><guid isPermaLink="true">https://wxsm.space/p/javascript-event-delegation</guid></item><item><title>高效 CSS 与 Reflow &amp; Repaint</title><description><![CDATA[<h2 role="anchor">
             <a name="高效-CSS" role="anchor">高效 CSS</a>
           </h2><p>如何编写高效 CSS 其实是一个过时的话题。</p>
 <p>这方面曾经存在许多真知灼见，比如说 CSS 选择器的解析方向是从子到父，比如说 ID 选择器是最快的，不应该给 Class 选择器加上 Tag 限制，尽量避免使用后代选择器等。但是，随着浏览器解析引擎的发展，这些都已经变得不再那么重要了。MDN 上阐述高效 CSS 的文章也已经被标记为过时。</p>
@@ -1865,7 +1865,7 @@ select,
             <a name="不要选用-Table-布局" role="anchor">不要选用 Table 布局</a>
           </h4><p>虽然我们已经有很多理由不去使用 table 布局了，但这又是另外一个 —— 任意一个单元格的小改动都很有可能触发整个布局所有节点的变化，带来巨大的性能开销。</p>
 <p>&nbsp;</p>
-]]></description><pubDate>Wed Mar 30 2016 22:16:25 GMT+0800 (China Standard Time)</pubDate><link>https://wxsm.space/p/efficient-css-and-reflow-repaint</link><guid isPermaLink="true">https://wxsm.space/p/efficient-css-and-reflow-repaint</guid></item><item><title>BFC 原理及应用</title><description><![CDATA[<h2 role="anchor">
+]]></description><pubDate>Wed Mar 30 2016 22:16:25 GMT+0800 (中国标准时间)</pubDate><link>https://wxsm.space/p/efficient-css-and-reflow-repaint</link><guid isPermaLink="true">https://wxsm.space/p/efficient-css-and-reflow-repaint</guid></item><item><title>BFC 原理及应用</title><description><![CDATA[<h2 role="anchor">
             <a name="什么是-BFC" role="anchor">什么是 BFC</a>
           </h2><p>BFC（Block formatting context）是 CSS 中的一个概念，先来看一下定义 （By MDN）：</p>
 <blockquote>
@@ -1976,7 +1976,7 @@ select,
           </h3><p>场景：我们连续定义两个 <code>div</code>，并且都给予 <code>margin: 100px</code> 属性，实际上它们之间的距离也将是 100px 而非 200px，因为 margin 重叠了。</p>
 <p>如果不想让 margin 出现这种重叠的情况，依然可以使用 BFC：给二者都各自套上一个 BFC 容器（或者其中之一），因为 BFC 的独立性，内部布局不会产生对外影响，外部也不会产生对内影响，所以二者的 margin 属性都能生效，最终就能得到 200px 的间距。</p>
 <p>这个就不举实际例子了。</p>
-]]></description><pubDate>Tue Mar 29 2016 01:43:35 GMT+0800 (China Standard Time)</pubDate><link>https://wxsm.space/p/bfc-theory-and-applications</link><guid isPermaLink="true">https://wxsm.space/p/bfc-theory-and-applications</guid></item><item><title>“渐进增强”与“优雅降级”</title><description><![CDATA[<p>“渐进增强”与“优雅降级”是 Web 页面两种不同的开发理念，为了简单起见，先给出定义（By W3C）：</p>
+]]></description><pubDate>Tue Mar 29 2016 01:43:35 GMT+0800 (中国标准时间)</pubDate><link>https://wxsm.space/p/bfc-theory-and-applications</link><guid isPermaLink="true">https://wxsm.space/p/bfc-theory-and-applications</guid></item><item><title>“渐进增强”与“优雅降级”</title><description><![CDATA[<p>“渐进增强”与“优雅降级”是 Web 页面两种不同的开发理念，为了简单起见，先给出定义（By W3C）：</p>
 <blockquote>
 <p>Graceful degradation Providing an alternative version of your functionality or making the user aware of shortcomings of a product as a safety measure to ensure that the product is usable. Progressive enhancement Starting with a baseline of usable functionality, then increasing the richness of the user experience step by step by testing for support for enhancements before applying them.</p>
 </blockquote>
@@ -2103,12 +2103,12 @@ select,
             <a name="总结" role="anchor">总结</a>
           </h2><p>“渐进增强”与“优雅降级”最终都是为了实现一个目标：让所有用户都能够使用我们的产品。“渐进增强”方案看起来更优雅，但它需要更多的时间与资源去达成。“优雅降级”可以看成是现有产品的补丁：易于开发但难以维护。</p>
 <p>注：本文大部分内容来自 <a href="https://www.w3.org/wiki/Graceful_degradation_versus_progressive_enhancement" target="_blank">W3C</a></p>
-]]></description><pubDate>Fri Mar 25 2016 17:35:10 GMT+0800 (China Standard Time)</pubDate><link>https://wxsm.space/p/graceful-degradation-versus-progressive-enhancement</link><guid isPermaLink="true">https://wxsm.space/p/graceful-degradation-versus-progressive-enhancement</guid></item><item><title>Baidu Submit for WordPress update 0.1.0</title><description><![CDATA[<p>这次更新主要是把工具做成了 WordPress 插件的形式，安装和使用起来都更符合 WordPress 的风格了，也不用再通过改代码去更改配置参数。之所以一次性把版本号提到了 0.1.0，是因为我觉得它虽然功能还不是非常完善，但是已经达到了“至少能用”的程度。</p>
+]]></description><pubDate>Fri Mar 25 2016 17:35:10 GMT+0800 (中国标准时间)</pubDate><link>https://wxsm.space/p/graceful-degradation-versus-progressive-enhancement</link><guid isPermaLink="true">https://wxsm.space/p/graceful-degradation-versus-progressive-enhancement</guid></item><item><title>Baidu Submit for WordPress update 0.1.0</title><description><![CDATA[<p>这次更新主要是把工具做成了 WordPress 插件的形式，安装和使用起来都更符合 WordPress 的风格了，也不用再通过改代码去更改配置参数。之所以一次性把版本号提到了 0.1.0，是因为我觉得它虽然功能还不是非常完善，但是已经达到了“至少能用”的程度。</p>
 <p>工具的主要功能目前为止并没有什么变化，至于这个过程中获得的少许 WordPress 插件开发经验下次再总结，好在没走多少弯路。</p>
 <p>使用方式：Clone <a href="https://github.com/edisond/baidu-submit-for-wordpress" target="_blank">https://github.com/edisond/baidu-submit-for-wordpress</a> 仓库并上传至主机的 </p>
 <pre><code><span class="hljs-regexp">/wp-content/</span>plugins
 </code></pre><p> 目录，在 WordPress 插件控制面板中设置启用即可。准入密钥以及域名的配置页面可以在“设置”中找到，其中也包含了手动推送的页面。</p>
-]]></description><pubDate>Mon Mar 21 2016 21:38:04 GMT+0800 (China Standard Time)</pubDate><link>https://wxsm.space/p/baidu-submit-for-wordpress-update-0-1-0</link><guid isPermaLink="true">https://wxsm.space/p/baidu-submit-for-wordpress-update-0-1-0</guid></item><item><title>过期鸡汤</title><description><![CDATA[<p>花了两个晚上读了最近挺火的一本书，名曰《解忧杂货店》，同时也是我看过的第一本日本小说。看完以后只有一个感觉：这大概是过期的鸡汤吧。一点味道都没有。与此同时，总觉得有些什么地方不对。现在认真想了想，果然是奇葩。由于不清楚日本文化，也不知道该说是日本人奇葩，还是说仅仅是故事或者作者奇葩。</p>
+]]></description><pubDate>Mon Mar 21 2016 21:38:04 GMT+0800 (中国标准时间)</pubDate><link>https://wxsm.space/p/baidu-submit-for-wordpress-update-0-1-0</link><guid isPermaLink="true">https://wxsm.space/p/baidu-submit-for-wordpress-update-0-1-0</guid></item><item><title>过期鸡汤</title><description><![CDATA[<p>花了两个晚上读了最近挺火的一本书，名曰《解忧杂货店》，同时也是我看过的第一本日本小说。看完以后只有一个感觉：这大概是过期的鸡汤吧。一点味道都没有。与此同时，总觉得有些什么地方不对。现在认真想了想，果然是奇葩。由于不清楚日本文化，也不知道该说是日本人奇葩，还是说仅仅是故事或者作者奇葩。</p>
 <!--more-->
 <p>这本书大概讲述了这么一件事：</p>
 <p>三名无业青年爆了一个老板娘的格，跑路途中车抛锚了无奈躲进一个荒废的屋子里，后发现有信投入，内容是吐槽烦恼。回信后立马又收到了回信，终此往复。由于咨询者不知手机为何物，因此闹洞大开认为这屋子大概是个时空机器BlaBlaBla，迷途的少年感觉找到了人生的价值，摇身一变成为烦恼终结者。接下来就是各种各样奇葩的往事，各种咨询，然后通过一个孤儿院把大家都联系在了一起，最后回到现实少年发现刚爆的可怜老板娘就是最后一个与自己通信的人。少年们随即决定重新做人，义无反顾地开始捡肥皂生涯。</p>
@@ -2119,7 +2119,7 @@ select,
 <p>除此以外，基本上所有故事都是主流鸡汤文，以挫折、烦恼和梦想为主题。最后大家通过自己的努力（辅以杂货店的建议），都达到了自己所有或者部分的目标，或者干脆啥都没做成，但最后还是觉得自己得到了升华，甚至干脆整个人升华。整本书没有任何起伏跌宕，所有故事就那么以第三人称视觉丝毫不带感情地展开了。所以说它无味。</p>
 <p>作者说，希望读者在合卷的时候能够喃喃自语曰“从来没有读过这样的小说”。我想说的倒是，从来没有读过这么无聊的鸡汤。赵国的鸡汤起码能给人打鸡血，你国连鸡血都打不了。</p>
 <p>&nbsp;</p>
-]]></description><pubDate>Wed Mar 02 2016 22:02:12 GMT+0800 (China Standard Time)</pubDate><link>https://wxsm.space/p/tasteless-chicken-soup</link><guid isPermaLink="true">https://wxsm.space/p/tasteless-chicken-soup</guid></item><item><title>WordPress 百度主动提交工具</title><description><![CDATA[<p>作为目前的国内搜索主流，百度的收录规则与国外搜索引擎如谷歌、必应等不太一样，虽然它也有提供普通的Sitemap模式，但是据它自己所言通过这种方式收录效率是最低的。另外还有一种是自动推送，即在网站所有页面都加入一个JS脚本，有人访问时就会自动向百度推送该链接，但实测经常会被浏览器的AD Block插件阻拦。因此还剩下效率最高的一种方式：主动推送。我试过了一些现成的插件，好像都不太好用。因为是一个简单的功能，所以就自己写了一个小工具来实现。</p>
+]]></description><pubDate>Wed Mar 02 2016 22:02:12 GMT+0800 (中国标准时间)</pubDate><link>https://wxsm.space/p/tasteless-chicken-soup</link><guid isPermaLink="true">https://wxsm.space/p/tasteless-chicken-soup</guid></item><item><title>WordPress 百度主动提交工具</title><description><![CDATA[<p>作为目前的国内搜索主流，百度的收录规则与国外搜索引擎如谷歌、必应等不太一样，虽然它也有提供普通的Sitemap模式，但是据它自己所言通过这种方式收录效率是最低的。另外还有一种是自动推送，即在网站所有页面都加入一个JS脚本，有人访问时就会自动向百度推送该链接，但实测经常会被浏览器的AD Block插件阻拦。因此还剩下效率最高的一种方式：主动推送。我试过了一些现成的插件，好像都不太好用。因为是一个简单的功能，所以就自己写了一个小工具来实现。</p>
 <!--more-->
 <h2 role="anchor">
             <a name="主动推送规则" role="anchor">主动推送规则</a>
@@ -2349,7 +2349,7 @@ $result = curl_exec($ch);
 </ol>
 <p>如无意外，这些都将在之后的版本更新。</p>
 <p>Github: <a href="https://github.com/edisond/baidu-submit-for-wordpress">https://github.com/edisond/baidu-submit-for-wordpress</a></p>
-]]></description><pubDate>Mon Feb 29 2016 17:41:20 GMT+0800 (China Standard Time)</pubDate><link>https://wxsm.space/p/baidu-submit-for-wordpress</link><guid isPermaLink="true">https://wxsm.space/p/baidu-submit-for-wordpress</guid></item><item><title>西游记之孙悟空三打白骨精</title><description><![CDATA[<div>
+]]></description><pubDate>Mon Feb 29 2016 17:41:20 GMT+0800 (中国标准时间)</pubDate><link>https://wxsm.space/p/baidu-submit-for-wordpress</link><guid isPermaLink="true">https://wxsm.space/p/baidu-submit-for-wordpress</guid></item><item><title>西游记之孙悟空三打白骨精</title><description><![CDATA[<div>
   有剧透。
 </div>
 
@@ -2421,7 +2421,7 @@ $result = curl_exec($ch);
 <div>
   要说缺陷的话，自然还是不少，不然不会只有5+的评分。二师兄和沙师弟是打了整场的酱油，就俩高级步兵，除了会吐槽以外屁用没有。认真想想的话其实有他俩没他俩剧情根本一模一样，即使最后大师兄回家了也不是二师兄给讨回来的。电影的审美过于西化了，比如小白龙的形象，比如白骨精的形象。但是，瑕不掩瑜，还是要说，这是我看过的<b>最好的最值的最不坑的</b>国产爆米花电影。
 </div>
-]]></description><pubDate>Mon Feb 22 2016 23:19:09 GMT+0800 (China Standard Time)</pubDate><link>https://wxsm.space/p/review-of-the-monkey-king-2</link><guid isPermaLink="true">https://wxsm.space/p/review-of-the-monkey-king-2</guid></item><item><title>WordPress 在阿里云虚拟主机下无法发送邮件</title><description><![CDATA[<p>安装在阿里云虚拟主机环境下的Wordpress死活都发不出邮件，用户注册的邮件发不出，评论总结也发不出，等等等等，尝试了各种方法都以失败告终。今天用更改代码+SMTP插件终于试成功了，以下是解决方案。</p>
+]]></description><pubDate>Mon Feb 22 2016 23:19:09 GMT+0800 (中国标准时间)</pubDate><link>https://wxsm.space/p/review-of-the-monkey-king-2</link><guid isPermaLink="true">https://wxsm.space/p/review-of-the-monkey-king-2</guid></item><item><title>WordPress 在阿里云虚拟主机下无法发送邮件</title><description><![CDATA[<p>安装在阿里云虚拟主机环境下的Wordpress死活都发不出邮件，用户注册的邮件发不出，评论总结也发不出，等等等等，尝试了各种方法都以失败告终。今天用更改代码+SMTP插件终于试成功了，以下是解决方案。</p>
 <!--more-->
 <h2 role="anchor">
             <a name="更改主机设置" role="anchor">更改主机设置</a>
@@ -2453,7 +2453,7 @@ $result = curl_exec($ch);
           </h2><p>现在Wordpress主程序是可以正常发邮件了，但是<strong>BackWPup</strong>插件的邮件依然是完全发不出去，使用它提供的所有方式都不行，使用同样的SMTP配置也是不行，它也没有提供什么有用的错误信息，完全摸不着头脑。</p>
 <p>为什么需要这个插件发邮件呢。因为它是网站的备份主力，但是因为邮件发不出去的关系，不能通过邮件发送备份，只能备份到主机的文件夹下。这样就很没安全感了，要完蛋都是一锅端的感觉，有无备份没什么区别。它提供的其它方案也好像都被墙了，比如Dropbox什么的。</p>
 <p>这个问题待解决。</p>
-]]></description><pubDate>Mon Feb 22 2016 19:16:24 GMT+0800 (China Standard Time)</pubDate><link>https://wxsm.space/p/wordpress-unable-to-send-email-under-aliyun-virtual-host</link><guid isPermaLink="true">https://wxsm.space/p/wordpress-unable-to-send-email-under-aliyun-virtual-host</guid></item><item><title>WordPress 博客搭建</title><description><![CDATA[<p>本文是本站的建站历程记录。每个人都可以使用极少的代价（甚至免费）拥有一个域名独立且完全自主的个人网站或博客，在于怎么选择而已。此类网站的搭建很多情况下并不要求其操作者是一个程序狗，所以个人感觉可玩性还是挺强的。整个过程一共需要准备三种事物：<strong>域名</strong>，<strong>托管</strong>与<strong>程序</strong>（特殊情况，如果选择国内主机则需要准备第四种，即<strong>备案</strong>）。</p>
+]]></description><pubDate>Mon Feb 22 2016 19:16:24 GMT+0800 (中国标准时间)</pubDate><link>https://wxsm.space/p/wordpress-unable-to-send-email-under-aliyun-virtual-host</link><guid isPermaLink="true">https://wxsm.space/p/wordpress-unable-to-send-email-under-aliyun-virtual-host</guid></item><item><title>WordPress 博客搭建</title><description><![CDATA[<p>本文是本站的建站历程记录。每个人都可以使用极少的代价（甚至免费）拥有一个域名独立且完全自主的个人网站或博客，在于怎么选择而已。此类网站的搭建很多情况下并不要求其操作者是一个程序狗，所以个人感觉可玩性还是挺强的。整个过程一共需要准备三种事物：<strong>域名</strong>，<strong>托管</strong>与<strong>程序</strong>（特殊情况，如果选择国内主机则需要准备第四种，即<strong>备案</strong>）。</p>
 <!--more-->
 <h2 role="anchor">
             <a name="域名" role="anchor">域名</a>
@@ -2492,8 +2492,8 @@ $result = curl_exec($ch);
 <p>整个流程有两个地方稍微麻烦，一是初审填表，需要下载、打印、填表、扫描、上传这么多的步骤。其次是“当面核验”，其实就是拍个照上传，但是需要它专用的背景幕布，可以到指定的拍照地点免费拍摄，或者代理商以免费或者到付的形式快递幕布给申请人，然后自行拍照上传。</p>
 <p>管局审核需要的时间从从两个小时到三十天不等，主要看运气。反正我是这个时间段内的都遇到过（广东）。</p>
 <p>备案通过以后，需要把备案号以链接的形式加到网站的底部，然后就可以该干嘛干嘛了。</p>
-]]></description><pubDate>Mon Feb 22 2016 17:12:03 GMT+0800 (China Standard Time)</pubDate><link>https://wxsm.space/p/how-to-build-a-wordpress-blog</link><guid isPermaLink="true">https://wxsm.space/p/how-to-build-a-wordpress-blog</guid></item><item><title>IDEA 滚动条问题</title><description><![CDATA[<p>用IDEA撸代码的时候有一个非常恶心的问题，它的滚动条经常会无缘无故地跳动，最常见的就是拖动滚动条之后它会马上跳回到原本的位置，纵向和横向都有此问题，因此基本上每次都至少要拖两次滚动条才能成功，烦不胜烦。升级版本等等都没有用。今天终于找到了真正的解决方法，就是<strong>关闭屏幕取词软件或禁用软件的取词功能（比如有道）</strong>。完全、彻底地解决此问题。</p>
-]]></description><pubDate>Wed Feb 17 2016 22:43:31 GMT+0800 (China Standard Time)</pubDate><link>https://wxsm.space/p/idea-scrolling-issue</link><guid isPermaLink="true">https://wxsm.space/p/idea-scrolling-issue</guid></item><item><title>JavaScript 的一些古怪之处</title><description><![CDATA[<p>大概一年前在看一本介绍JavaScript与jQuery的书籍之时看到了这么一个有趣的章节，当时印象挺深刻的。现在突然回想起来了这回事，于是就重新翻出来做了个笔记。作者将这些材料归结为两类：神奇的知识点以及WTF。这里去除了与浏览器有关的部分，因为那些和JavaScript本身并没有关联。</p>
+]]></description><pubDate>Mon Feb 22 2016 17:12:03 GMT+0800 (中国标准时间)</pubDate><link>https://wxsm.space/p/how-to-build-a-wordpress-blog</link><guid isPermaLink="true">https://wxsm.space/p/how-to-build-a-wordpress-blog</guid></item><item><title>IDEA 滚动条问题</title><description><![CDATA[<p>用IDEA撸代码的时候有一个非常恶心的问题，它的滚动条经常会无缘无故地跳动，最常见的就是拖动滚动条之后它会马上跳回到原本的位置，纵向和横向都有此问题，因此基本上每次都至少要拖两次滚动条才能成功，烦不胜烦。升级版本等等都没有用。今天终于找到了真正的解决方法，就是<strong>关闭屏幕取词软件或禁用软件的取词功能（比如有道）</strong>。完全、彻底地解决此问题。</p>
+]]></description><pubDate>Wed Feb 17 2016 22:43:31 GMT+0800 (中国标准时间)</pubDate><link>https://wxsm.space/p/idea-scrolling-issue</link><guid isPermaLink="true">https://wxsm.space/p/idea-scrolling-issue</guid></item><item><title>JavaScript 的一些古怪之处</title><description><![CDATA[<p>大概一年前在看一本介绍JavaScript与jQuery的书籍之时看到了这么一个有趣的章节，当时印象挺深刻的。现在突然回想起来了这回事，于是就重新翻出来做了个笔记。作者将这些材料归结为两类：神奇的知识点以及WTF。这里去除了与浏览器有关的部分，因为那些和JavaScript本身并没有关联。</p>
 <!--more-->
 <h2 role="anchor">
             <a name="数据类型与定义" role="anchor">数据类型与定义</a>
@@ -2614,7 +2614,7 @@ alert(someVar == <span class="hljs-literal">undefined</span>); <span class="hljs
 var someVar<span class="hljs-comment">;</span>
 alert(someVar == undefined)<span class="hljs-comment">; //evaluates false!</span>
 </code></pre><p>看起来很有趣的样子&#8230;&#8230;</p>
-]]></description><pubDate>Tue Feb 16 2016 00:47:27 GMT+0800 (China Standard Time)</pubDate><link>https://wxsm.space/p/some-oddities-about-javascript</link><guid isPermaLink="true">https://wxsm.space/p/some-oddities-about-javascript</guid></item><item><title>CSS 绘制三角形</title><description><![CDATA[<p>关于如何使用CSS中的border属性绘制各式各样的三角形。下面有一个国外友人制作的动画，对其原理进行了直观的阐释，我简单地做了点翻译。</p>
+]]></description><pubDate>Tue Feb 16 2016 00:47:27 GMT+0800 (中国标准时间)</pubDate><link>https://wxsm.space/p/some-oddities-about-javascript</link><guid isPermaLink="true">https://wxsm.space/p/some-oddities-about-javascript</guid></item><item><title>CSS 绘制三角形</title><description><![CDATA[<p>关于如何使用CSS中的border属性绘制各式各样的三角形。下面有一个国外友人制作的动画，对其原理进行了直观的阐释，我简单地做了点翻译。</p>
 <p class='codepen'  data-height='387' data-theme-id='0' data-slug-hash='zrbGpx' data-default-tab='result' data-animations='run' data-editable='' data-embed-version='2'>
   See the Pen <a href=’http://codepen.io/edisond/pen/zrbGpx/’>Animation to Explain CSS Triangles</a> by wxsm (<a href=’http://codepen.io/edisond’>@edisond</a>) on <a href=’http://codepen.io’>CodePen</a>.0
 </p>
@@ -2677,13 +2677,13 @@ alert(someVar == undefined)<span class="hljs-comment">; //evaluates false!</span
 <span class="hljs-tag">&lt;/<span class="hljs-name">html</span>&gt;</span>
 </code></pre><p>效果：</p>
 <p>以上的例子都是使用实体元素来绘制三角形，其实实际情况下使用伪元素的（before，after）会更多一些。</p>
-]]></description><pubDate>Mon Feb 15 2016 18:58:33 GMT+0800 (China Standard Time)</pubDate><link>https://wxsm.space/p/css-triangle</link><guid isPermaLink="true">https://wxsm.space/p/css-triangle</guid></item><item><title>无题</title><description><![CDATA[<p>年廿七回家，到今天是第七天。这么快就已经过去了整整一周，马上又要回珠海上班了。</p>
+]]></description><pubDate>Mon Feb 15 2016 18:58:33 GMT+0800 (中国标准时间)</pubDate><link>https://wxsm.space/p/css-triangle</link><guid isPermaLink="true">https://wxsm.space/p/css-triangle</guid></item><item><title>无题</title><description><![CDATA[<p>年廿七回家，到今天是第七天。这么快就已经过去了整整一周，马上又要回珠海上班了。</p>
 <p>回家这么多天来，今天是第一次在家吃晚饭。一直都在亲戚朋友家过节，自己家冷冷清清的时间比较多。因为自己家里没有老人，只有我和爸妈一家三口，所以大概只能往外跑吧。我们很少在广东过年，只是今年可能是因为我的身体还不太好，妈妈也比较累，所以就不想回江西了。其实过节在哪里都无所谓啦，大家在一起开心就好。倒是不能去看看年事已高的奶奶觉得很忧伤。妈妈看起来又老了一些，是照顾我的那段时间太劳累了。</p>
 <p>今年印象比较深的是，大家都喜欢在茶余饭后玩红包了。尤其是除夕晚上的时候，开着电视，但其实没多少时间去看，大家都忙着摇摇摇咻咻咻，完事以后继续关注下一轮的时刻，至于春晚什么的，谁管呢。当然老人还是在看。腾讯老大给的一块几毛就图个乐（一块几毛是说微信，至于QQ真是太小气了），但这里要吐槽一下支付宝，我一直以为它要么会大量放出稀有卡，要么会给集齐四张卡的同学一些安慰奖，结果也是呵呵，于是我毫不犹豫地就把除了家人以外的加起来的好友都删了。这游戏在春晚打了那么硬的广告，结果让全国99%的玩家都吃了个闭门羹，这么有种也是没谁了。老人一直在问为什么会有奇怪的声音，他们在年夜饭的过程中反而不太受到关注。</p>
 <p>老人们有时候会问什么时候结婚的事，我都是回答说还早。两个人在一起的压力有时候真要比一个人要大得多，毕竟一个人生活不用考虑什么时候能买房，反正都是自己住。珠海的房价一天比一天高，然而刚工作半年的我也只能看着它高。</p>
 <p>和小伙伴们谈起工作的时候，发现自己果然是最闲的。突然感觉没有赚加班费的机会也是一件挺忧伤的事。手术的伤依然是还没有好，总是觉得有这个问题在生活中处处都受到了限制。过两天又要回到那个以断网为常态并且每晚跳三四次闸的地方去住，再次回家又不知道是什么时候。</p>
-]]></description><pubDate>Sat Feb 13 2016 10:37:20 GMT+0800 (China Standard Time)</pubDate><link>https://wxsm.space/p/untitled-2</link><guid isPermaLink="true">https://wxsm.space/p/untitled-2</guid></item><item><title>域名转移</title><description><![CDATA[<p>本博客自今日起域名变更为<a href="http://anubarak.com">anubarak.com</a>，原域名wxsm.top将于2016-05-19到期，wxsm.space将于2016-09-19到期。其实本人更偏向于使用wxsm.space，奈何该后缀无法备案。请各位存有友链的博主更改友链指向为<a href="http://anubarak.com">anubarak.com</a>，多谢。</p>
-]]></description><pubDate>Sat Feb 06 2016 08:34:41 GMT+0800 (China Standard Time)</pubDate><link>https://wxsm.space/p/domain-transfer</link><guid isPermaLink="true">https://wxsm.space/p/domain-transfer</guid></item><item><title>使用 IDEA 配置自动同步到FTP服务器</title><description><![CDATA[<p>使用虚拟主机的时候经常会想到一个问题，就是改了代码以后还要手动上传到服务器上，非常麻烦，且不利于保持本地开发代码与服务器上运行代码之间的同步，容易出错。今天突然想着能不能用IDE来完成类似自动同步的事情，如果可以的话开发效率自然是大幅度提高。拜强大到没朋友的IDEA所赐，结果非常可观。</p>
+]]></description><pubDate>Sat Feb 13 2016 10:37:20 GMT+0800 (中国标准时间)</pubDate><link>https://wxsm.space/p/untitled-2</link><guid isPermaLink="true">https://wxsm.space/p/untitled-2</guid></item><item><title>域名转移</title><description><![CDATA[<p>本博客自今日起域名变更为<a href="http://anubarak.com">anubarak.com</a>，原域名wxsm.top将于2016-05-19到期，wxsm.space将于2016-09-19到期。其实本人更偏向于使用wxsm.space，奈何该后缀无法备案。请各位存有友链的博主更改友链指向为<a href="http://anubarak.com">anubarak.com</a>，多谢。</p>
+]]></description><pubDate>Sat Feb 06 2016 08:34:41 GMT+0800 (中国标准时间)</pubDate><link>https://wxsm.space/p/domain-transfer</link><guid isPermaLink="true">https://wxsm.space/p/domain-transfer</guid></item><item><title>使用 IDEA 配置自动同步到FTP服务器</title><description><![CDATA[<p>使用虚拟主机的时候经常会想到一个问题，就是改了代码以后还要手动上传到服务器上，非常麻烦，且不利于保持本地开发代码与服务器上运行代码之间的同步，容易出错。今天突然想着能不能用IDE来完成类似自动同步的事情，如果可以的话开发效率自然是大幅度提高。拜强大到没朋友的IDEA所赐，结果非常可观。</p>
 <p>首先确保安装好IDEA，测试用IDEA版本为15.0.1，然后我们从FTP服务器上copy一份代码到本地，并创建好存放目录。此时代码应该是完全同步的。以上为准备工作。</p>
 <!--more-->
 <p>然后我们打开IDEA，选择File -&gt; Open，打开代码根目录。</p>
@@ -2704,7 +2704,7 @@ alert(someVar == undefined)<span class="hljs-comment">; //evaluates false!</span
 <p>当然每次都要右键然后找到 Sync 选项可能会有点太麻烦。我们可以把这个功能放到主工具栏上去，以后每次点它就行了。</p>
 <p><img src="/static/images/20160203164053.png" alt=""></p>
 <p>接下来就可以享受愉快的开发体验了。唯一需要注意的是在网络不是非常理想的情况下，Sync 的时候不要选择项目根目录，选择真正有改变的文件或者文件夹即可，因为它毕竟不是 VCS，所有文件一个个比对的话实在是太慢。当然我们也可以配合 VCS 使用，效果更佳，这里就不再赘述。</p>
-]]></description><pubDate>Thu Feb 04 2016 00:45:27 GMT+0800 (China Standard Time)</pubDate><link>https://wxsm.space/p/using-idea-to-config-ftp-auto-deployment</link><guid isPermaLink="true">https://wxsm.space/p/using-idea-to-config-ftp-auto-deployment</guid></item><item><title>WordPress 文章归档页面实现</title><description><![CDATA[<p>归档页就是一个包含站点所有已发布文章的列表页面，通常默认会根据发布时间来进行排序，然后可能会有一些分页排序页内搜索等功能。实现这个功能可以用Wordpress插件，当然也可以自己写代码，我一开始就是用了一款插件，觉得实现了功能还不错就没管它。后来想要做一些自定义的修改，比如插件是按月份分组然而我想改成年份，就稍微看了看它的代码。一看不得了，莫名地有一种总算见识到了什么叫又烂又臭的代码的感觉涌上心头，做了这么多年伸手党总算是被恶心到了，简直不能忍，于是琢磨着自己写一个简单的模板页，不用它了。</p>
+]]></description><pubDate>Thu Feb 04 2016 00:45:27 GMT+0800 (中国标准时间)</pubDate><link>https://wxsm.space/p/using-idea-to-config-ftp-auto-deployment</link><guid isPermaLink="true">https://wxsm.space/p/using-idea-to-config-ftp-auto-deployment</guid></item><item><title>WordPress 文章归档页面实现</title><description><![CDATA[<p>归档页就是一个包含站点所有已发布文章的列表页面，通常默认会根据发布时间来进行排序，然后可能会有一些分页排序页内搜索等功能。实现这个功能可以用Wordpress插件，当然也可以自己写代码，我一开始就是用了一款插件，觉得实现了功能还不错就没管它。后来想要做一些自定义的修改，比如插件是按月份分组然而我想改成年份，就稍微看了看它的代码。一看不得了，莫名地有一种总算见识到了什么叫又烂又臭的代码的感觉涌上心头，做了这么多年伸手党总算是被恶心到了，简直不能忍，于是琢磨着自己写一个简单的模板页，不用它了。</p>
 <!--more-->
 <h2 role="anchor">
             <a name="吐槽区" role="anchor">吐槽区</a>
@@ -2902,7 +2902,7 @@ get_header(); <span class="hljs-meta">?&gt;</span></span>
     <span class="hljs-attribute">vertical-align</span>: top;
 }
 </code></pre><p><a href="http://anubarak.com/archives/">点此查看实际效果</a> （可能因为网站更新而不符合）</p>
-]]></description><pubDate>Wed Feb 03 2016 00:06:16 GMT+0800 (China Standard Time)</pubDate><link>https://wxsm.space/p/wordpress-archives-page-implementation</link><guid isPermaLink="true">https://wxsm.space/p/wordpress-archives-page-implementation</guid></item><item><title>Angular Router 学习笔记</title><description><![CDATA[<p>使用Angular Router可以很方便地构建SPA应用，同时它支持深度链接，支持各种浏览器操作（前进、后退、收藏等），非常有趣。使用过类似模块就会觉得它要比传统的路由方式，比如服务端的Forward，Redirect以及一般的JavaScript Redirect等，好用得多。特别是用户体验这一块，上升了很大的档次。</p>
+]]></description><pubDate>Wed Feb 03 2016 00:06:16 GMT+0800 (中国标准时间)</pubDate><link>https://wxsm.space/p/wordpress-archives-page-implementation</link><guid isPermaLink="true">https://wxsm.space/p/wordpress-archives-page-implementation</guid></item><item><title>Angular Router 学习笔记</title><description><![CDATA[<p>使用Angular Router可以很方便地构建SPA应用，同时它支持深度链接，支持各种浏览器操作（前进、后退、收藏等），非常有趣。使用过类似模块就会觉得它要比传统的路由方式，比如服务端的Forward，Redirect以及一般的JavaScript Redirect等，好用得多。特别是用户体验这一块，上升了很大的档次。</p>
 <p>就在不久前我还开发了一个使用iframe与jQuery的SPA项目，当时由于是老板提供的所有前端页面所以也没多想。现在学过了Angular Router真是有些不堪回首的感觉。</p>
 <!--more-->
 <h2 role="anchor">
@@ -3080,7 +3080,7 @@ get_header(); <span class="hljs-meta">?&gt;</span></span>
             <a name="关于-routeProvider与-route" role="anchor">关于$routeProvider与$route</a>
           </h2><p>这个路由功能是由Angular的一个服务提供者（service provider）实现的，它的名字就叫做<code>$routeProvider</code> 。Angular服务是由服务工厂创建出来的一系列单例对象，而工厂则是由服务提供者来创建。服务提供者必须实现一个<code>$get</code>方法，它就是该服务的工厂方法了。 当我们使用AngularJS的依赖注入给控制器注入一个服务对象的时候，Angular会使用<code>$injector</code>来查找相应的注入器。一旦找到了，它就会调用相应<code>$get</code>方法来或取服务对象的实例。有时候服务提供者在实例化服务对象之前需要其调用者提供一些参数。</p>
 <p>Angular路由功能是由<code>$routeProvider</code>声明的，同时它也是<code>$route</code>服务的提供者。</p>
-]]></description><pubDate>Tue Feb 02 2016 01:21:59 GMT+0800 (China Standard Time)</pubDate><link>https://wxsm.space/p/angular-router-note</link><guid isPermaLink="true">https://wxsm.space/p/angular-router-note</guid></item><item><title>Bootstrap file input in Firefox</title><description><![CDATA[<p>默认的Bootstrap文件上传框在Chrome/Firefox/IE上的表现都不一样，如下所示。 代码：</p>
+]]></description><pubDate>Tue Feb 02 2016 01:21:59 GMT+0800 (中国标准时间)</pubDate><link>https://wxsm.space/p/angular-router-note</link><guid isPermaLink="true">https://wxsm.space/p/angular-router-note</guid></item><item><title>Bootstrap file input in Firefox</title><description><![CDATA[<p>默认的Bootstrap文件上传框在Chrome/Firefox/IE上的表现都不一样，如下所示。 代码：</p>
 <pre><code>&lt;input <span class="hljs-class"><span class="hljs-keyword">class</span></span>=<span class="hljs-string">"form-control"</span> <span class="hljs-class"><span class="hljs-keyword">type</span></span>=<span class="hljs-string">"file"</span>&gt;
 </code></pre><p>Chrome:</p>
 <p><img src="/static/images/20160122090540.png" alt=""></p>
@@ -3098,7 +3098,7 @@ get_header(); <span class="hljs-meta">?&gt;</span></span>
 }
 </code></pre><p>这样CSS就会自动选择类型为file的输入框并且添加以上样式。虽然IE家族对CSS属性选择器的支持有限制（7/8）或者完全不支持（6），但是实际上并不影响。因为Bootstrap最低也只能支持到IE 9或IE 8（添加额外库），所以这个方法已经足够了。 修改后的Firefox（Chrome/IE无变化）：</p>
 <p><img src="/static/images/20160122092621.png" alt=""></p>
-]]></description><pubDate>Fri Jan 22 2016 17:20:46 GMT+0800 (China Standard Time)</pubDate><link>https://wxsm.space/p/bootstrap-file-input-in-firefox</link><guid isPermaLink="true">https://wxsm.space/p/bootstrap-file-input-in-firefox</guid></item><item><title>2015年度总结</title><description><![CDATA[<p>2015对我来说是有喜有悲的一年。我还清楚地记得十一个月前刚过完年的时候，在上班的第一天迟到了，然后收到同事哥哥姐姐们的一桌子红包的情景，然而不知不觉就已经过去这么久了。最近生活和工作上都遇到了一点瓶颈，中午无聊的时候翻看了一下这一年下来的邮件，于是就想写点东西。</p>
+]]></description><pubDate>Fri Jan 22 2016 17:20:46 GMT+0800 (中国标准时间)</pubDate><link>https://wxsm.space/p/bootstrap-file-input-in-firefox</link><guid isPermaLink="true">https://wxsm.space/p/bootstrap-file-input-in-firefox</guid></item><item><title>2015年度总结</title><description><![CDATA[<p>2015对我来说是有喜有悲的一年。我还清楚地记得十一个月前刚过完年的时候，在上班的第一天迟到了，然后收到同事哥哥姐姐们的一桌子红包的情景，然而不知不觉就已经过去这么久了。最近生活和工作上都遇到了一点瓶颈，中午无聊的时候翻看了一下这一年下来的邮件，于是就想写点东西。</p>
 <!--more-->
 <h3 role="anchor">
             <a name="实习" role="anchor">实习</a>
@@ -3129,7 +3129,7 @@ get_header(); <span class="hljs-meta">?&gt;</span></span>
 <p>一开始做起来觉得没什么问题，然而功能越加越多，慢慢就觉得有些力不从心，需要重构。重构的前提是要对相关技术有相当的熟悉程度与足够的项目结构经验，然而我发现自己对稍复杂的项目就已经没有了头绪。现在看来除了写代码以外，我要学的东西真的还有很多很多。很多事情我虽然知道怎样做是不好或者不够好的，但是我却不知道应该如何把它们变得更好。</p>
 <p>因为工作的缘故，能够回家的时间越来越少了。从前还有寒暑假，现在也没有了。本来我是很喜欢冬天的，但是这个冬天过得一点都不安分。时不时就成了南风天，又下雨又潮湿，气温还异常高，以至于在珠海一月份穿短袖也不是一件过分的事。</p>
 <p>以上总结。</p>
-]]></description><pubDate>Wed Jan 13 2016 00:08:16 GMT+0800 (China Standard Time)</pubDate><link>https://wxsm.space/p/2015-annual-summary</link><guid isPermaLink="true">https://wxsm.space/p/2015-annual-summary</guid></item><item><title>IE Cache Issue</title><description><![CDATA[<p>昨天发现了一个奇怪的问题，一个Web Application Update Entity的功能，在Chrome/Firefox上测试都正常运行，到了IE 11上就不行了，主要表现就是Update成功以后再次读取记录会读取出Update之前的值。功能逻辑就是一些简单的通过RESTful API来执行CRUD操作的Ajax调用。在IE上用控制台仔细调试一番后，发现在打开控制台的时候居然能表现正常，而关掉以后就立刻不行，这明显就是IE爸爸不走寻常路，把API也Cache下来了。于是就有了以下的解决方案。</p>
+]]></description><pubDate>Wed Jan 13 2016 00:08:16 GMT+0800 (中国标准时间)</pubDate><link>https://wxsm.space/p/2015-annual-summary</link><guid isPermaLink="true">https://wxsm.space/p/2015-annual-summary</guid></item><item><title>IE Cache Issue</title><description><![CDATA[<p>昨天发现了一个奇怪的问题，一个Web Application Update Entity的功能，在Chrome/Firefox上测试都正常运行，到了IE 11上就不行了，主要表现就是Update成功以后再次读取记录会读取出Update之前的值。功能逻辑就是一些简单的通过RESTful API来执行CRUD操作的Ajax调用。在IE上用控制台仔细调试一番后，发现在打开控制台的时候居然能表现正常，而关掉以后就立刻不行，这明显就是IE爸爸不走寻常路，把API也Cache下来了。于是就有了以下的解决方案。</p>
 <!--more-->
 <h2 role="anchor">
             <a name="前端解决方案" role="anchor">前端解决方案</a>
@@ -3174,7 +3174,7 @@ get_header(); <span class="hljs-meta">?&gt;</span></span>
 <h2 role="anchor">
             <a name="总结" role="anchor">总结</a>
           </h2><p>经过验证，两种方法都可以达到预期的效果。至于实际使用哪一种，可能还要视具体需求而定。</p>
-]]></description><pubDate>Thu Jan 07 2016 01:12:47 GMT+0800 (China Standard Time)</pubDate><link>https://wxsm.space/p/ie-cache-issue</link><guid isPermaLink="true">https://wxsm.space/p/ie-cache-issue</guid></item><item><title>MEAN.js Menu Service Extension</title><description><![CDATA[<p>MEAN.js解决方案只提供了1级/2级菜单栏的service支持，最近项目中需要用到第3级菜单，所以需要进行一个小的功能扩展。一开始我以为可以很容易地做到无限级，真正做起来以后发现并没有那么简单，所以目前通过这个办法只能达到第3级。</p>
+]]></description><pubDate>Thu Jan 07 2016 01:12:47 GMT+0800 (中国标准时间)</pubDate><link>https://wxsm.space/p/ie-cache-issue</link><guid isPermaLink="true">https://wxsm.space/p/ie-cache-issue</guid></item><item><title>MEAN.js Menu Service Extension</title><description><![CDATA[<p>MEAN.js解决方案只提供了1级/2级菜单栏的service支持，最近项目中需要用到第3级菜单，所以需要进行一个小的功能扩展。一开始我以为可以很容易地做到无限级，真正做起来以后发现并没有那么简单，所以目前通过这个办法只能达到第3级。</p>
 <!--more-->
 <h2 role="anchor">
             <a name="修改Menu服务" role="anchor">修改Menu服务</a>
@@ -3390,7 +3390,7 @@ get_header(); <span class="hljs-meta">?&gt;</span></span>
 </code></pre><h2 role="anchor">
             <a name="实现无限级" role="anchor">实现无限级</a>
           </h2><p>目前看来菜单层级的限制不是在于Service代码，而在于模板。如何在模板中让Angular做一个DFS搜索才是重点。Angular貌似没有提供类似的API，要做的话比较好的办法应该是自己写一个指令。以后有时间再来实现。</p>
-]]></description><pubDate>Wed Jan 06 2016 01:34:47 GMT+0800 (China Standard Time)</pubDate><link>https://wxsm.space/p/mean-js-menu-service-extension</link><guid isPermaLink="true">https://wxsm.space/p/mean-js-menu-service-extension</guid></item><item><title>Angular 教程：添加动画</title><description><![CDATA[<p>在这最后一步中，我们将通过在模板代码中添加一些CSS以及JavaScript动画来让Web应用看起来更酷炫一点。</p>
+]]></description><pubDate>Wed Jan 06 2016 01:34:47 GMT+0800 (中国标准时间)</pubDate><link>https://wxsm.space/p/mean-js-menu-service-extension</link><guid isPermaLink="true">https://wxsm.space/p/mean-js-menu-service-extension</guid></item><item><title>Angular 教程：添加动画</title><description><![CDATA[<p>在这最后一步中，我们将通过在模板代码中添加一些CSS以及JavaScript动画来让Web应用看起来更酷炫一点。</p>
 <ul>
 <li>我们通过使用<code>ngAnimate</code>模块来在应用程序中启用动画</li>
 <li>我们也会使用一些通用的<code>ng</code>指令来自动配置动画的切入时机</li>
@@ -3728,7 +3728,7 @@ phonecatAnimations.animation(<span class="hljs-string">'.phone'</span>, <span cl
 <h2 role="anchor">
             <a name="总结" role="anchor">总结</a>
           </h2><p>就这样了！我们在超短的时间内构建了一个Web应用。你可以继续在代码中进行深入的探索，并且使用<code>git checkout</code>随时退回到之前步骤的状态下。</p>
-]]></description><pubDate>Wed Dec 30 2015 00:00:39 GMT+0800 (China Standard Time)</pubDate><link>https://wxsm.space/p/angular-tutorial-applying-animations</link><guid isPermaLink="true">https://wxsm.space/p/angular-tutorial-applying-animations</guid></item><item><title>Angular 教程：REST 和自定义服务</title><description><![CDATA[<p>在这一步中，应用程序抓取数据的方式将会改变。</p>
+]]></description><pubDate>Wed Dec 30 2015 00:00:39 GMT+0800 (中国标准时间)</pubDate><link>https://wxsm.space/p/angular-tutorial-applying-animations</link><guid isPermaLink="true">https://wxsm.space/p/angular-tutorial-applying-animations</guid></item><item><title>Angular 教程：REST 和自定义服务</title><description><![CDATA[<p>在这一步中，应用程序抓取数据的方式将会改变。</p>
 <ul>
 <li>我们定义了一个代表着<a href="http://en.wikipedia.org/wiki/Representational_State_Transfer">RESTful</a>客户端的自定义服务。通过这个客户端我们可以用更简洁的方式向服务器发起数据请求，不再与低层次的<a href="https://docs.angularjs.org/api/ng/service/$http">$http</a>接口，HTTP方法与URL等打交道</li>
 </ul>
@@ -3910,7 +3910,7 @@ phonecatControllers.controller(<span class="hljs-string">'PhoneDetailCtrl'</span
 </code></pre><h2 role="anchor">
             <a name="总结" role="anchor">总结</a>
           </h2><p>现在我们见识了如何构建一个自定义的服务来作为RESTful客户端，下一步<a href="/p/angular-tutorial-applying-animations/">step 12</a>（最后一步）我们将会学习如何让应用程序动起来（加点特效）。</p>
-]]></description><pubDate>Tue Dec 29 2015 22:01:43 GMT+0800 (China Standard Time)</pubDate><link>https://wxsm.space/p/angular-tutorial-rest-and-custom-services</link><guid isPermaLink="true">https://wxsm.space/p/angular-tutorial-rest-and-custom-services</guid></item><item><title>Angular 教程：事件处理</title><description><![CDATA[<p>在这一步中，你将给手机详细页面添加一个可点击的图片切换功能。</p>
+]]></description><pubDate>Tue Dec 29 2015 22:01:43 GMT+0800 (中国标准时间)</pubDate><link>https://wxsm.space/p/angular-tutorial-rest-and-custom-services</link><guid isPermaLink="true">https://wxsm.space/p/angular-tutorial-rest-and-custom-services</guid></item><item><title>Angular 教程：事件处理</title><description><![CDATA[<p>在这一步中，你将给手机详细页面添加一个可点击的图片切换功能。</p>
 <ul>
 <li>手机列表视图现在显示了一张大图与几张较小的缩略图。当我们点击任意一张缩略图的时候大图都会被其取代。</li>
 </ul>
@@ -4019,7 +4019,7 @@ phonecatControllers.controller(<span class="hljs-string">'PhoneDetailCtrl'</span
 </code></pre><h2 role="anchor">
             <a name="总结" role="anchor">总结</a>
           </h2><p>现在我们已经完成了图片切换功能，可以通过<a href="/p/angular-tutorial-rest-and-custom-services/">step 11</a>来学习一种更好的抓取数据的方式。</p>
-]]></description><pubDate>Tue Dec 29 2015 19:35:25 GMT+0800 (China Standard Time)</pubDate><link>https://wxsm.space/p/angular-tutorial-event-handlers</link><guid isPermaLink="true">https://wxsm.space/p/angular-tutorial-event-handlers</guid></item><item><title>Angular 教程：过滤器</title><description><![CDATA[<p>在这一步中你将会学习如何创建自定义的过滤器。</p>
+]]></description><pubDate>Tue Dec 29 2015 19:35:25 GMT+0800 (中国标准时间)</pubDate><link>https://wxsm.space/p/angular-tutorial-event-handlers</link><guid isPermaLink="true">https://wxsm.space/p/angular-tutorial-event-handlers</guid></item><item><title>Angular 教程：过滤器</title><description><![CDATA[<p>在这一步中你将会学习如何创建自定义的过滤器。</p>
 <ul>
 <li>在上一步中，详细页面通过显示true或者false来表示一个手机是否具有某项功能。我们将使用一个自定义的过滤器来把这些字符串转换成图标：用✓表示true，用✘表示false</li>
 </ul>
@@ -4095,7 +4095,7 @@ angular.<span class="hljs-keyword">module</span>(<span class="hljs-string">'phon
 </code></pre><h2 role="anchor">
             <a name="总结" role="anchor">总结</a>
           </h2><p>现在我们学会了如何编写和测试自定义的过滤器，通过<a href="/p/angular-tutorial-event-handlers/">step 10</a>来学习如何使用Angular扩展手机详细页面。</p>
-]]></description><pubDate>Tue Dec 29 2015 17:12:33 GMT+0800 (China Standard Time)</pubDate><link>https://wxsm.space/p/angular-tutorial-filters</link><guid isPermaLink="true">https://wxsm.space/p/angular-tutorial-filters</guid></item><item><title>Angular 教程：更多的模板</title><description><![CDATA[<p>在这一步中，你将实现当用户点击手机列表中的一条记录时显示的详细视图。</p>
+]]></description><pubDate>Tue Dec 29 2015 17:12:33 GMT+0800 (中国标准时间)</pubDate><link>https://wxsm.space/p/angular-tutorial-filters</link><guid isPermaLink="true">https://wxsm.space/p/angular-tutorial-filters</guid></item><item><title>Angular 教程：更多的模板</title><description><![CDATA[<p>在这一步中，你将实现当用户点击手机列表中的一条记录时显示的详细视图。</p>
 <ul>
 <li>当你点击列表中的一条记录时，页面会显示一个带有该记录详细信息的视图</li>
 </ul>
@@ -4223,7 +4223,7 @@ phonecatControllers.controller(<span class="hljs-string">'PhoneDetailCtrl'</span
 <h2 role="anchor">
             <a name="总结" role="anchor">总结</a>
           </h2><p>现在手机详细视图已经到位了，在<a href="/p/angular-tutorial-filters/">step 9</a>中我们将学习如何编写自定义的过滤器。</p>
-]]></description><pubDate>Tue Dec 29 2015 16:44:23 GMT+0800 (China Standard Time)</pubDate><link>https://wxsm.space/p/angular-tutorial-more-templating</link><guid isPermaLink="true">https://wxsm.space/p/angular-tutorial-more-templating</guid></item><item><title>Angular 教程：多页面与路由</title><description><![CDATA[<p>在这一步中，你将学习如何使用布局模版以及通过Angular的<code>ngRoute</code>模块来给应用添加路由功能。</p>
+]]></description><pubDate>Tue Dec 29 2015 16:44:23 GMT+0800 (中国标准时间)</pubDate><link>https://wxsm.space/p/angular-tutorial-more-templating</link><guid isPermaLink="true">https://wxsm.space/p/angular-tutorial-more-templating</guid></item><item><title>Angular 教程：多页面与路由</title><description><![CDATA[<p>在这一步中，你将学习如何使用布局模版以及通过Angular的<code>ngRoute</code>模块来给应用添加路由功能。</p>
 <ul>
 <li>当你现在访问<code>app/index.html</code>的时候页面被重定向到了<code>app/index.html/#/phones</code>，并且手机列表将在此展示</li>
 <li>当你点击其中一条手机链接的时候，浏览器将显示一个手机详细信息页面，同时URL相应地更新</li>
@@ -4422,7 +4422,7 @@ phonecatControllers.controller(<span class="hljs-string">'PhoneDetailCtrl'</span
 <h2 role="anchor">
             <a name="总结" role="anchor">总结</a>
           </h2><p>既然已经设置好了路由与手机列表视图，我们就可以准备通过<a href="/p/angular-tutorial-more-templating/">step 8</a>来实现详细视图了。</p>
-]]></description><pubDate>Tue Dec 29 2015 04:26:38 GMT+0800 (China Standard Time)</pubDate><link>https://wxsm.space/p/angular-tutorial-routing-and-multiple-views</link><guid isPermaLink="true">https://wxsm.space/p/angular-tutorial-routing-and-multiple-views</guid></item><item><title>Angular 教程：模板化的链接与图片</title><description><![CDATA[<p>在这一步中你将学习给手机列表添加一个图片链接（暂时不会链接到其他地方）。随后你将使用链接来给手机列表显示一些附加的信息。</p>
+]]></description><pubDate>Tue Dec 29 2015 04:26:38 GMT+0800 (中国标准时间)</pubDate><link>https://wxsm.space/p/angular-tutorial-routing-and-multiple-views</link><guid isPermaLink="true">https://wxsm.space/p/angular-tutorial-routing-and-multiple-views</guid></item><item><title>Angular 教程：模板化的链接与图片</title><description><![CDATA[<p>在这一步中你将学习给手机列表添加一个图片链接（暂时不会链接到其他地方）。随后你将使用链接来给手机列表显示一些附加的信息。</p>
 <ul>
 <li>列表中现在包含图片与链接了</li>
 </ul>
@@ -4478,7 +4478,7 @@ phonecatControllers.controller(<span class="hljs-string">'PhoneDetailCtrl'</span
 <h2 role="anchor">
             <a name="总结" role="anchor">总结</a>
           </h2><p>现在我们给列表添加了图片和连接，通过<a href="/p/angular-tutorial-routing-and-multiple-views/">step 7</a>来学习Angular的布局模板以及Angular是如何让创建多页面应用变得简单的。</p>
-]]></description><pubDate>Mon Dec 28 2015 23:46:08 GMT+0800 (China Standard Time)</pubDate><link>https://wxsm.space/p/angular-tutorial-templating-links-and-images</link><guid isPermaLink="true">https://wxsm.space/p/angular-tutorial-templating-links-and-images</guid></item><item><title>Angular 教程：异步加载和依赖注入</title><description><![CDATA[<p>我已经受够了用hard-coded数据来写应用。。。现在我们来尝试使用Angular提供的<a href="https://docs.angularjs.org/api/ng/service/$http">$http</a>服务来从后台抓取一个大一点的数据集。我们会使用<a href="https://docs.angularjs.org/guide/di">依赖注入</a>的方式来给<code>PhoneListCtrl</code>控制器提供<a href="https://docs.angularjs.org/guide/services">服务</a>。</p>
+]]></description><pubDate>Mon Dec 28 2015 23:46:08 GMT+0800 (中国标准时间)</pubDate><link>https://wxsm.space/p/angular-tutorial-templating-links-and-images</link><guid isPermaLink="true">https://wxsm.space/p/angular-tutorial-templating-links-and-images</guid></item><item><title>Angular 教程：异步加载和依赖注入</title><description><![CDATA[<p>我已经受够了用hard-coded数据来写应用。。。现在我们来尝试使用Angular提供的<a href="https://docs.angularjs.org/api/ng/service/$http">$http</a>服务来从后台抓取一个大一点的数据集。我们会使用<a href="https://docs.angularjs.org/guide/di">依赖注入</a>的方式来给<code>PhoneListCtrl</code>控制器提供<a href="https://docs.angularjs.org/guide/services">服务</a>。</p>
 <ul>
 <li>现在页面上有一个从服务端获取的包含20台手机设备的列表</li>
 </ul>
@@ -4610,7 +4610,7 @@ describe(<span class="hljs-string">'PhoneListCtrl'</span>, <span class="hljs-fun
 </code></pre><h2 role="anchor">
             <a name="总结" role="anchor">总结</a>
           </h2><p>现在你知道使用Angular服务是多么简单的一件事了（这得感谢Angular的依赖注入）。在<a href="/p/angular-tutorial-templating-links-and-images/">step 6</a>中你将会学习的是如何给手机列表添加一些图片和连接。</p>
-]]></description><pubDate>Mon Dec 28 2015 23:01:49 GMT+0800 (China Standard Time)</pubDate><link>https://wxsm.space/p/angular-tutorial-xhrs-and-dependency-injection</link><guid isPermaLink="true">https://wxsm.space/p/angular-tutorial-xhrs-and-dependency-injection</guid></item><item><title>Angular 教程：双向绑定</title><description><![CDATA[<p>在这一步中，你将会通过添加一个新的模型变量给手机列表增加一个动态排序功能 。这个功能通过给循环器添加一个新的属性实现，然后让数据绑定来自动完成其余的工作。</p>
+]]></description><pubDate>Mon Dec 28 2015 23:01:49 GMT+0800 (中国标准时间)</pubDate><link>https://wxsm.space/p/angular-tutorial-xhrs-and-dependency-injection</link><guid isPermaLink="true">https://wxsm.space/p/angular-tutorial-xhrs-and-dependency-injection</guid></item><item><title>Angular 教程：双向绑定</title><description><![CDATA[<p>在这一步中，你将会通过添加一个新的模型变量给手机列表增加一个动态排序功能 。这个功能通过给循环器添加一个新的属性实现，然后让数据绑定来自动完成其余的工作。</p>
 <ul>
 <li>现在除了搜索框，应用还显示了一个允许用户对手机列表进行排序的下拉框</li>
 </ul>
@@ -4732,7 +4732,7 @@ it(<span class="hljs-string">'should be possible to control phone order via the 
 </code></pre><h2 role="anchor">
             <a name="总结" role="anchor">总结</a>
           </h2><p>现在你已经给应用添加了一个排序功能以及相应的测试，快快通过<a href="/p/angular-tutorial-xhrs-and-dependency-injection/">step 5</a>来学习Angular服务（Service）以及如何使用Angular的依赖注入。</p>
-]]></description><pubDate>Sun Dec 27 2015 02:01:24 GMT+0800 (China Standard Time)</pubDate><link>https://wxsm.space/p/angular-tutorial-two-way-data-binding</link><guid isPermaLink="true">https://wxsm.space/p/angular-tutorial-two-way-data-binding</guid></item><item><title>Angular 教程：过滤循环器</title><description><![CDATA[<p>在上一步中我们花了大量精力去给应用搭建框架，所以现在来做些简单的事情：给列表添加一个关键词搜索（真的很简单）。同时我们会编写一个端到端测试，它将一直监控着我们的应用并且及时发现问题。</p>
+]]></description><pubDate>Sun Dec 27 2015 02:01:24 GMT+0800 (中国标准时间)</pubDate><link>https://wxsm.space/p/angular-tutorial-two-way-data-binding</link><guid isPermaLink="true">https://wxsm.space/p/angular-tutorial-two-way-data-binding</guid></item><item><title>Angular 教程：过滤循环器</title><description><![CDATA[<p>在上一步中我们花了大量精力去给应用搭建框架，所以现在来做些简单的事情：给列表添加一个关键词搜索（真的很简单）。同时我们会编写一个端到端测试，它将一直监控着我们的应用并且及时发现问题。</p>
 <ul>
 <li>应用现在包含一个搜索框。需要注意的是页面上显示的手机列表现在与搜索框中的输入内容有关。</li>
 </ul>
@@ -4875,7 +4875,7 @@ it(<span class="hljs-string">'should be possible to control phone order via the 
 </code></pre><h2 role="anchor">
             <a name="总结" role="anchor">总结</a>
           </h2><p>现在我们给应用添加了一个关键词搜索框并且包含了一个保证其功能正确的测试。现在我们可以前往 <a href="/p/angular-tutorial-two-way-data-binding/">step 4</a> 来学习如何给手机应用添加排序功能。</p>
-]]></description><pubDate>Sat Dec 26 2015 01:09:58 GMT+0800 (China Standard Time)</pubDate><link>https://wxsm.space/p/angular-tutorial-filtering-repeaters</link><guid isPermaLink="true">https://wxsm.space/p/angular-tutorial-filtering-repeaters</guid></item><item><title>Angular 教程：动态模版</title><description><![CDATA[<p>现在我们可以用 AngularJS 把页面变成动态的了，同时使用一个小测试来验证我们将要添加的代码正确性。 一个应用可以有很多种组织形式，对于 Angular 应用来说，使用 MVC 设计模式来解耦代码应该是比较合适的。接下来我们会使用一小点 Angular/JavaScript 代码来给应用添加模型，视图以及控制器。</p>
+]]></description><pubDate>Sat Dec 26 2015 01:09:58 GMT+0800 (中国标准时间)</pubDate><link>https://wxsm.space/p/angular-tutorial-filtering-repeaters</link><guid isPermaLink="true">https://wxsm.space/p/angular-tutorial-filtering-repeaters</guid></item><item><title>Angular 教程：动态模版</title><description><![CDATA[<p>现在我们可以用 AngularJS 把页面变成动态的了，同时使用一个小测试来验证我们将要添加的代码正确性。 一个应用可以有很多种组织形式，对于 Angular 应用来说，使用 MVC 设计模式来解耦代码应该是比较合适的。接下来我们会使用一小点 Angular/JavaScript 代码来给应用添加模型，视图以及控制器。</p>
 <ul>
 <li>手机设备列表现在是由动态数据生成的了</li>
 </ul>
@@ -5035,7 +5035,7 @@ phonecatApp.controller(<span class="hljs-string">'PhoneListCtrl'</span>, <span c
 <h2 role="anchor">
             <a name="总结" role="anchor">总结</a>
           </h2><p>你现在拥有了一个 MVC 构造形态的动态应用了，并且在开发过程中编写了单元测试。现在我们可以通过 <a href="/p/angular-tutorial-filtering-repeaters/">step 3</a> 来学习如何给应用添加关键字搜索功能。</p>
-]]></description><pubDate>Fri Dec 25 2015 01:30:38 GMT+0800 (China Standard Time)</pubDate><link>https://wxsm.space/p/angular-tutorial-angular-templates</link><guid isPermaLink="true">https://wxsm.space/p/angular-tutorial-angular-templates</guid></item><item><title>Angular 教程：静态模版</title><description><![CDATA[<p>为了更好地说明 Angular 是如何扩展标准 HTML 的，我们创建了一个纯静态的 HTML 页面，然后通过实践将它转换成 Angular 可以识别的动态模板，它们将表现出一样的数据集。 在这一步教程中你会给HTML页面添加两条手机设备的基本信息。</p>
+]]></description><pubDate>Fri Dec 25 2015 01:30:38 GMT+0800 (中国标准时间)</pubDate><link>https://wxsm.space/p/angular-tutorial-angular-templates</link><guid isPermaLink="true">https://wxsm.space/p/angular-tutorial-angular-templates</guid></item><item><title>Angular 教程：静态模版</title><description><![CDATA[<p>为了更好地说明 Angular 是如何扩展标准 HTML 的，我们创建了一个纯静态的 HTML 页面，然后通过实践将它转换成 Angular 可以识别的动态模板，它们将表现出一样的数据集。 在这一步教程中你会给HTML页面添加两条手机设备的基本信息。</p>
 <ul>
 <li>页面现在包含一个关于两台手机的列表</li>
 </ul>
@@ -5062,7 +5062,7 @@ phonecatApp.controller(<span class="hljs-string">'PhoneListCtrl'</span>, <span c
 </code></pre><h2 role="anchor">
             <a name="总结" role="anchor">总结</a>
           </h2><p>这节教程给应用添加了一个由静态 HTML 组成的列表。现在我们可以通过 <a href="/p/angular-tutorial-angular-templates/">step 2</a> 来学习如何使用 Angular 来动态地生成同样的列表。</p>
-]]></description><pubDate>Thu Dec 24 2015 01:52:43 GMT+0800 (China Standard Time)</pubDate><link>https://wxsm.space/p/angular-tutorial-static-template</link><guid isPermaLink="true">https://wxsm.space/p/angular-tutorial-static-template</guid></item><item><title>Angular 教程：起步</title><description><![CDATA[<p>在这一步中，你将对本项目中最重要代码有所了解，以及学习如何启动使用 angular-seed 打包过的开发服务器，并且让应用程序在浏览器上跑起来。 在此之前，请确认你已经配置好了开发环境并且所有依赖包都已经安装好。参考<a href="/p/angular-tutorial-phonecat-tutorial-app/">开发环境搭建教程</a>。</p>
+]]></description><pubDate>Thu Dec 24 2015 01:52:43 GMT+0800 (中国标准时间)</pubDate><link>https://wxsm.space/p/angular-tutorial-static-template</link><guid isPermaLink="true">https://wxsm.space/p/angular-tutorial-static-template</guid></item><item><title>Angular 教程：起步</title><description><![CDATA[<p>在这一步中，你将对本项目中最重要代码有所了解，以及学习如何启动使用 angular-seed 打包过的开发服务器，并且让应用程序在浏览器上跑起来。 在此之前，请确认你已经配置好了开发环境并且所有依赖包都已经安装好。参考<a href="/p/angular-tutorial-phonecat-tutorial-app/">开发环境搭建教程</a>。</p>
 <p>在<code>angular-phonecat</code>目录中执行以下命令：</p>
 <pre><code>git checkout -f <span class="hljs-built_in">step</span><span class="hljs-number">-0</span>
 </code></pre><p>这条命令会将工作空间重置到和这一步教程相关的状态下。 在这以后每开始一步新的教程你都需要将 step-number 中的数字替换成当前教程的序号，这会导致没有保存的修改丢失。 如果你还没有安装过项目中的依赖，可以执行以下命令：</p>
@@ -5142,7 +5142,7 @@ phonecatApp.controller(<span class="hljs-string">'PhoneListCtrl'</span>, <span c
 </code></pre><h2 role="anchor">
             <a name="总结" role="anchor">总结</a>
           </h2><p>现在我们可以开始<a href="/p/angular-tutorial-static-template/">step 1</a>，给应用添加一些内容了。</p>
-]]></description><pubDate>Tue Dec 22 2015 17:10:52 GMT+0800 (China Standard Time)</pubDate><link>https://wxsm.space/p/angular-tutorial-bootstrapping</link><guid isPermaLink="true">https://wxsm.space/p/angular-tutorial-bootstrapping</guid></item><item><title>Angular 教程：手机展示应用</title><description><![CDATA[<p>本系列教程是<a href="https://docs.angularjs.org/tutorial">AngularJs官方教程</a>（基于<a href="http://creativecommons.org/licenses/by/3.0/">CC BY 3.0协议</a>发布）的个人翻译，原版权属<a href="https://angularjs.org/">AngularJs官方网站</a>所有，主要用于学习与分享，如有纰漏敬请指出。转载请注明出处。 学习AngularJs的方法之一就是跟着本教程做一个完整的项目，这个项目会向你介绍一个 AngularJS Web App 应有的架构体系。项目的目的是构建一个安卓设备目录，它可以显示一个带过滤/排序功能的列表页，同时允许用户点击列表中的设备以查看其中的详细内容。就像这样：</p>
+]]></description><pubDate>Tue Dec 22 2015 17:10:52 GMT+0800 (中国标准时间)</pubDate><link>https://wxsm.space/p/angular-tutorial-bootstrapping</link><guid isPermaLink="true">https://wxsm.space/p/angular-tutorial-bootstrapping</guid></item><item><title>Angular 教程：手机展示应用</title><description><![CDATA[<p>本系列教程是<a href="https://docs.angularjs.org/tutorial">AngularJs官方教程</a>（基于<a href="http://creativecommons.org/licenses/by/3.0/">CC BY 3.0协议</a>发布）的个人翻译，原版权属<a href="https://angularjs.org/">AngularJs官方网站</a>所有，主要用于学习与分享，如有纰漏敬请指出。转载请注明出处。 学习AngularJs的方法之一就是跟着本教程做一个完整的项目，这个项目会向你介绍一个 AngularJS Web App 应有的架构体系。项目的目的是构建一个安卓设备目录，它可以显示一个带过滤/排序功能的列表页，同时允许用户点击列表中的设备以查看其中的详细内容。就像这样：</p>
 <p><img src="/static/images/catalog_screen.png" alt=""></p>
 <p>在不使用任何原生扩展包以及插件的情况下，跟随本教程来体会 Angular 是如何让浏览器变得更聪明的：</p>
 <ul>
@@ -5282,13 +5282,13 @@ npm <span class="hljs-comment">--version</span>
 </ul>
 <p>当你对 HTML 视图做出改动或者想要测试整个应用程序是否运行正常的时候，最好是执行一次端到端测试。在提交代码前执行此类测试是一种普遍的做法。</p>
 <p>现在你已经在本地机器上搭好了环境，我们可以从头开始本教程了：<a href="/p/angular-tutorial-bootstrapping/">Step 0 - 起步</a></p>
-]]></description><pubDate>Mon Dec 21 2015 17:04:01 GMT+0800 (China Standard Time)</pubDate><link>https://wxsm.space/p/angular-tutorial-phonecat-tutorial-app</link><guid isPermaLink="true">https://wxsm.space/p/angular-tutorial-phonecat-tutorial-app</guid></item><item><title>jQuery 写的 2048 小游戏</title><description><![CDATA[<p><img src="/static/images/20151212214138.jpg" alt="2048"></p>
+]]></description><pubDate>Mon Dec 21 2015 17:04:01 GMT+0800 (中国标准时间)</pubDate><link>https://wxsm.space/p/angular-tutorial-phonecat-tutorial-app</link><guid isPermaLink="true">https://wxsm.space/p/angular-tutorial-phonecat-tutorial-app</guid></item><item><title>jQuery 写的 2048 小游戏</title><description><![CDATA[<p><img src="/static/images/20151212214138.jpg" alt="2048"></p>
 <p>Game：<a href="http://anubarak.com/others/games/2048/" target="_blank">http://anubarak.com/others/games/2048/</a></p>
 <p>Code：<a href="https://github.com/edisond/jquery-2048-game" target="_blank">https://github.com/edisond/jquery-2048-game</a></p>
 <p>几年前还在学校的时候刚学JS/jQuery，为了找点事情练练手寻思着做点什么，当时又特别沉迷于一个叫2048的小游戏，于是就有了这么个东西。刚做出来的时候开心了好一阵子，现在回头看代码觉得简直惨不忍睹，根本不像是一个学过算法的人写出来的，字里行间充斥的都是简单与暴力。那时候主要是为了学一门新语言就没有在意这些东西。以后有时间再来优化一下。 在开始的时候是有记分，重启，排行榜一票功能的，现在为了纯粹一点就把垃圾都去掉了。太臭的代码就不说了，有兴趣或者疑问的可以留下评论。</p>
 <h3 role="anchor">
             <a name="-" role="anchor"> </a>
-          </h3>]]></description><pubDate>Sun Dec 13 2015 05:58:15 GMT+0800 (China Standard Time)</pubDate><link>https://wxsm.space/p/2048-game-base-on-jquery</link><guid isPermaLink="true">https://wxsm.space/p/2048-game-base-on-jquery</guid></item><item><title>MEAN.js 学习笔记</title><description><![CDATA[<p><img src="/static/images/meanjs-logo.png" alt=""></p>
+          </h3>]]></description><pubDate>Sun Dec 13 2015 05:58:15 GMT+0800 (中国标准时间)</pubDate><link>https://wxsm.space/p/2048-game-base-on-jquery</link><guid isPermaLink="true">https://wxsm.space/p/2048-game-base-on-jquery</guid></item><item><title>MEAN.js 学习笔记</title><description><![CDATA[<p><img src="/static/images/meanjs-logo.png" alt=""></p>
 <p>之前一直以为MEAN只是一个概念上的东西，表示以<a href="http://mongodb.org/">Mongodb</a> <a href="http://expressjs.com/">Express</a> <a href="http://angularjs.org/">AngularJs</a> <a href="http://nodejs.org/">NodeJs</a>为基础的全栈应用开发模式。这几天在公司接手相应项目的时候发现已经有人做出来并且维护着一些这样的App结构体，用过以后觉得还不错。<a href="https://github.com/meanjs/mean">MEANJS</a>是一个开源的JavaScript全栈应用解决方案，主要用到的技术自然就是以上提到的那些。使用成熟的解决方案可以使自己的项目更加易于开发以及维护，等等好处就不再赘述。</p>
 <h2 role="anchor">
             <a name="关于MEAN" role="anchor">关于MEAN</a>
@@ -5438,7 +5438,7 @@ watch: {
 <h2 role="anchor">
             <a name="总结" role="anchor">总结</a>
           </h2><p>相对于手动使用 MEAN 各项技术结合写程序来说，使用 MEANJS 解决方案可以让我们更方便且快速地搭建项目，并且使我们不用太过于关注业务逻辑以外的问题，开发效率在全栈统一的保证下又提高了不少，不得不说确实是值得中小型项目去研究并且尝试使用一下。至于企业级大型项目，不知道有没有研究或者什么公司尝试过，不太清楚是否适合。</p>
-]]></description><pubDate>Fri Dec 11 2015 00:35:33 GMT+0800 (China Standard Time)</pubDate><link>https://wxsm.space/p/mean-js-note</link><guid isPermaLink="true">https://wxsm.space/p/mean-js-note</guid></item><item><title>Git SSH key 生成与 GitExtension 配置</title><description><![CDATA[<p>使用ssh key配置git可以省去每次操作时输入ID/Password的麻烦，操作一旦频繁起来还是很有必要的。实际操作需要添加一些环境变量，或者到git/bin目录下执行。<!--more--></p>
+]]></description><pubDate>Fri Dec 11 2015 00:35:33 GMT+0800 (中国标准时间)</pubDate><link>https://wxsm.space/p/mean-js-note</link><guid isPermaLink="true">https://wxsm.space/p/mean-js-note</guid></item><item><title>Git SSH key 生成与 GitExtension 配置</title><description><![CDATA[<p>使用ssh key配置git可以省去每次操作时输入ID/Password的麻烦，操作一旦频繁起来还是很有必要的。实际操作需要添加一些环境变量，或者到git/bin目录下执行。<!--more--></p>
 <h3 role="anchor">
             <a name="设置Git的默认username和email" role="anchor">设置Git的默认username和email</a>
           </h3><p>这一步没有验证过是否可以省略。</p>
@@ -5461,7 +5461,7 @@ $ git config --global user<span class="hljs-selector-class">.email</span> <span 
             <a name="配置Git-Extension（windows）" role="anchor">配置Git Extension（windows）</a>
           </h3><p>以上步骤执行完后可以使用命令行执行推拉等操作，但是在Git Extension就死活不行，后来发现这个工具安装的时候默认使用了putty作为ssh代理，需要手动换成git自带的ssh工具，如图所示：</p>
 <p><img src="/static/images/20151208162525.png" alt=""></p>
-]]></description><pubDate>Wed Dec 09 2015 00:26:07 GMT+0800 (China Standard Time)</pubDate><link>https://wxsm.space/p/git-ssh-key-gen-and-gitextension-configuration</link><guid isPermaLink="true">https://wxsm.space/p/git-ssh-key-gen-and-gitextension-configuration</guid></item><item><title>第十章</title><description><![CDATA[<p>虚无的空间渐渐模糊，再次变得黑暗，当刘意恢复视力的时候，却是置身于一个小房间中，这房间的风格朴实，简单，给人的感觉是到处都是褐色的，只有两个壁柜，一张看起来十分沉重结实的木凳子而已。很快的，母体烙印便给出提示：</p>
+]]></description><pubDate>Wed Dec 09 2015 00:26:07 GMT+0800 (中国标准时间)</pubDate><link>https://wxsm.space/p/git-ssh-key-gen-and-gitextension-configuration</link><guid isPermaLink="true">https://wxsm.space/p/git-ssh-key-gen-and-gitextension-configuration</guid></item><item><title>第十章</title><description><![CDATA[<p>虚无的空间渐渐模糊，再次变得黑暗，当刘意恢复视力的时候，却是置身于一个小房间中，这房间的风格朴实，简单，给人的感觉是到处都是褐色的，只有两个壁柜，一张看起来十分沉重结实的木凳子而已。很快的，母体烙印便给出提示：</p>
 <p>“这里是你在母体里的专属房间，外人未得你允许不能进入，你身上不可携回现实世界的装备均将存放在此。若是身体有所创伤，在此可以迅速恢复，同时扣除一定积分点数。进出本房间的钥匙就是母体烙印，在母体中，母体默认对你的外表模糊化，因此与他人交流时候，切勿透露自己在现实中的身份，以免引来不必要的严重后果。有任何需求，可以通过母体印记索取查询，但均要消耗一定数量的积分。”</p>
 <p>刘意思索着这番话的含义，稍顷她出声道：</p>
 <p>“查询我目前所拥有的积分，并且解释潜能点的用处。”</p>
@@ -5525,7 +5525,7 @@ $ git config --global user<span class="hljs-selector-class">.email</span> <span 
 <p>“成交。”</p>
 <p>她此时觉得自己占了好大便宜，索性把剩余的二十块黑麦点心全交易了过去，那人面色稍和，重重的把戒指和羊皮卷拍了过来，转移了拥有权。刘意笑了笑，转身走开后，顺手便把那枚黄金色的豺狼之戒装备上了。</p>
 <p>此时也已经淘不到什么好东西，便回到了自己的私人空间里，直接花费了2000积分，学习了那基本步法LV3卷轴。立即觉得浑身上下都轻松得多了，连行动速度也增加了三分之一左右。同时得到提示：基本技能提升以3级为一个阶段，1～3级只需要耗费1点潜能点，3～6级每升一级，则需要2点潜能点，6级以上每提升1级技能，则需要3点潜能点，刘意支持着看完，已经觉得精神颇为困倦，便调出空间菜单草草设置了一个卧室和浴室简单洗漱之后就睡了。</p>
-]]></description><pubDate>Thu Nov 12 2015 08:10:11 GMT+0800 (China Standard Time)</pubDate><link>https://wxsm.space/p/matrix-chapter-10</link><guid isPermaLink="true">https://wxsm.space/p/matrix-chapter-10</guid></item><item><title>第九章</title><description><![CDATA[<p>照理说，寻常人遇到这等恐怖之事，早已吓得手脚酸麻，但是刘意是什么人？一个年幼时就敢设下杀人圈套的变态！其心理素质何等稳固，何况此时还是鲜血杀戮，体力武力都是颠峰状态的战士？</p>
+]]></description><pubDate>Thu Nov 12 2015 08:10:11 GMT+0800 (中国标准时间)</pubDate><link>https://wxsm.space/p/matrix-chapter-10</link><guid isPermaLink="true">https://wxsm.space/p/matrix-chapter-10</guid></item><item><title>第九章</title><description><![CDATA[<p>照理说，寻常人遇到这等恐怖之事，早已吓得手脚酸麻，但是刘意是什么人？一个年幼时就敢设下杀人圈套的变态！其心理素质何等稳固，何况此时还是鲜血杀戮，体力武力都是颠峰状态的战士？</p>
 <p>她不待那只手掌发力，手中的短剑已是挥割而出，生生将那只外焦里嫩的黑手斩断！</p>
 <p>那只被烧得焦黑的手掌被远远的割飞，掉落在地上，啪嗒一声抽搐着，而断腕处却并没有流淌多少血出来。</p>
 <p>刘意面带笑意地继续向下掘着，忽然一顿，眼前出现了一片隐约可见血纹的重型盔甲碎片。她在心中微微谓息，巴拉森虽然只是她手上的一枚棋子，但两人相处的这些时光，也终究不能一带而过。</p>
@@ -5580,7 +5580,7 @@ $ git config --global user<span class="hljs-selector-class">.email</span> <span 
 <p>可能出现的问题①，因为前期新人在面对剧本怪物时的脆弱会促使相当大一部分人选择体敏对点，极端甚至病态地追求生存与逃生能力，造成同质化效应剧烈，这违反了母体存在的初衷。</p>
 <p>问题②，玩过经典RPG的老骨灰都知道，自由分配属性点搭配人物技能造成的实力区间可以大得离谱，以暗黑破坏神2为例，一个老手玩家通过合理地分配属性点和技能点在普通难度下不到两个小时就能杀到大菠萝的闺房而且把他办了，而若是不合理的分配或者说因为被国产游戏荼毒太深而在加属性和技能点上惯性地追求均衡追求特色或者什么团队互补之类，那恐怕连艹个安达利尔也会被反日，然后卧薪尝胆洗心革面地去找小boss刷等级刷装备，好好的一个通关游戏硬是玩得跟种田似的，说是菜鸟但对游戏数据有能说得头头是道，什么门道都略懂一点，只能说是思想变成了羔羊，空有一身力量却不懂得运用，遇到了难题总是下意识地去寻求更强力的装备和技能来解决问题。</p>
 <p>以上也是笔者多年玩游戏经历的感悟，真可谓痛心疾首，扼腕叹息。</p>
-]]></description><pubDate>Mon Nov 02 2015 02:13:12 GMT+0800 (China Standard Time)</pubDate><link>https://wxsm.space/p/matrix-chapter-9</link><guid isPermaLink="true">https://wxsm.space/p/matrix-chapter-9</guid></item><item><title>第八章</title><description><![CDATA[<p>巴拉森与刘意到达村外的那一刻，惩戒骑士斯科恩率领的军队也刚好突破防御，攻入小镇。开始杀人放火，掠夺抢劫，镇上的一些富人贵族也不会束手待毙，趁着这混乱便赶着马车四散而去。</p>
+]]></description><pubDate>Mon Nov 02 2015 02:13:12 GMT+0800 (中国标准时间)</pubDate><link>https://wxsm.space/p/matrix-chapter-9</link><guid isPermaLink="true">https://wxsm.space/p/matrix-chapter-9</guid></item><item><title>第八章</title><description><![CDATA[<p>巴拉森与刘意到达村外的那一刻，惩戒骑士斯科恩率领的军队也刚好突破防御，攻入小镇。开始杀人放火，掠夺抢劫，镇上的一些富人贵族也不会束手待毙，趁着这混乱便赶着马车四散而去。</p>
 <p>斯科恩自然不会看着这些油水丰厚的家伙溜掉，一声令下，便有人追奔而去。逃走的马车一共五辆，斯科恩手下具备骑术的，就只有和巴拉森同一兵种的重盾巨锤士，这些钢铁堡垒纷纷追出，正好符合了刘意的预计。</p>
 <p>面对这些恶名昭彰的凶残部队，绝望了的镇民纷纷聚集到附近坚固的建筑物里进行最后的殊死抵抗。因为要掠夺财富的缘故，那些重剑士与面具奴仆又不敢放火焚烧，因此竟是陷入了局部的僵持，斯科恩的兵力，就被成功的分散了开来。</p>
 <p>刘意便在这个时候率领巴拉森潜入了村中。</p>
@@ -5634,7 +5634,7 @@ $ git config --global user<span class="hljs-selector-class">.email</span> <span 
 <p>隐藏任务，刺杀惩戒骑士斯科恩。任务难度，A，任务目标，取得惩戒骑士斯科恩的头颅。任务时限，二十四小时。</p>
 <p>眼下距离二十四小时的期限还很是充裕，这斯科恩的头颅也得早取，迟则生变。</p>
 <p>但就在这时候，废墟下忽然伸出一只烧得焦黑的手掌，猛然捏住了刘意的咽喉！</p>
-]]></description><pubDate>Mon Nov 02 2015 01:17:11 GMT+0800 (China Standard Time)</pubDate><link>https://wxsm.space/p/matrix-chapter-8</link><guid isPermaLink="true">https://wxsm.space/p/matrix-chapter-8</guid></item><item><title>第七章</title><description><![CDATA[<p>巴拉森粗壮的身躯忽然定住，他呆滞的望着玛莉亚痛苦呆板的面容，还有那只惨白色下垂的手臂，正在微微的摇晃着。这一刻，他忘记了疼痛，忘记了凶险，忘记了一切，取而代之的，是铺天盖地，汹涌而来的狂怒！</p>
+]]></description><pubDate>Mon Nov 02 2015 01:17:11 GMT+0800 (中国标准时间)</pubDate><link>https://wxsm.space/p/matrix-chapter-8</link><guid isPermaLink="true">https://wxsm.space/p/matrix-chapter-8</guid></item><item><title>第七章</title><description><![CDATA[<p>巴拉森粗壮的身躯忽然定住，他呆滞的望着玛莉亚痛苦呆板的面容，还有那只惨白色下垂的手臂，正在微微的摇晃着。这一刻，他忘记了疼痛，忘记了凶险，忘记了一切，取而代之的，是铺天盖地，汹涌而来的狂怒！</p>
 <p>这时候，刘意肩头的母体烙印忽然发出提示：隐藏任务完成，获得潜能点1，本关评价上升，巴拉森已由黑铁重盾巨锤士，异变为血腥重盾巨锤士！</p>
 <p>这提示刚刚一响起，只见那头本来占据上风的火红色重盾巨锤士忽然闷哼一声，踉跄倒退，而巴拉森直冲了上去，低头顶在了他的胸口，剩余的那只长角，深深的刺入了他的盔甲当中！</p>
 <p>一股鲜血从盔甲的缝隙间直浇了出来，淋漓泛滥而过，巴拉森狂吼一声，埋头猛撞对方胸膛，每一下凶狠的冲撞都刺出一个个喷洒着血浆的黑洞！甚至隐约可见里面森森的白骨，那股股血液洒在他的盔甲上并不掉落，却是流淌出一条条诡异血腥的纹理，仿佛是猛兽身上的花纹一般！</p>
@@ -5718,7 +5718,7 @@ $ git config --global user<span class="hljs-selector-class">.email</span> <span 
 <p>巴拉森忽然抱起了身边的酒桶，又开始狂饮起来！事实上，这狂暴猛烈的钢铁野兽，面对刘意这冷静“少年”，竟是处处受制，此人将他的心理要害拿捏得极其准确！就好似一只奇毒蜘蛛，早就编织了罗网，将一根根的丝缚在了他的身上！令得空有一身蛮力的巴拉森竟是无法动弹，只能凭借这“少年”的意志行事！</p>
 <p>直到又过了些时候，闭目养神的刘意才忽然睁眼道：</p>
 <p>“是时候了，咱们走吧。”</p>
-]]></description><pubDate>Sun Nov 01 2015 22:55:12 GMT+0800 (China Standard Time)</pubDate><link>https://wxsm.space/p/matrix-chapter-7</link><guid isPermaLink="true">https://wxsm.space/p/matrix-chapter-7</guid></item><item><title>第六章</title><description><![CDATA[<p>两人匆匆穿过混乱的小镇，结伴一道出门，却见特地回了一趟家后的巴拉森并没有穿戴上甲胄拿上武器，手上却持着一柄铁锹，直到围观和随出的村民各自散去后，这个粗壮的男人才望着刘意诚恳的道：</p>
+]]></description><pubDate>Sun Nov 01 2015 22:55:12 GMT+0800 (中国标准时间)</pubDate><link>https://wxsm.space/p/matrix-chapter-7</link><guid isPermaLink="true">https://wxsm.space/p/matrix-chapter-7</guid></item><item><title>第六章</title><description><![CDATA[<p>两人匆匆穿过混乱的小镇，结伴一道出门，却见特地回了一趟家后的巴拉森并没有穿戴上甲胄拿上武器，手上却持着一柄铁锹，直到围观和随出的村民各自散去后，这个粗壮的男人才望着刘意诚恳的道：</p>
 <p>“罗伦，你能不能替我保守一个秘密？”</p>
 <p>刘意听得秘密二字，心中大动，表面上却沉吟道：</p>
 <p>“那要看是什么了，若是有可能危害镇子的事情，我则不能保证。”</p>
@@ -5785,7 +5785,7 @@ $ git config --global user<span class="hljs-selector-class">.email</span> <span 
 <p>巴拉森此时显然已落了下风，他头盔的一个角甚至已被打得断了，身上的黑甲不少地方也出现了裂纹，大量的鲜血从他的口角流淌出来，沾染在他浓密的胡须上。飞溅在他的黑色厚甲上点点都是！</p>
 <p>刘意便在此时横抱着玛莉亚神情悲痛无比的跑了出来，痛苦的道：</p>
 <p>“巴拉森！我去晚了！他们想要侮辱玛莉亚，她不肯顺从，那名面具奴仆又见我冲了进来，慌乱之下！就……就杀了她！”</p>
-]]></description><pubDate>Sun Nov 01 2015 09:03:13 GMT+0800 (China Standard Time)</pubDate><link>https://wxsm.space/p/matrix-chapter-6</link><guid isPermaLink="true">https://wxsm.space/p/matrix-chapter-6</guid></item><item><title>第五章</title><description><![CDATA[<p>又行了几里以后，前方又出现了一处哨卡，刘意在旁边悄悄潜伏了一会儿，大感欣慰：此处竟然只有四个面具奴仆和一名重剑士，那重剑士的身上，也没有穿着红色的披风，连身上的沉重盔甲也卸在了一旁。</p>
+]]></description><pubDate>Sun Nov 01 2015 09:03:13 GMT+0800 (中国标准时间)</pubDate><link>https://wxsm.space/p/matrix-chapter-6</link><guid isPermaLink="true">https://wxsm.space/p/matrix-chapter-6</guid></item><item><title>第五章</title><description><![CDATA[<p>又行了几里以后，前方又出现了一处哨卡，刘意在旁边悄悄潜伏了一会儿，大感欣慰：此处竟然只有四个面具奴仆和一名重剑士，那重剑士的身上，也没有穿着红色的披风，连身上的沉重盔甲也卸在了一旁。</p>
 <p>她顿时醒悟过来，自己先前袭击的那个强大并且能够变异的重剑士，显然就是这附近邪恶大公加利波迪的军队的重剑士首领了，只有这样才能解释她有八个面具奴仆的侍侯，并且其气度，韧性都与眼前这个截然不同。</p>
 <p>刘意想了一想，在旁边的污泥里打了个滚后，故意放重脚步，喘息着向那个正在放哨的面具奴仆奔跑而去。那家伙自然而然的一惊，立即叫了出声：</p>
 <p>“干什么的？”</p>
@@ -5834,7 +5834,7 @@ $ git config --global user<span class="hljs-selector-class">.email</span> <span 
 <p>“你说得对。”</p>
 <p>这时候刘意肩头一热，母体烙印主动给出了相应的提示：</p>
 <p>“启动隐藏任务：巴拉森的救援，任务难度中(C等级)。任务目标：帮助巴拉森见到玛莉亚，时间限制，8小时。”</p>
-]]></description><pubDate>Sun Nov 01 2015 08:25:29 GMT+0800 (China Standard Time)</pubDate><link>https://wxsm.space/p/matrix-chapter-5</link><guid isPermaLink="true">https://wxsm.space/p/matrix-chapter-5</guid></item><item><title>第四章</title><description><![CDATA[<p>夜晚很安静，凹地里只有篝火在有气无力的烧着，许多人都懒洋洋的靠在旁边的草铺上进入了梦乡。好一会儿才忽然有人道：</p>
+]]></description><pubDate>Sun Nov 01 2015 08:25:29 GMT+0800 (中国标准时间)</pubDate><link>https://wxsm.space/p/matrix-chapter-5</link><guid isPermaLink="true">https://wxsm.space/p/matrix-chapter-5</guid></item><item><title>第四章</title><description><![CDATA[<p>夜晚很安静，凹地里只有篝火在有气无力的烧着，许多人都懒洋洋的靠在旁边的草铺上进入了梦乡。好一会儿才忽然有人道：</p>
 <p>“提水的人怎么还没有回来？”</p>
 <p>这句话立即得到众人的响应，他们都等着烧些热水喝了，烫一烫脚再美美的睡上一觉。这时候打水那面具奴仆终于一歪一斜的回来了，身上的衣物显得脏污潮湿，连脸上的面具也歪了些，显然是半路上跌了一跤。</p>
 <p>这是一支显得有些超出了标准编制的队伍，领头的是一名身穿铁甲，身材高大的重剑士，他留着淡黄色的胡须，身着锁甲，外面罩着红色披风，令人望而生畏。</p>
@@ -5890,7 +5890,7 @@ $ git config --global user<span class="hljs-selector-class">.email</span> <span 
 <p>“此技能为E级技能，若要遗忘，须取得三途之水。”</p>
 <p>刘意的眉头抽搐着，这提示给她透露了许多信息，首先便是应该可以学习到各种强化自身的技能，并且这些技能也按照效果，分出了等级显然E这个等级绝对谈不上什么高端。其次便是每个人学习技能的总量是有限度的，自己的总额是三个，现在则是两个了。最后则是技能应该可以遗忘，然而遗忘它的条件应该是很苛刻。如果刘意的推断没有错的话，评价越高的技能，遗忘的代价越低。</p>
 <p>她深吸了一口气，摇了摇头，将心中的懊恼赶出了脑海中，于刘意的观念里，后悔是一件很无用的事情，它除了能消磨自身的斗志以外，便没有任何的作用。从这个点附近的布置来看，这里应该是一处监视镇子的哨卡，她换上了那把刚刚获得的短剑，重新寻了身面具奴仆的衣服换上，略一思考，便顺着河流向上行去。  </p>
-]]></description><pubDate>Sun Nov 01 2015 07:44:44 GMT+0800 (China Standard Time)</pubDate><link>https://wxsm.space/p/matrix-chapter-4</link><guid isPermaLink="true">https://wxsm.space/p/matrix-chapter-4</guid></item><item><title>第三章</title><description><![CDATA[<p>当刘意睁开眼睛的时候，发觉自己处身于一间破旧，低矮的屋子里，四下里破烂的板墙向周围漏着风，而身上盖着的被子布料粗糙坚韧，还打了许多补丁，刘意的手指抚过其表面时候，脑海里所存储的信息立即判断出，这是一种非常劣质的亚麻布。</p>
+]]></description><pubDate>Sun Nov 01 2015 07:44:44 GMT+0800 (中国标准时间)</pubDate><link>https://wxsm.space/p/matrix-chapter-4</link><guid isPermaLink="true">https://wxsm.space/p/matrix-chapter-4</guid></item><item><title>第三章</title><description><![CDATA[<p>当刘意睁开眼睛的时候，发觉自己处身于一间破旧，低矮的屋子里，四下里破烂的板墙向周围漏着风，而身上盖着的被子布料粗糙坚韧，还打了许多补丁，刘意的手指抚过其表面时候，脑海里所存储的信息立即判断出，这是一种非常劣质的亚麻布。</p>
 <p>透过千创百孔的屋顶，可以依稀看到外面乃是黑夜，繁星点点，空气里有一种冷冽的清新。而随意丢弃在屋子里的几个破烂酒桶和箍桶板旁边，有一个带木框的马鞍，门背后靠着的，是一具轮犁。</p>
 <p>刘意并没有急着起床，闭上眼后，缓缓的在脑海里将所有的事情串联起来梳理了一下，亚麻布轻微霉烂的味道从鼻腔反馈到了她的感觉中枢里。她忽然睁开了眼，解开了身上穿着的衬衫，低头向肩膀看去。</p>
 <p>在右肩肩头上，一个诡秘邪恶的鬼脸刺青赫然多了出来，与那刘剑胸口的刺青相比，刘意注意到，自己胸口这个双眼的图案特别的明显。刺青上有着11615这个数字。刘意的心中一凛，这数字不是那刘剑的编号吗？换而言之，一旦编号人死亡，连他的代号也要被别人顶用？</p>
@@ -5959,7 +5959,7 @@ $ git config --global user<span class="hljs-selector-class">.email</span> <span 
 <p>他穿着一件淡蓝泛绿的外套，袖子是淡紫的，本来灰白色的长裤已经脏污得发了黑，脚上的棕黄色的草靴深深的陷入了河边的软泥中。大概是奴仆的缘故，这人的护具就只有头上戴着的遮脸的铁盔和腰间悬着的短剑，他正吃力的提着木桶在河中舀着水。</p>
 <p>刘意深吸了一口气，悄悄的从他背后的芦苇丛的遮掩下摸了上去不要忘记，刘意虽然只是一个少女，她另外一个身份，却还是在现实世界里被全国通缉的连环杀人犯！</p>
 <p>当这名面具奴仆刚刚打好水直起身来的时候，后脑上立即中了重重的一击，这连着剑柄的直中要害立即令他当场昏死了过去。在割开这个家伙的脖子之前，刘意已经将其身上的衣着全部除了下来给自己换上。</p>
-]]></description><pubDate>Sun Nov 01 2015 05:43:53 GMT+0800 (China Standard Time)</pubDate><link>https://wxsm.space/p/matrix-chapter-3</link><guid isPermaLink="true">https://wxsm.space/p/matrix-chapter-3</guid></item><item><title>第二章</title><description><![CDATA[<p>说起来剁排骨其实只是一件相当难受的粗脏活计，并且报酬低得可怜，其实刘意之所以一直能够带着享受的感觉来做这份工作，为的就是能够体验灵光一闪时的那种对自身的超越。</p>
+]]></description><pubDate>Sun Nov 01 2015 05:43:53 GMT+0800 (中国标准时间)</pubDate><link>https://wxsm.space/p/matrix-chapter-3</link><guid isPermaLink="true">https://wxsm.space/p/matrix-chapter-3</guid></item><item><title>第二章</title><description><![CDATA[<p>说起来剁排骨其实只是一件相当难受的粗脏活计，并且报酬低得可怜，其实刘意之所以一直能够带着享受的感觉来做这份工作，为的就是能够体验灵光一闪时的那种对自身的超越。</p>
 <p>姚老板看着刘意慢悠悠的动作，终于忍受不住，打早脸色铁青的就要过来教训这目中无人的小妞，谁知刚上前两步，菜板用力一响，“啪”的一声飞溅了几团碎肉血沫出来，惊得他连忙后退，惟恐身上的报喜鸟被脏污了，好容易见刘意停下刀正要重拾勇气过来教训人，却见这少女抬头，平静的望了他少许，将握刀的那只手伸出来，慢慢的将缠在上面的污迹斑斑的白布解脱，姚老板见了她的动作，不知道怎的，一下子就冷静了下来，退了一步，咽了一口唾沫，勉强维持先前的气势道：</p>
 <p>“你……你不做事想干嘛？”</p>
 <p>刘意很诚恳的细声道：</p>
@@ -6059,7 +6059,7 @@ $ git config --global user<span class="hljs-selector-class">.email</span> <span 
 <p>只见她身后那一扇接天连地，诡异宏伟的青铜色巨门，忽然发出了微弱的光芒，那光芒的色泽十分诡异恐怖，就仿佛是沉稠的鲜血被刷到了那巨门之上。鬼首面具人吩咐道：</p>
 <p>“走过去吧。”</p>
 <p>刘意深吸一口气，慢慢的行了过去，在距离巨门还有一米的地方就发觉，那门上竟有无数细微的小钉和诡异的花纹，她正要仔细看清，猛然身体前方传来一股沛莫能御的巨大吸力，紧接着是右肩感到一阵热辣辣的疼，然后便昏迷了过去！</p>
-]]></description><pubDate>Fri Oct 30 2015 10:10:42 GMT+0800 (China Standard Time)</pubDate><link>https://wxsm.space/p/matrix-chapter-2</link><guid isPermaLink="true">https://wxsm.space/p/matrix-chapter-2</guid></item><item><title>第一章</title><description><![CDATA[<p>在处理完整整百余斤排骨和各类火锅配菜后，刘意终于完成了今天的工作，她揉着酸疼的手臂面无表情地向着内间走了进去，拿起自己的塑料饭盒，舀了满满的一盒白饭就着旁边的小菜慢慢吃了起来，而顾客吃剩的火锅汤汁，她也会舀些来泡饭。</p>
+]]></description><pubDate>Fri Oct 30 2015 10:10:42 GMT+0800 (中国标准时间)</pubDate><link>https://wxsm.space/p/matrix-chapter-2</link><guid isPermaLink="true">https://wxsm.space/p/matrix-chapter-2</guid></item><item><title>第一章</title><description><![CDATA[<p>在处理完整整百余斤排骨和各类火锅配菜后，刘意终于完成了今天的工作，她揉着酸疼的手臂面无表情地向着内间走了进去，拿起自己的塑料饭盒，舀了满满的一盒白饭就着旁边的小菜慢慢吃了起来，而顾客吃剩的火锅汤汁，她也会舀些来泡饭。</p>
 <p>一顿简单的晚餐加上九百块钱的月薪，就是刘意这份工作的待遇，同样也是精明的老板肯让这个笨手笨脚的员工留下来的主要原因。这个价钱只是相当于洗盘子工的一半，但是高强度的工作量，却是洗盘子的两倍！</p>
 <p>所以，不管刘意平时如何沉默，如何不近人情，如何的笨拙，只要没有犯什么大错，就算是厨房里挑大梁的主厨也不能叫她滚蛋的，当然前提是在没有出现一个比她要价更低的替补以前。</p>
 <p>刘意吃完一大盒米饭，三份泡菜，无声的站了起来，走到卫生池边洗着饭盒，负责带她的刘剑刻意的从她的身边撞了过去，将数十个碗盘哗啦啦的叠进了泛着油污泡沫的洗碗池中，然后翻起一双三角眼，骂骂咧咧的道：</p>
@@ -6098,7 +6098,7 @@ $ git config --global user<span class="hljs-selector-class">.email</span> <span 
 <p>“老子在这里你还敢偷懒？搞快！”</p>
 <p>刘意垂眉闭眼的恍若未闻，依旧慢吞吞的剁着，直到眼前一亮，忽然挥刀狂剁，将手间的那根肋条斩成数十段，这才很是满意的勾起嘴角笑了笑。如果可以仔细用弹簧称来量足等份的话，便能发觉这十来段排骨虽然大小形状各不一样，但是其每一块的重量，都是惊人的相似！这便是刘意剁了半年菜，每日里整整剁足几个小时的收获。</p>
 <p>她本就是个绝顶聪明的人，虽然因为基因缺陷的关系，在这等细微小事上的把握有所欠缺，但正所谓熟能生巧，每日里总有那么几次会出现这等灵光一闪的感觉，凭借本能将排骨剁得等重等量就与NBA的那些职业球员在投篮时候，偶然会出现百发百中的情况颇为类似。可以这么说，寻找到这种从容感觉并且享受它，已成了失去人生目标的刘意为数不多的乐趣之一了。</p>
-]]></description><pubDate>Fri Oct 30 2015 09:25:27 GMT+0800 (China Standard Time)</pubDate><link>https://wxsm.space/p/matrix-chapter-1</link><guid isPermaLink="true">https://wxsm.space/p/matrix-chapter-1</guid></item><item><title>楔子</title><description><![CDATA[<p style="text-align: left;">
+]]></description><pubDate>Fri Oct 30 2015 09:25:27 GMT+0800 (中国标准时间)</pubDate><link>https://wxsm.space/p/matrix-chapter-1</link><guid isPermaLink="true">https://wxsm.space/p/matrix-chapter-1</guid></item><item><title>楔子</title><description><![CDATA[<p style="text-align: left;">
   刘依。
 </p>
 
@@ -6227,10 +6227,10 @@ $ git config --global user<span class="hljs-selector-class">.email</span> <span 
 <p>文中一切人名，地名，事件均属杜撰虚构，如有雷同，算你走运。</p>
 <p>该小说仅供朋友间消遣，自娱自乐。不作商业以及任何公共形式的传播。如内容违反相关部门相关条例，作者拒不承担任何责任。</p>
 </blockquote>
-]]></description><pubDate>Thu Oct 29 2015 10:13:44 GMT+0800 (China Standard Time)</pubDate><link>https://wxsm.space/p/matrix-chapter-0</link><guid isPermaLink="true">https://wxsm.space/p/matrix-chapter-0</guid></item><item><title>毕业后的第一个中秋</title><description><![CDATA[<p>学生渐渐开学，才意识到毕业以来已经过了一个暑假的时间。公司为期三个月的培训终于快结束了，我也终于有空回家休息一段时间。培训结束后，感觉自己的变化除了学到的知识以外，就是多了一些自信，对很多东西的理解不再是处于未知或一知半解的状态。学习使人进步。</p>
+]]></description><pubDate>Thu Oct 29 2015 10:13:44 GMT+0800 (中国标准时间)</pubDate><link>https://wxsm.space/p/matrix-chapter-0</link><guid isPermaLink="true">https://wxsm.space/p/matrix-chapter-0</guid></item><item><title>毕业后的第一个中秋</title><description><![CDATA[<p>学生渐渐开学，才意识到毕业以来已经过了一个暑假的时间。公司为期三个月的培训终于快结束了，我也终于有空回家休息一段时间。培训结束后，感觉自己的变化除了学到的知识以外，就是多了一些自信，对很多东西的理解不再是处于未知或一知半解的状态。学习使人进步。</p>
 <p>挺久没有回过家，上一次应该是在五一的时候，所以比较想念家人。不知道家里现在是怎样的了，应该没有什么变化。前段时间出租屋的椅子坏了，往后靠就会摔倒，想买一把才发现椅子挺贵的，房东不给换，郁闷的时候想到在家里从来没有操心过类似的问题，只要跟爸爸或者妈妈说一句就会有替代品，虽然可能不合己意但却不需要付出任何代价。这些事情可能只有在独立生活后才能发现，饭要自己做，碗要自己洗，衣要自己晾，门要自己锁，下班回来累了一躺就是到半夜，醒来发现灯还亮着，门禁卡还戴着，一看手机早上四点多，这时候就能体会到一些孤独。体会到在家是多么的幸福。感谢爸妈给我的回忆里充满的都是快乐。</p>
 <p>马上过完今年的生日，我也要24岁了，人生走到了一个过渡期，从学生到打工者，从学校到到职场，时间过得这么快，觉得有一些不适。生活还没有转变过来，以后的路还那么长，对未知的未来充满了恐惧。</p>
-]]></description><pubDate>Thu Sep 24 2015 05:29:36 GMT+0800 (China Standard Time)</pubDate><link>https://wxsm.space/p/first-mid-autumn-after-graduation</link><guid isPermaLink="true">https://wxsm.space/p/first-mid-autumn-after-graduation</guid></item><item><title>Ext 使用总结</title><description><![CDATA[<p>公司要求会用Ext Js，没办法必须学，下面总结了一些学习与使用过程中的经验。<!--more--></p>
+]]></description><pubDate>Thu Sep 24 2015 05:29:36 GMT+0800 (中国标准时间)</pubDate><link>https://wxsm.space/p/first-mid-autumn-after-graduation</link><guid isPermaLink="true">https://wxsm.space/p/first-mid-autumn-after-graduation</guid></item><item><title>Ext 使用总结</title><description><![CDATA[<p>公司要求会用Ext Js，没办法必须学，下面总结了一些学习与使用过程中的经验。<!--more--></p>
 <h2 role="anchor">
             <a name="从一开始就使用英文文档" role="anchor">从一开始就使用英文文档</a>
           </h2><p>这点是我认为最重要的，有人也许会觉得很奇怪，不是有国人翻译的中文文档吗？而且很全，为什么要强行用原版呢？</p>
@@ -6277,8 +6277,8 @@ $ git config --global user<span class="hljs-selector-class">.email</span> <span 
 <h2 role="anchor">
             <a name="总结" role="anchor">总结</a>
           </h2><p>个人不太喜欢使用Ext作为前端框架，虽然是作为非常适合搭建内网系统的技术存在，抛开千遍一律的UI不谈，用过Ext的人应该都有一种被包养的感觉。Ext帮我们做好了所有事情，久而久之我们就会忘记事情原本应该是怎样的，从而走上一条不归路。</p>
-]]></description><pubDate>Sat Sep 19 2015 23:36:18 GMT+0800 (China Standard Time)</pubDate><link>https://wxsm.space/p/ext-usage-summary</link><guid isPermaLink="true">https://wxsm.space/p/ext-usage-summary</guid></item><item><title>博客迁移</title><description><![CDATA[<p>原来的博客太简陋了（虽然现在依然很简陋），一直想改都没有时间，最近在公司培训了三个月的Java也发现自己差不多忘了怎么写C#代码，曾经觉得很顺手的IDE用起来也不习惯了，反正就是改不下去了。鉴于工作以后空闲时间变得捉襟见肘，最终还是放弃了自己动手的想法，直接用了模板博客。虽然没有了一切如己所愿的快感，但毕竟是开源软件，想怎么玩都可以，感觉还是不错的选择。</p>
-]]></description><pubDate>Sat Sep 19 2015 05:20:51 GMT+0800 (China Standard Time)</pubDate><link>https://wxsm.space/p/blog-migration</link><guid isPermaLink="true">https://wxsm.space/p/blog-migration</guid></item><item><title>毕业</title><description><![CDATA[<p>在家上中学的时候并不知道每天可以有家可归是一种怎样的幸福，直到后来再也没有这样的机会。如今人生已走过三分之一，想到以后都不会有机会在自己熟悉的地方长住，心里很不是滋味。有时候会想，如果目前还是自己一个人在生活的话，我就可以回到家这边来找一份不痛不痒的工作，先做个一两年。然而，看到以往的玩伴也渐渐走上正轨，供车供房，同学纷纷开始工作，读研留学，自己也会有些迷惘。尤其羡慕留学的朋友，从此以往告别这片神奇的土地。后悔大学没有好好学习，不然可以争取一些保研的机会，就不用这么早和自己的学生生涯说再（可以再打两年dota）。</p>
+]]></description><pubDate>Sat Sep 19 2015 23:36:18 GMT+0800 (中国标准时间)</pubDate><link>https://wxsm.space/p/ext-usage-summary</link><guid isPermaLink="true">https://wxsm.space/p/ext-usage-summary</guid></item><item><title>博客迁移</title><description><![CDATA[<p>原来的博客太简陋了（虽然现在依然很简陋），一直想改都没有时间，最近在公司培训了三个月的Java也发现自己差不多忘了怎么写C#代码，曾经觉得很顺手的IDE用起来也不习惯了，反正就是改不下去了。鉴于工作以后空闲时间变得捉襟见肘，最终还是放弃了自己动手的想法，直接用了模板博客。虽然没有了一切如己所愿的快感，但毕竟是开源软件，想怎么玩都可以，感觉还是不错的选择。</p>
+]]></description><pubDate>Sat Sep 19 2015 05:20:51 GMT+0800 (中国标准时间)</pubDate><link>https://wxsm.space/p/blog-migration</link><guid isPermaLink="true">https://wxsm.space/p/blog-migration</guid></item><item><title>毕业</title><description><![CDATA[<p>在家上中学的时候并不知道每天可以有家可归是一种怎样的幸福，直到后来再也没有这样的机会。如今人生已走过三分之一，想到以后都不会有机会在自己熟悉的地方长住，心里很不是滋味。有时候会想，如果目前还是自己一个人在生活的话，我就可以回到家这边来找一份不痛不痒的工作，先做个一两年。然而，看到以往的玩伴也渐渐走上正轨，供车供房，同学纷纷开始工作，读研留学，自己也会有些迷惘。尤其羡慕留学的朋友，从此以往告别这片神奇的土地。后悔大学没有好好学习，不然可以争取一些保研的机会，就不用这么早和自己的学生生涯说再（可以再打两年dota）。</p>
 <p>三分之一已经过去了，学生时代的一些人和一些事也都应该告一段落了，该奋斗的奋斗，该拼爹的拼爹，都要上路了，也没什么闲暇来和老同学扯淡。一些当年觉得很好的朋友，如今看来也不过如此，以后估计也难再有交集。虽然不知道自己以后还能走多远，但是想到人生过了这么长，没有留下多少美好的记忆，也没有交到很多很好的朋友，满房间的物件，却并没有承载很多过去，觉得自己虚度了很多光阴，却也无法弥补，就总是会觉得很伤感。小学时候的课本笔记等早已不知所踪，只留下一两张泛黄的照片，初中的记忆本该满满却没有珍惜，高中不谈，大学更差，就是dota的一千个日与夜。我以后再也不想通宵玩游戏了，每次看到天亮都十分不安。如果我以后有了小孩，一定会帮她（他）把成长过程中的物件都收拾整理好，待到长大，将会是珍贵的回忆。</p>
 <p>说到小孩，如今父母也会开始谈及小孩了，真是措手不及，我不还是个孩子吗，怎么就说到我的孩子了。你们一定是在逗我。</p>
 <p>感谢毕业照那天来看我的同学朋友们，当日一别，更不知道何时再见。</p>
@@ -6286,7 +6286,7 @@ $ git config --global user<span class="hljs-selector-class">.email</span> <span 
 <p>大学的同学里，我并没有与很多人熟识，也没有交到许多朋友，有几位可能甚至四年来都没有说过一句话，不过也不能完全怪我，我们的专业选得好，完全不用与人交流。谢师宴过后，很多人我仍然是只知道名字，其它一无所知，可能再也不会有机会相见了，然而我并不在乎，因为本来就跟不认识一样。对事不对人，自己的大学生活失败，与同学无关。</p>
 <p>工作的地方在唐家湾的软件园，近期也可能会一直住在这一片，在珠海的同学朋友没事可以来找我玩，有活动也可以带上我，有麻烦如果能帮上忙也请找我。从学校到工作地点的一路上都是海岸，大概有二十多公里，每次经过都觉得很舒服，然而不知道台风会不会封路。</p>
 <p>有一个正经的女朋友会给自己带来压力与动力，同时也会非常大程度地限制自己的自由，不能想去哪里就去哪里，不能想做什么就做什么，这点让我非常不自在。也许现在到了一个我需要照顾别人的时候，但是我还没有完全准备好。并没有想到大学最后一年能找到女朋友，我也没有准备好。要出外工作，住两三年出租屋，同样没有准备好。 我本来只是一个呆在宿舍每天打dota的大学生，现在生活需要做出这么大的转变，有点不知所措。独生儿习惯了被照顾，现在要开始学会自己打理一切，总有些转不过来。说到底，我就是想呆在家里睡觉。</p>
-]]></description><pubDate>Tue Jun 09 2015 09:09:40 GMT+0800 (China Standard Time)</pubDate><link>https://wxsm.space/p/graduation</link><guid isPermaLink="true">https://wxsm.space/p/graduation</guid></item><item><title>第十一章</title><description><![CDATA[<p>光明历989年六月，时值内森学院新生入学之际，内森学院发生了一起恶性的失窃案，院长室当天被一位窃贼光顾，解封了封存在内的一些机密文件，由于事关重大，光明教会也强势介入了此事，事发当晚经过多方调查，所有的证据都指向了一名新入学的学员，其人当即被教会带走，不久后被处以极刑。</p>
+]]></description><pubDate>Tue Jun 09 2015 09:09:40 GMT+0800 (中国标准时间)</pubDate><link>https://wxsm.space/p/graduation</link><guid isPermaLink="true">https://wxsm.space/p/graduation</guid></item><item><title>第十一章</title><description><![CDATA[<p>光明历989年六月，时值内森学院新生入学之际，内森学院发生了一起恶性的失窃案，院长室当天被一位窃贼光顾，解封了封存在内的一些机密文件，由于事关重大，光明教会也强势介入了此事，事发当晚经过多方调查，所有的证据都指向了一名新入学的学员，其人当即被教会带走，不久后被处以极刑。</p>
 <p>学院派对此事表示沉默，不过学院派高层和光明教会这两个冤家历来都对不上眼也是帝都人尽皆知的事情，此时双方的通力合作也让所有人都大跌眼睛，要知道内森学院历来都是护短的，魔法师是全人类的稀缺资源，他们也有其独特的道德体系，所以纵使是发生了类似的恶劣事件也至多处以流放或是囚禁等处罚。因而此次事件引起了不少相关和不相关人士的关注和谈论。揭开层层面纱，人们惊恐地发现其中夹杂了一个人的名，山德鲁·布拉达卡。</p>
 <p>凯瑞一直没有忘记要向梅尔求证一件事，就是在自己第一天来学院到长室报到时，梅尔为什么会在里边。起先他不解的是梅尔既然也是一个新生那为什么会知道他的名字，他发誓自己以前从来不认识这个女孩，而她也跟凯茜没有半点的关系，那时的凯瑞又想当然的把这推到了神奇的魔法上，以梅尔所展现出的魔法水准，要用预言魔法来探测自己的名字那还不是小菜一碟，直到他亲耳听到那个在入学当天被教会带走的新生死去时他才猛然想起了这个更重要的问题，也同样因为那个消息，他又将这个问题埋到了心底，他不敢问，既然种种迹象都表明了梅尔和这次事件脱不了干系，那自己一旦问出来，就算是个傻子也知道后果一定很严重！</p>
 <p>但这并不妨碍凯瑞有意地接近梅尔，自从他那天晚上使用了梅尔的那朵怪花，他就别无选择了，自己失去了舌头，不但无法成为法师，甚至连正常人都有的说话能力也没有了，一旦被人发现了这个秘密，这个耻辱更会成为他一生都无法摆脱的梦魇。他明白马修最终决定让自己入学只是为了自己能多一份经历，能不用这么早去面对一些冰冷的现实，为此舅舅付出了很多，他每晚想到舅舅的处境内心总是难以平静。但是，只要有了梅尔那朵花，这一切都会有逆转的可能，随着这些天在学院的学习，他暗暗计划了自己的未来，得到那朵怪花，随后主修药剂学，这一门学科是魔法基础学科中既不需要念咒又能尽可能有所建树的科目，假以时日他即便不能成为一名法师，也至少可以成为一名药剂师。“无论如何我都不能成为一个废人。”这些执念最终都指向了一个人，那朵花的持有者同时是制造者，梅尔。</p>
@@ -6305,7 +6305,7 @@ $ git config --global user<span class="hljs-selector-class">.email</span> <span 
 <p>深夜，凯瑞跟着梅尔一前一后走在返回魔法部的路上。从餐厅里出来时他才发现过去了这么久，他心中略微有些失望，餐厅里的人很少，他原以为梅尔这次还会将那朵怪花拿出来给他试试的，自打那次借助那怪花尝试了说话之后，他对于沉默渐渐开始感到厌恶，对表达的欲望也越来越强，只是因为梅尔对心送的那柄短杖的觊觎，他一直都不敢再主动提那朵怪花的事。只能等以后和梅尔混熟之后再旁敲侧击。他努力搜寻着自己除了牺牲那柄法杖还能有什么别的方式对梅尔示好，此时两人差不多走到了生活区和魔法部宿舍的交界处，这是一条如同城墙一样的桥式走廊，走廊下方的整个墙体也正好作为内森的院墙，走廊上没有魔法灯，只有几个早已燃尽的火把，所以到了晚上能见度很低，在走到这里时凯瑞停住思考集中精力看路时忽然发现，原本走在他前面的梅尔不见了。</p>
 <p>这让他感到奇怪，虽然一路上他都在想事情，但他也清楚地记得梅尔是一直走在他身前的。他在原地转身四处搜寻了一下，并没有看到一个人影，估摸着梅尔又用了他不知道的法术离开了。他叹了口气转过身朝学院外忘了一眼，从这里老出去正好是费伦城东街，凯瑞前不久还在那里当了十几天铁匠，那里还曾有一个让他十分牵挂的人，如果不是这个人，他也许这辈子都会只是一个铁匠。铁匠凯瑞以后就是药师凯瑞了，凯瑞如此想着又下意识向前几步走到了墙边。突然间黑夜中就有东西从墙外朝他飞了过来，凯瑞完全来不及反映就感到自己的脖子被一根绳子套住了，并且一股巨力传来将他强行从走廊拉出了墙外直飞到了离墙面不远的一棵树上，这阵巨变让他十分惊慌，他张嘴几乎就要叫出来，无奈脖子上的绳子迅速收紧将他的叫声扼回了咽喉，脖子被勒紧的窒息感和被拉扯过后的剧痛令他几乎要昏过去。直到几息之后他才借着外边的月光看到了面前站着脸色冰冷的梅尔，此刻她正双手抓着那条绳子用力的拧动着。</p>
 <p>“你是在泡我吗？欧格里信徒!”梅尔低声狠厉地问向他。</p>
-]]></description><pubDate>Sun Mar 15 2015 03:50:41 GMT+0800 (China Standard Time)</pubDate><link>https://wxsm.space/p/paladitch-chapter-11</link><guid isPermaLink="true">https://wxsm.space/p/paladitch-chapter-11</guid></item><item><title>第十章 · 绕指魔花</title><description><![CDATA[<p>她为什么可以说话呢？难道她解除了沃昆院长的法术？又或者是院长的法术对她完全没有影响？凯瑞想到这里心跳猛然加速，感到很不可思议，因为他接下来的念头是，这个红发的假冒学姐也许在奥术上的造诣已经超过了院长……因为即使是魔法菜鸟也知道，一位施法者能够凭空免疫另一位法师对其使用的法术，那足以说明两者之间存在着巨大的实力差距，而如果梅尔是在已经受到法术影响之后自行解除法术效果的，那更不可思议，众所周知，法师几乎所有的施法行为都离不开念咒，凯瑞更是对此深信不疑，如果一个法师能够不用念咒文就能施法，那简直就是神话。</p>
+]]></description><pubDate>Sun Mar 15 2015 03:50:41 GMT+0800 (中国标准时间)</pubDate><link>https://wxsm.space/p/paladitch-chapter-11</link><guid isPermaLink="true">https://wxsm.space/p/paladitch-chapter-11</guid></item><item><title>第十章 · 绕指魔花</title><description><![CDATA[<p>她为什么可以说话呢？难道她解除了沃昆院长的法术？又或者是院长的法术对她完全没有影响？凯瑞想到这里心跳猛然加速，感到很不可思议，因为他接下来的念头是，这个红发的假冒学姐也许在奥术上的造诣已经超过了院长……因为即使是魔法菜鸟也知道，一位施法者能够凭空免疫另一位法师对其使用的法术，那足以说明两者之间存在着巨大的实力差距，而如果梅尔是在已经受到法术影响之后自行解除法术效果的，那更不可思议，众所周知，法师几乎所有的施法行为都离不开念咒，凯瑞更是对此深信不疑，如果一个法师能够不用念咒文就能施法，那简直就是神话。</p>
 <p>“这次是真的直了”梅尔轻笑着说，“你一定在想，我为什么没有受到台上那个老鬼的法术影响，对吗？”</p>
 <p>凯瑞重重地点了点头。却发现梅尔说完这句话脸色却变了，只见红发女孩笑意全无，转过头去一脸凝重地望着台上正洋洋洒脱的老人，“我也一样被这个术控制了，这是一个复合法术，防护学派的终极奥义同时也是沃昆先生的招牌绝学，魔邓肯裂解术……以及”说到这里又转过头来看着凯瑞“一个小把戏，我能说出话，你能听到我说话，你可以当作这个小把戏对我们没有用。”</p>
 <p>凯瑞若有所思，就在今天他已经听过了梅尔所说的各个魔法学派的介绍，有很多内容其实他已经印象模糊了，但有一些细节却仍记得，其中一个就是防护学派的这个终极法术，魔邓肯裂解术，解除一个目标区域的一切魔法效果。想到这里他看向了梅尔头上的羽毛笔，想必刚才就是因为裂解术的效果才让梅尔显形的，他记得在那之前梅尔一直通过某种方式将自己隐藏了起来。</p>
@@ -6350,7 +6350,7 @@ $ git config --global user<span class="hljs-selector-class">.email</span> <span 
 <p>“我不会的”凯瑞望了她一眼后低下头去，“谢谢你告诉我这些。”</p>
 <p>“不客气，再有一会儿这些消息就免费了。”言罢梅尔左手食指轻轻搭在了缠在凯瑞右手的怪花上，那花仿佛受到某种吸引，尾巴渐渐地从凯瑞的手腕上脱离，慢慢地缠向了梅尔的食指。</p>
 <p>不过凯瑞并没有再听到花朵发出声音，他心里充满了不舍，这久违的，说话的感觉。他一定要想个办法得到那朵怪花，但是他也不愿意失去心送给他的东西，他不愿意，他更不敢，这是心今天刚刚送给他的法杖，他若立刻就拿去和别人换东西……他不由想起了今天那个叫做安莉萨的女孩看他的眼神，那种感觉，真是难受地可怕。可是自己该怎么办？</p>
-]]></description><pubDate>Thu Mar 12 2015 03:49:10 GMT+0800 (China Standard Time)</pubDate><link>https://wxsm.space/p/paladitch-chapter-10</link><guid isPermaLink="true">https://wxsm.space/p/paladitch-chapter-10</guid></item><item><title>2014-11-11</title><description><![CDATA[<div>
+]]></description><pubDate>Thu Mar 12 2015 03:49:10 GMT+0800 (中国标准时间)</pubDate><link>https://wxsm.space/p/paladitch-chapter-10</link><guid isPermaLink="true">https://wxsm.space/p/paladitch-chapter-10</guid></item><item><title>2014-11-11</title><description><![CDATA[<div>
   之前写过一篇很长的关于异形的东西，不知道为什么发不出来。可能有关键字被和谐了，但我又找不到，后来草稿不知道为什么也没有了，明明保存了的。没有了我也不想再重新写一遍了。 说一下最近看过的一些有点意思的电影。
 </div>
 
@@ -6401,11 +6401,11 @@ $ git config --global user<span class="hljs-selector-class">.email</span> <span 
 <div>
   另外看了《机器纪元》 以后，觉得最近的科幻片都比较探讨人性啊，都不是在往科幻片应有的路子在走。这部片子说的东西还是挺有意思的，不过剧本感觉缺少冲击力，就是没什么能让人感到眼前一亮的东西，比较平淡的电影。之前上人工智能课的时候听周密说，“人类需要完成的最后一个发明就是智能机器人”，这部电影说的就是这个啦！为了让智能机器人不成为人类的最后一个发明，人类为其设定了两个原则，一是机器人不能伤害任何生物，二是机器人不能维修自己。但是智能机器人明明比人类要智能得多，又有什么技术制定的原则能限制得了智能机器人呢。美国，未来，题材为科幻，机器人。
 </div>
-]]></description><pubDate>Wed Nov 12 2014 04:44:32 GMT+0800 (China Standard Time)</pubDate><link>https://wxsm.space/p/2014-11-11</link><guid isPermaLink="true">https://wxsm.space/p/2014-11-11</guid></item><item><title>临近端午</title><description><![CDATA[<p>很久没有回过家，也没有关心过家里的情况了。今天和妈妈说了几句话，得知最近有发烧生病，虽然说已经好了，但还是觉得不知道怎么的。五十多岁了，一个人在广州上班，没亲没戚的，生了病也没哪个照顾，也不跟我说。婆婆去世以后我就应该要照顾我妈了，去年在赣州大姨也跟我说过，可惜还没有毕业，分身乏术。唉，真是忧伤。真希望你退休了吧，别干了。</p>
+]]></description><pubDate>Wed Nov 12 2014 04:44:32 GMT+0800 (中国标准时间)</pubDate><link>https://wxsm.space/p/2014-11-11</link><guid isPermaLink="true">https://wxsm.space/p/2014-11-11</guid></item><item><title>临近端午</title><description><![CDATA[<p>很久没有回过家，也没有关心过家里的情况了。今天和妈妈说了几句话，得知最近有发烧生病，虽然说已经好了，但还是觉得不知道怎么的。五十多岁了，一个人在广州上班，没亲没戚的，生了病也没哪个照顾，也不跟我说。婆婆去世以后我就应该要照顾我妈了，去年在赣州大姨也跟我说过，可惜还没有毕业，分身乏术。唉，真是忧伤。真希望你退休了吧，别干了。</p>
 <p>天气变得很热很闷，情绪也变得特别容易坏，很可能因为一些琐碎事情发脾气，像今天早上，本来不应该发生这样的事的，我应该更关心你一些，而不是独自生闷气。现在想来确实后悔，不过微信是真的没有必要了。</p>
 <p>这学期过的很快，感觉是大学这么久以来最快的了吧，已经快十四周了，又要结束了。过得快的原因大概有几方面，一直很忙，基本没停过，到现在也是很多事情在做，都接近尾声但又没有结束，所以有时候会觉得很多事情要做但又不知道要做什么。遗憾的是还没有找到实习，暑假仍没有着落。这学期和web有关的东西做的比较多，不过我不太希望这是最终的方向。</p>
 <p>找了一个女朋友，很喜欢，希望可以有多远走多远。</p>
-]]></description><pubDate>Fri May 30 2014 04:46:52 GMT+0800 (China Standard Time)</pubDate><link>https://wxsm.space/p/nearing-the-duan-wu</link><guid isPermaLink="true">https://wxsm.space/p/nearing-the-duan-wu</guid></item><item><title>第九章 · 集会</title><description><![CDATA[<p>夜晚降临时，整个内森都是灰蒙蒙的，纵使校道两旁有林立的魔法灯散发着荧光也只是让这个地方看起来更加阴森。此时校道上没有多少行人，学院中央的大礼堂内，这一届魔法部的新生正在进行首次集会。</p>
+]]></description><pubDate>Fri May 30 2014 04:46:52 GMT+0800 (中国标准时间)</pubDate><link>https://wxsm.space/p/nearing-the-duan-wu</link><guid isPermaLink="true">https://wxsm.space/p/nearing-the-duan-wu</guid></item><item><title>第九章 · 集会</title><description><![CDATA[<p>夜晚降临时，整个内森都是灰蒙蒙的，纵使校道两旁有林立的魔法灯散发着荧光也只是让这个地方看起来更加阴森。此时校道上没有多少行人，学院中央的大礼堂内，这一届魔法部的新生正在进行首次集会。</p>
 <p>法师的存在在整个大陆的历史上已经十分久远，然时至今日，人们还是对施法者的诸多怪癖行径感到难以理解。诸如此类总是在夜晚举行重大会议、活动的习惯，即便是已经成为学员的贵族们也难免有所非议，而当学院副院长沃昆开门见山地宣告这次集会将持续到午夜时，纵使是受过最正统贵族礼仪培养的学员也不禁发出了哀嚎。沃昆院长看起来是个很羞涩的老人，相比起学员其他导师们包括一开始向新生们致辞的贝利院长那千篇一律的严肃死板的表情，这位老人显得十分生动。在宣布了那条令人发指的消息后，他那张布满皱纹的老脸很不好意思般地窃笑不已。</p>
 <p>凯瑞觉得这位老院长着实有趣。不同于其他的新生，他对于这场要持续到深夜的集会并没有什么感觉，他不像那些贵族们有着对光明偏执的信仰情结，也并不像其他学员那样从进入学院起就为各种各样的手续忙东忙西的。他来到内森时时间久已经很晚了，原本需要自己去处理的诸多事项凯茜都帮忙一一解决了。想到这里凯瑞就没来由的感到高兴，手里一遍一遍地摩挲着怀里装着法杖的木盒子，审视着四周喧闹的学员们心里暗暗想道，他们应该还没来得及吃晚餐。不过像这样闹下去，会不会出什么麻烦？沃昆院长会不会一气之下施放一个威力巨大的魔法把在座的人都轰成渣渣？当然这样的担忧只是一瞬而逝。不论如何，和别人穿着一样的袍子融入到这个喧哗的群体中让凯瑞十分安心，十分享受，他还感受到了一股久违的愉悦感。</p>
 <p>这个礼堂的规模非常大，乍看之下仿佛来多少人都容纳得下。不过让人奇怪的是，新生的人数也并不多，只有两百多人，却好像刚好把这里给塞满了似的。魔法！凯瑞脑子里是这么想的，在他心里，魔法便是所有奇迹与玄妙的集合。</p>
@@ -6426,7 +6426,7 @@ $ git config --global user<span class="hljs-selector-class">.email</span> <span 
 <p>凯瑞一直都认真听着，期间他也时不时会轻轻转过头去悄悄看上一眼，在结束那次对视后，梅尔便没再关注他，只是自顾坐在那儿抱着学院派发的魔法书低头沉思。他也注意到不止自己一个人在偷偷窥视这个女孩。诚然，梅尔是一个漂亮的女孩，尤其是那让人惊艳的红发总让人不由自主地想要多看几眼。但自己只是对她充满了好奇，凯瑞是这么想的。他本来还对这个红发女孩有些讨厌，就是在刚刚的对视时，那种区别于那些对他不怀好意的陌生人的讨厌，他无法单独形容。后来却在听到沃昆院长说的“老人欺负新人是理所应当的事”时，他心里便有些茫然，若有所思，也若有所失。或许原本那点谈不上恶感的讨厌也在悄然转变。</p>
 <p>但这一切梅尔可会知晓？就在凯瑞又偷偷望向梅尔，看着她对院长的讲话不屑一顾的样子而心生感慨时，红发女孩却忽然幽幽地转过头来正好和他对视。凯瑞心里吓了一跳，毕竟偷偷看人家被抓了个现行，而他心里也对这个女孩有了些改观，他再没有上次与梅尔对视那样的底气，一时间只觉得尴尬不已，就要转过身去。梅尔这次却没有作罢的意思，看着凯瑞的窘迫她嘴角露出了一抹动人的浅笑，带着揶揄的语气戏谑地说道：“眼睛都直了呀。”</p>
 <p>然后，凯瑞眼睛真的就直了，他满脸震惊，脑袋机械地又转向了梅尔，陷入呆滞。她说话了。。。她竟然能够说话！</p>
-]]></description><pubDate>Tue Mar 04 2014 03:47:32 GMT+0800 (China Standard Time)</pubDate><link>https://wxsm.space/p/paladitch-chapter-9</link><guid isPermaLink="true">https://wxsm.space/p/paladitch-chapter-9</guid></item><item><title>第八章 · 相逢</title><description><![CDATA[<p>出门买东西或者是吃东西之类，完事后发现自己没带够钱，这样的事情放到现在的内森已并不常见，早在内森里的生活区建立之时，内森学院就已经为学院里的成员推出了用于便捷付费的魔晶秘钥，仿各大商会流通的魔晶卡开发而成。持有者只要事先在办事处充入足够数额的金钱，就能把它当钱袋使，在生活区内的所有消费都只要用它轻轻一插，便一笔勾销。其做工也比魔晶卡更小巧便捷，深受那些贵族学员们的喜爱。不过这东西凯瑞却没有，不是因为他不是贵族，而是他不愿意为之支付20银币的制卡费。虽然那已经是打过折的学院内部价。</p>
+]]></description><pubDate>Tue Mar 04 2014 03:47:32 GMT+0800 (中国标准时间)</pubDate><link>https://wxsm.space/p/paladitch-chapter-9</link><guid isPermaLink="true">https://wxsm.space/p/paladitch-chapter-9</guid></item><item><title>第八章 · 相逢</title><description><![CDATA[<p>出门买东西或者是吃东西之类，完事后发现自己没带够钱，这样的事情放到现在的内森已并不常见，早在内森里的生活区建立之时，内森学院就已经为学院里的成员推出了用于便捷付费的魔晶秘钥，仿各大商会流通的魔晶卡开发而成。持有者只要事先在办事处充入足够数额的金钱，就能把它当钱袋使，在生活区内的所有消费都只要用它轻轻一插，便一笔勾销。其做工也比魔晶卡更小巧便捷，深受那些贵族学员们的喜爱。不过这东西凯瑞却没有，不是因为他不是贵族，而是他不愿意为之支付20银币的制卡费。虽然那已经是打过折的学院内部价。</p>
 <p>先前那位老店长在察觉到凯瑞有难处后便向他表示可以先将魔钥用来抵押，等回去取了钱来付账便是。但面对这份好意凯瑞也只是一直沉默这没有任何表示，一来他根本就没有魔晶秘钥，二来即便是有了，那又要到哪儿去取那一金币的钱呐？他唯一能想到的就是舅舅马修·埃迪森那儿，但是他做不到。他好不容易才下定决心从铁匠铺出来，他害怕自己只要再回去就没有出来的勇气了。这十分不妥。</p>
 <p>更为不妥的是，这一切凯瑞都无法用语言说出来。他只是这样干站着发呆，老店长见他这幅模样也是哭笑不得，但老人仍是十分友善。</p>
 <p>“如果你还没有魔钥的话，那就先将你的学员凭证留在这儿吧！这样也可以。不过你毕竟是个新面孔，时不时得用到你的凭证。如果被发现落在了我这儿，你一定会有麻烦。”言罢便一直望着凯瑞，满脸无奈。</p>
@@ -6450,7 +6450,7 @@ $ git config --global user<span class="hljs-selector-class">.email</span> <span 
 <p>凯瑞听了也仍旧只是点了点头，嘴里嚼着东西，没有说话。</p>
 <p>“入学的那些事我已经替你办好了的，待会吃完晚餐你可以直接去魔法部报道，不要忘记了去认证你的魔晶秘钥。另外，我还给你准备了一份礼物。这是我一位同样是法师的同伴帮我替你挑选的，你应该会喜欢。”言罢凯茜放下餐具，轻轻打开了放在餐桌上的古朴盒子，里面放着的是一根顶头乳白色的橡木法杖。</p>
 <p>凯瑞闻言也看了过来，那个装法杖的盒子在上一次东街上就看到凯茜抱着的，那么凯茜所说的那位法师同伴想必就是那个身着华丽衣裳相貌俊美的法师吧。不知为何，想到了那天的情景，凯瑞的心里忽然有些沉。</p>
-]]></description><pubDate>Fri Feb 28 2014 03:45:48 GMT+0800 (China Standard Time)</pubDate><link>https://wxsm.space/p/paladitch-chapter-8</link><guid isPermaLink="true">https://wxsm.space/p/paladitch-chapter-8</guid></item><item><title>第七章 · 梅尔</title><description><![CDATA[<div>
+]]></description><pubDate>Fri Feb 28 2014 03:45:48 GMT+0800 (中国标准时间)</pubDate><link>https://wxsm.space/p/paladitch-chapter-8</link><guid isPermaLink="true">https://wxsm.space/p/paladitch-chapter-8</guid></item><item><title>第七章 · 梅尔</title><description><![CDATA[<div>
 </div>
 
 <div>
@@ -6704,7 +6704,7 @@ $ git config --global user<span class="hljs-selector-class">.email</span> <span 
     对于老店长的话凯瑞则是一点都听不进去，他自古地沉默着，内心十分惊慌，不知如何是好。事实上他口袋里也就十几枚价值不一的银币和几块铜板，全部加起来也肯定凑不齐一个金币的。因为那是昨天才从金币打散开来的钱。如今让刚才那个红发女孩点了一杯龙舌兰酒用掉了一金币，眼见梅尔已没影了，他真不知该如何是好！如何是好?如何是好！
   </p>
 </div>
-]]></description><pubDate>Tue Feb 11 2014 03:41:17 GMT+0800 (China Standard Time)</pubDate><link>https://wxsm.space/p/paladitch-chapter-7</link><guid isPermaLink="true">https://wxsm.space/p/paladitch-chapter-7</guid></item><item><title>第六章 · 早起的虫儿</title><description><![CDATA[<p>摩尔出来的时候，夜已经很深了。这个时候，绝大多数的人都正熟睡，哪怕是一些精神格外亢奋的年轻男女，此时也差不多强行支付了最后一波精力。</p>
+]]></description><pubDate>Tue Feb 11 2014 03:41:17 GMT+0800 (中国标准时间)</pubDate><link>https://wxsm.space/p/paladitch-chapter-7</link><guid isPermaLink="true">https://wxsm.space/p/paladitch-chapter-7</guid></item><item><title>第六章 · 早起的虫儿</title><description><![CDATA[<p>摩尔出来的时候，夜已经很深了。这个时候，绝大多数的人都正熟睡，哪怕是一些精神格外亢奋的年轻男女，此时也差不多强行支付了最后一波精力。</p>
 <p>正直此时，确实摩尔经历最充沛的时刻，因为摩尔是一个怪人。他不循规蹈矩，不论是在工作要事上还是生活上还是在个人生活上，他的诸多习惯、想法都可称得上是天马行空，羚羊挂角。“早起的鸟儿有虫吃”这句谚语一直为人们所津津乐道，一方面赞扬勤奋劳动的平民，另一方面是推崇先发制人的战术思维，古往今来无人对此有何异议。而摩尔却对此嗤之以鼻，他不早起，无论有无需求，他都不喜欢早起。法师的身体太孱弱，起早贪黑的生活习惯肯定会把他累坏的，而他这样的小人物，生命渺小得如海中浮萍，若凡事都抢在人先，那肯定是很容易死的。</p>
 <p>早起的鸟儿有虫吃不假，但早起的虫儿呢？自然是被鸟吃了。摩尔对此有很深的体会。</p>
 <p>午夜的钟声早已敲过，帝都大街小巷的人流也早已散去。尽管帝都不同于迪亚边境的一些要塞城市，没有严格的宵禁制度，然而长期保持光明信仰的人们还是对黑夜有着难以磨灭的厌恶感。除了某些身份卑贱，地位低下诸如伙头、马夫、铁匠乃至妓女之类的角色，没有人愿意在深夜工作。长此以往，最深受迫害的则莫过于城市的黑哨，也就是负责夜间城防的士兵。</p>
@@ -6729,7 +6729,7 @@ $ git config --global user<span class="hljs-selector-class">.email</span> <span 
 <p>回过头来那人也已收好了属于他那份的钱，看样子似乎没有要走的意思，而是装模作样地研究着剩下的那几件小东西，脑袋依旧贼兮兮的，时不时盯着自己。大概他还有什么东西不愿和自己分享。摩尔莞尔一笑，想了想今晚的事已经无法继续了，便不再搭理那个人径直朝门外走了。那人也一直顾着手上的事，自然是没有要留摩尔下来一起研究的意思。</p>
 <p>按照来时的方式，摩尔十分轻松地回到大街上，一路上也未见有什么异常。心里盘算着今晚这个意外到也算是有惊无险，至于被那个摸粽子的小贼坏了自己的好事，他则没有过多纠结，摩尔并不是一个患得患失的人。他本来有的是方法处理刚才那个意外的，就最直接的用暴力拿下这样的小贼也不过小菜一碟，问题是无论哪种方法都会带来不少变数，也容易招惹麻烦。眼看内森学院入学在即，此时招惹麻烦那是不好的，何况摩尔本来就很讨厌麻烦。不过就在他快要回到自己的小屋时，他忽然想到自己刚才忽略了一件事，出于思维惯性他刚才没有考虑到那人只是个普通刁民，也不见携带了什么特殊工具，他究竟是怎么凭空混进那看守森严如铁桶般的院子的呢？想到这里摩尔不由感到一寒，不自觉地裹紧了袍子。</p>
 <p>麻烦，貌似已经来了！</p>
-]]></description><pubDate>Wed Feb 05 2014 03:32:35 GMT+0800 (China Standard Time)</pubDate><link>https://wxsm.space/p/paladitch-chapter-6</link><guid isPermaLink="true">https://wxsm.space/p/paladitch-chapter-6</guid></item><item><title>第五章 · 趣事（下）</title><description><![CDATA[<p>“如果我们有什么冒犯了的地方，我希望能够得到你们的原谅。”</p>
+]]></description><pubDate>Wed Feb 05 2014 03:32:35 GMT+0800 (中国标准时间)</pubDate><link>https://wxsm.space/p/paladitch-chapter-6</link><guid isPermaLink="true">https://wxsm.space/p/paladitch-chapter-6</guid></item><item><title>第五章 · 趣事（下）</title><description><![CDATA[<p>“如果我们有什么冒犯了的地方，我希望能够得到你们的原谅。”</p>
 <p>白衣女子这句话说出后，领头的那个冒险者已隐隐感到沉重。衣着光鲜，相貌不凡，仅此两点就已经让普通人望而却步，而这个女人无论是气质还是举止都是普通小贵族们所达不到的高度。</p>
 <p>众所周知，但凡贵族都注重涵养与风度，高贵与优雅一直是贵族们的形象标杆，越是显贵的贵族越是重视这些。不过这并不代表这个群体无害，尤其面前这年轻女人貌似在武技上也有不小的造诣，绝不是能任人拿捏的善男信女。</p>
 <p>虽然自筹凭借着多年在刀口上生活的本事即便是真与这个女人起了冲突也不会落于下风，但那绝不是他希望发生的结果。首先，六个佣兵当街围攻一个年轻貌美的女人，传出去了无疑会落了自己当家老大的面皮，这是丢人；其次这几个佣兵个个都是好勇斗狠之辈，一旦打伤了这个女人，势必会惹上不小的麻烦，这是惹祸。他不想丢人，更不想惹祸。</p>
@@ -6753,7 +6753,7 @@ $ git config --global user<span class="hljs-selector-class">.email</span> <span 
 <p>被称作心小姐的的女子一言不发，垂下眼睑眯着眼睛看了看那个仰躺在地上已停止呼吸的男人一眼，皱了皱眉头，便自顾动身向东街的出口走去，几步之后又停了下来回头看到仍站在原地抚弄额头的华衣少年，又折返回来扶住了他另一只手臂，两人便这样朝着外边离去了。剩余的四个佣兵则是呆立在原地，仿佛木偶一样毫无动静。围观的人见此好戏结束也是唏嘘不已，仍有望着那对男女离去的方向目光复杂。</p>
 <p>而站在酒馆门边，那个几乎全身都裹在袍子里的摩尔也是久久立在原地，若有所思。他想了很多，那名华衣少年和他脸上的图案，那名白色劲装被称作心小姐的女子和她的那次出手，还有不经意间注意到的，被叫做凯瑞的小铁匠，就是在刚刚被大铁匠马修半是搂半是拽地带进了酒馆里。在那之前，小铁匠的目光一直盯着那位心小姐，不同于其他人那些敬畏、艳羡、嫉恨乃至或多或少带有一点禁忌色彩的目光，小铁匠的目光中是十分的殷切，十分的凄然，余下几分落寞与不甘。</p>
 <p>好毒！摩尔心里是这么评价那双眼睛的。眼睛都这么毒，心里一定有很多苦。摩尔如是想到。</p>
-]]></description><pubDate>Sun Feb 02 2014 03:28:23 GMT+0800 (China Standard Time)</pubDate><link>https://wxsm.space/p/paladitch-chapter-5</link><guid isPermaLink="true">https://wxsm.space/p/paladitch-chapter-5</guid></item><item><title>第四章 · 趣事（上）</title><description><![CDATA[<p>雨后的费伦即使是傍晚也显得十分清澈。这片位于帝国中部镶嵌着北部荒原与东部玛雅山脉的土地，已经有近百年的时间没有遇到过战争了。百年的时间，足够让一片贫瘠的土地变得无比富饶。</p>
+]]></description><pubDate>Sun Feb 02 2014 03:28:23 GMT+0800 (中国标准时间)</pubDate><link>https://wxsm.space/p/paladitch-chapter-5</link><guid isPermaLink="true">https://wxsm.space/p/paladitch-chapter-5</guid></item><item><title>第四章 · 趣事（上）</title><description><![CDATA[<p>雨后的费伦即使是傍晚也显得十分清澈。这片位于帝国中部镶嵌着北部荒原与东部玛雅山脉的土地，已经有近百年的时间没有遇到过战争了。百年的时间，足够让一片贫瘠的土地变得无比富饶。</p>
 <p>平静赋予费伦富饶与祥和，也抹去了费伦的血性与荣耀。对于崇尚武力与战争的迪亚帝国而言，如今的帝都已经成为了帝国板块上最奇特的一块了。帝国的史书上有这么一句话，是来自遥远东方的一句谚语。“养兵千日，用兵一时”这句话下面还有迪亚开国大帝迪亚波罗的解说“每过两年又270天，军队就应该动用一次。”</p>
 <p>而今的费伦是迪亚帝国最耀眼的明珠，这里汇聚了帝国中部百分之八十以上的贵族、富商，无数的月桂香料、玛雅水晶、绒毛地毯等大量上流贵族的奢侈品被日以继夜地运往此处，也汇聚了大量的冒险者，数不尽的魔法器具、奇珍异宝和稀有奴仆一并充斥着费伦的繁华街道，玲琅满目，车水马龙。“帝都的泥土都带着奶酪的香味”这句流传甚广的谚语，很彻底地形容了费伦的富饶。</p>
 <p>财富可以给人们丰富的物质生活，却总无法填满人内心的空虚。费伦的贵族是富足的，他们过着悠闲而安逸的生活，费伦的贵族也是蛋疼的，因为远离战争让他们很多时候变得无事可做。他们生活中最大的调剂无非是讨论西街新上市的各式珍玩、女奴又或是某个伯爵府传出来的花边绯闻。比如墨菲斯伯爵的长子非常博爱，甚至与杰克斯男爵的关系不清不楚，又比如墨菲斯伯爵的次子，以俊美闻名于整个帝都的卓林·墨菲斯正大张旗鼓地追求着北疆蛮王胡夫将军的千金凯茜-胡夫。</p>
@@ -6771,11 +6771,11 @@ $ git config --global user<span class="hljs-selector-class">.email</span> <span 
 <p>看样子是这几个冒险者因为什么事和这对男女起了冲突，摩尔首先想道。他看了看那几个衣着几乎一模一样的男人有些玩味地的揣摩大概是某个大佣兵团的佣兵，看到这个女人一时兴起想要调戏一番，这样的事情换了一般城市是并不少见的，常年混迹在佣兵团的男人都不是善茬，放在其他地方遇上些弱势的女性冒险者调戏了也就调戏了，在没有厉害的男人为之出头的情况下一般也就过去了。但是能够活下来的佣兵一般都不傻，在费伦这样的地方对这两个一看就不一般的人也敢随便招惹，那分明就是在作死啊。不过想到此处他也不由地又看了那个女人几眼，确实也让人感到惊艳。</p>
 <p>“如果我们有什么冒犯了的地方，我希望能够得到你们的原谅。”突兀的女声，淡然且带着冰冷，说着她也仿佛不经意间向前迈了一步，似是道歉，却又仿佛说着一件无关紧要的事。</p>
 <p>摩尔的瞳孔猛地一收缩，眼眸深处突然迸发出晦暗的色彩，随即，他松了松握着精致水晶杯的手，修长且白皙如玉的手指轻柔地在杯子上打圈，便如同把玩着一绺头发。 作为一个醉心炼金术的法师，他几乎就是一个高明的数学家，对于数字的感应有着超乎寻常的敏锐性。那个女人此时和那几个冒险者的距离不多不少，都是刚好八十公分！而人的手臂加上匕首的长度也正好是八十公分！这个距离被刺客们称为上帝禁区，也就是说，在这个距离之中，你已经得不到上帝的庇护了。一个高明的刺客绝对比一个大法师更危险，当然，也比一个大法师更加稀奇与罕见。这几个人很不幸，他们貌似遇上了一个高明的刺客。</p>
-]]></description><pubDate>Sat Feb 01 2014 03:23:53 GMT+0800 (China Standard Time)</pubDate><link>https://wxsm.space/p/paladitch-chapter-4</link><guid isPermaLink="true">https://wxsm.space/p/paladitch-chapter-4</guid></item><item><title>2014-01-29</title><description><![CDATA[<p>很快就过年了。</p>
+]]></description><pubDate>Sat Feb 01 2014 03:23:53 GMT+0800 (中国标准时间)</pubDate><link>https://wxsm.space/p/paladitch-chapter-4</link><guid isPermaLink="true">https://wxsm.space/p/paladitch-chapter-4</guid></item><item><title>2014-01-29</title><description><![CDATA[<p>很快就过年了。</p>
 <p>回了一次赣州，小姑的生意越做越大了，店面越来越多，小时候第一次去广州好像还是在一个住房里做事，应该十多年了吧，跟着老妈参加了他们的年会，很多比我小的男孩都参加工作了，家里的两个弟弟也都在工作，唯独我还在读书，有种说不出的感觉。郭慧姐应该快生小孩了吧，罗云哥嫂子的小孩也快了，不知道会叫什么名字呢。奶奶身体好像还不错，挺好的。</p>
 <p>在大姨家住了几天，大姨做的菜还是很好吃，比婆婆做的都要好吃，但是有些东西还是婆婆做的更熟悉。谢金宏读五年级了，看起来还是小时候那个样子，不过这次没有看到他哭，大概也算长大了一点。后来感冒了，很不舒服。去水东走了一次，姑奶家养了很多狗，有小狗也有老狗，婆婆家的房子还有人住，不过是租给的别人，记忆已模糊得不可辨识。</p>
 <p>前天回家，昨天宅掉，今天出去走了一圈，没什么变化。最近发现自己变得犹豫了很多，不喜欢这样，一直觉得自己做起事来都是干净利落的，但这次不知道为什么。真的很抱歉，让你看到一个这么寡断的我。</p>
-]]></description><pubDate>Wed Jan 29 2014 08:56:24 GMT+0800 (China Standard Time)</pubDate><link>https://wxsm.space/p/2014-01-29</link><guid isPermaLink="true">https://wxsm.space/p/2014-01-29</guid></item><item><title>2013 年终总结</title><description><![CDATA[<p>首先感谢郭凯瑞同学百忙中抽出时间接受访问，那么事不宜迟，就开始吧。</p>
+]]></description><pubDate>Wed Jan 29 2014 08:56:24 GMT+0800 (中国标准时间)</pubDate><link>https://wxsm.space/p/2014-01-29</link><guid isPermaLink="true">https://wxsm.space/p/2014-01-29</guid></item><item><title>2013 年终总结</title><description><![CDATA[<p>首先感谢郭凯瑞同学百忙中抽出时间接受访问，那么事不宜迟，就开始吧。</p>
 <p>Q: 今年最开心的事？</p>
 <p>A: 没挂科，有奖励学分。</p>
 <p>Q: 这么自信能过马哲？</p>
@@ -6838,7 +6838,7 @@ $ git config --global user<span class="hljs-selector-class">.email</span> <span 
 <p>A: 身体健康，六级能过，不要挂科，学习多一些专业知识，认识多一些朋友。</p>
 <p>Q: 好的，时间差不多了，这次的总结就到这里吧。</p>
 <p>A: 谢谢。</p>
-]]></description><pubDate>Thu Dec 26 2013 07:47:45 GMT+0800 (China Standard Time)</pubDate><link>https://wxsm.space/p/2013-annual-summary</link><guid isPermaLink="true">https://wxsm.space/p/2013-annual-summary</guid></item><item><title>地心引力</title><description><![CDATA[<ul>
+]]></description><pubDate>Thu Dec 26 2013 07:47:45 GMT+0800 (中国标准时间)</pubDate><link>https://wxsm.space/p/2013-annual-summary</link><guid isPermaLink="true">https://wxsm.space/p/2013-annual-summary</guid></item><item><title>地心引力</title><description><![CDATA[<ul>
 <li>很独特的设定。地球很美丽，宇宙很黑暗。</li>
 <li>镜头经常走得很慢，处于宇宙中的各种物体也看似很慢，其实不然，经常在对比建立起来一瞬间就能感觉到可怕的速度。这样的镜头处理也让我觉得很独特。 而且对主角有很多又长又慢的镜头特写，然而影片的节奏并不慢。</li>
 <li>片头直入主题，片尾紧凑收官，90分钟全无拖沓，难能可贵。</li>
@@ -6846,13 +6846,13 @@ $ git config --global user<span class="hljs-selector-class">.email</span> <span 
 <li>女主遇到的连续挫折感觉已经超出了人类所能接受的极限，即使在最后一刻，依然存在挑战。</li>
 <li>太空垃圾真的不会形成一个地球专属的小行星带吗？</li>
 </ul>
-]]></description><pubDate>Tue Nov 26 2013 08:55:47 GMT+0800 (China Standard Time)</pubDate><link>https://wxsm.space/p/review-of-gravity</link><guid isPermaLink="true">https://wxsm.space/p/review-of-gravity</guid></item><item><title>留念</title><description><![CDATA[<p>玩了那么多年，经历了大大小小的版本更替，如今已脱胎换骨，与当年小小的一张地图相比已经面目全非，不得不说这也是一种软件的生命周期，或者开发模式。陪伴了老夫孤独寂寞的高中时光，消磨了大量宝贵的大学时间，亦由此对它产生了深厚的感情。如今大家各奔东西，在一起的时间越来越少，于是dota也渐渐变得没什么意思，偶尔上线也只是习惯所趋。</p>
+]]></description><pubDate>Tue Nov 26 2013 08:55:47 GMT+0800 (中国标准时间)</pubDate><link>https://wxsm.space/p/review-of-gravity</link><guid isPermaLink="true">https://wxsm.space/p/review-of-gravity</guid></item><item><title>留念</title><description><![CDATA[<p>玩了那么多年，经历了大大小小的版本更替，如今已脱胎换骨，与当年小小的一张地图相比已经面目全非，不得不说这也是一种软件的生命周期，或者开发模式。陪伴了老夫孤独寂寞的高中时光，消磨了大量宝贵的大学时间，亦由此对它产生了深厚的感情。如今大家各奔东西，在一起的时间越来越少，于是dota也渐渐变得没什么意思，偶尔上线也只是习惯所趋。</p>
 <p>我还记得我玩的第一个英雄是胖子，那么第一把自然是坑队友了，然后下一把玩了个传说哥，大家都懂的。不过好在老夫war3功底雄厚，渐渐也有了起色，开始没打算继续下去的，是因为身边的朋友在老夫带领下居然也开始喜欢dota，于是大感欣慰，遂征战至今，主要也是因为当年3C实在前路渺茫。朋友不多不少，刚好足够开一间黑店，可惜连跪几乎已是命中注定的剧本，于是我又要批评一下达Q了，你TM能不能不要裸秘法。徐尘是老夫最喜欢的选手，低调不失华丽，实力与智商兼顾，还会拍马屁。至于贝伦同学尽心尽力辅助了这么多年，只能说辛苦了。椰子同学自从退伍归来后实力大减，简直成为团队毒瘤。。好吧开玩笑的。</p>
 <p>从最开始的QQ平台开始，也不知道到底耍了多少把了，印象深刻的也没有多少，只能说记性不好。无数个白昼与通宵，就在这上面一点一点的消逝去了，这里却留下不少回忆，比如小林被他不知道什么亲属拽回家去的那晚，以为是个抢劫的，老夫差点就拍案而起。还有一次和徐尘通宵，第二天一早老夫回学校睡觉，下午睡醒吃饭回到网吧看到他居然还坐在那里继续操作，那个哭笑不得。记得那时候的水饺，炒饭，泡面，汽水，和各式各样的FirstBlood。</p>
 <p>如今大势已去，dota虽然还在发展，却已不适合你我，只能当做茶余饭后之娱乐了。不过也好，人总要成长。</p>
-]]></description><pubDate>Mon Oct 28 2013 07:30:04 GMT+0800 (China Standard Time)</pubDate><link>https://wxsm.space/p/some-memory</link><guid isPermaLink="true">https://wxsm.space/p/some-memory</guid></item><item><title>无题</title><description><![CDATA[<p>时间过得真快，转眼就大学三年级了，两年前作为新生的各种场景依然历历在目，像是昨天一样，当年的小软工如今已几乎是大师兄，不得不时时拷问自己两年来到底学到了什么，学到了多少，有什么资格。去年还没有什么感觉，如今比较强烈了。而且也开始想两年后我会在哪里。实在是前路茫茫啊。是工作呢，还是要去读研比较好呢。我个人还是倾向继续读书。唉，不知不觉就大龄青年了。真是岁月催。</p>
+]]></description><pubDate>Mon Oct 28 2013 07:30:04 GMT+0800 (中国标准时间)</pubDate><link>https://wxsm.space/p/some-memory</link><guid isPermaLink="true">https://wxsm.space/p/some-memory</guid></item><item><title>无题</title><description><![CDATA[<p>时间过得真快，转眼就大学三年级了，两年前作为新生的各种场景依然历历在目，像是昨天一样，当年的小软工如今已几乎是大师兄，不得不时时拷问自己两年来到底学到了什么，学到了多少，有什么资格。去年还没有什么感觉，如今比较强烈了。而且也开始想两年后我会在哪里。实在是前路茫茫啊。是工作呢，还是要去读研比较好呢。我个人还是倾向继续读书。唉，不知不觉就大龄青年了。真是岁月催。</p>
 <p>大学读下来，从前很多选择也慢慢觉得如果再理性一点的话，或许会有变化。不过人还是脚踏实地的好，往事已去不再追。今年婆婆去世了，即使到现在还是很难接受的事实，不过我也知道时间带走一切，不知哪刻自己也将被带走，能做的只有珍惜。</p>
-]]></description><pubDate>Tue Sep 10 2013 06:50:29 GMT+0800 (China Standard Time)</pubDate><link>https://wxsm.space/p/untitled</link><guid isPermaLink="true">https://wxsm.space/p/untitled</guid></item><item><title>莎莎和凯瑞的故事</title><description><![CDATA[<p>作者：<a href="&#109;&#x61;&#x69;&#x6c;&#116;&#111;&#x3a;&#x4c;&#x6f;&#111;&#x6c;&#111;&#114;&#108;&#95;&#x6c;&#97;&#x72;&#x40;&#x71;&#x71;&#46;&#99;&#x6f;&#109;">&#x4c;&#x6f;&#111;&#x6c;&#111;&#114;&#108;&#95;&#x6c;&#97;&#x72;&#x40;&#x71;&#x71;&#46;&#99;&#x6f;&#109;</a></p>
+]]></description><pubDate>Tue Sep 10 2013 06:50:29 GMT+0800 (中国标准时间)</pubDate><link>https://wxsm.space/p/untitled</link><guid isPermaLink="true">https://wxsm.space/p/untitled</guid></item><item><title>莎莎和凯瑞的故事</title><description><![CDATA[<p>作者：<a href="&#109;&#x61;&#105;&#108;&#116;&#111;&#58;&#76;&#x6f;&#x6f;&#x6c;&#x6f;&#x72;&#108;&#x5f;&#x6c;&#x61;&#x72;&#64;&#113;&#x71;&#x2e;&#99;&#x6f;&#109;">&#76;&#x6f;&#x6f;&#x6c;&#x6f;&#x72;&#108;&#x5f;&#x6c;&#x61;&#x72;&#64;&#113;&#x71;&#x2e;&#99;&#x6f;&#109;</a></p>
 <p>角色：莎莎 凯瑞</p>
 <p>凯瑞坐在广场的椅子上。嘴上叼着烟，手上点着烟，动作很慢，也很稳。</p>
 <p>莎莎坐到了凯瑞旁边，凯瑞没有说话，也没有动作。</p>
@@ -7091,9 +7091,9 @@ $ git config --global user<span class="hljs-selector-class">.email</span> <span 
 <p>，继续木然望着前方。</p>
 <p>独白：“我去当你的伴郎。”</p>
 <p>四周已空无一人，身旁也已空无一人，依稀可见的只有地上黑色的旅行包，旅行包下有被埋没的双脚。两枚燃尽的烟头，散发着暗香。</p>
-]]></description><pubDate>Mon Apr 01 2013 05:39:13 GMT+0800 (China Standard Time)</pubDate><link>https://wxsm.space/p/story-of-shasha-and-kairui</link><guid isPermaLink="true">https://wxsm.space/p/story-of-shasha-and-kairui</guid></item><item><title>意外之旅</title><description><![CDATA[<p>本来也没有抱很大希望，所以算是乐在其中。最让我开心的是看到了熟悉的人和事物，戒指坠地的声音依旧震慑人心。甘道夫虽然说年轻了六十岁但是看起来更老了，另外就是大招的冷却时间明显缩短了。然后剩下的内容，基本可以用“吃饭睡觉打兽人”概括， 而且可以看出六十年前的兽人智商还不太发达。有点像成龙大哥的风格，相比艰辛，更多的还是幽默。</p>
+]]></description><pubDate>Mon Apr 01 2013 05:39:13 GMT+0800 (中国标准时间)</pubDate><link>https://wxsm.space/p/story-of-shasha-and-kairui</link><guid isPermaLink="true">https://wxsm.space/p/story-of-shasha-and-kairui</guid></item><item><title>意外之旅</title><description><![CDATA[<p>本来也没有抱很大希望，所以算是乐在其中。最让我开心的是看到了熟悉的人和事物，戒指坠地的声音依旧震慑人心。甘道夫虽然说年轻了六十岁但是看起来更老了，另外就是大招的冷却时间明显缩短了。然后剩下的内容，基本可以用“吃饭睡觉打兽人”概括， 而且可以看出六十年前的兽人智商还不太发达。有点像成龙大哥的风格，相比艰辛，更多的还是幽默。</p>
 <p>这一次只能说中规中矩，如果想要惊世骇俗吃老本肯定是不行的了，我设想的话，既然都不搞原著了，那么第三部不如来个惊天大逆转，矮人勇者斗巨龙团灭，甘道夫和比尔博灰头土脸踏上归乡之路，这叫道高一尺，魔高一丈！</p>
-]]></description><pubDate>Wed Feb 27 2013 09:26:36 GMT+0800 (China Standard Time)</pubDate><link>https://wxsm.space/p/review-of-an-unexpected-journey</link><guid isPermaLink="true">https://wxsm.space/p/review-of-an-unexpected-journey</guid></item><item><title>仙五感想</title><description><![CDATA[<p>前两天觉得实在无聊，花了50人民币买了个仙5KEY，并且挂一晚上同时下载了5和5前，本来打算都玩玩看的，现在有谁想要玩的吗我给你KEY，不过只有一个哦，而且是5不是最新的5前。不准备购买5前KEY了。</p>
+]]></description><pubDate>Wed Feb 27 2013 09:26:36 GMT+0800 (中国标准时间)</pubDate><link>https://wxsm.space/p/review-of-an-unexpected-journey</link><guid isPermaLink="true">https://wxsm.space/p/review-of-an-unexpected-journey</guid></item><item><title>仙五感想</title><description><![CDATA[<p>前两天觉得实在无聊，花了50人民币买了个仙5KEY，并且挂一晚上同时下载了5和5前，本来打算都玩玩看的，现在有谁想要玩的吗我给你KEY，不过只有一个哦，而且是5不是最新的5前。不准备购买5前KEY了。</p>
 <p>老实说我也还没有耍通关，大概是走了一半多一点的剧情，不过确实没什么耍下去的愿望了，于是就广泛观察了一下广大玩家的意见，基本还是毁誉参半。支持者的观点也基本还是那几句，你不懂仙剑，你不懂感动，你不懂传承。反对的人，提出意见的人和建议改革的人一般都会被喷的很惨，尤其是那些用国外优秀游戏作品和仙剑做比较的，反观这个人群却能够更加理性的和广大支持者辩论。当然从四代开始正版的销量也成为了广大玩家所认可的仙剑成功的标志之一，在我个人看来这是一个很可怕的现象，如果仙剑系列的开发者也认为这是他们作品的一个成功标志的话那么这个游戏就彻底完蛋了。中国人开始买正版仙剑和上海软星的解散有直接关联，仔细想想是能够知道为什么的，这是一种民族情怀，不是因为它成功，而是希望它成功，希望终有一天我们的游戏文化也可以走出国门，而不是占山为王固步自封一万年。仙剑是国产游戏业的第一品牌，谁都希望它能够越做越优秀，这点还是统一的。</p>
 <p>那么我也来说一说对5代的感想。</p>
 <p>首先仍然是很传统的人设和故事，大大咧咧的男主角，误打误撞认识了一位知书达理的女主角，然后还有一个英俊帅气的男二号，和另外一位蛮横霸道的女主角，一共是四个人。然后就是混杂着各种纠缠不清的关系的剧情发展，到最后男一号自然是打败了为害人间的大魔头，但是却牺牲了其中一名美丽可爱的女主角，于是又引发了各种凄美的爱情故事。恩，至于5代后面的剧情我就是看攻略得来的了，暂时还没有亲身体会。这个主角阵容几乎从它祖宗开始就是这个模样，俊男美女闯六界，所以也没什么好奇怪的，这个剧情嘛也就这个样子，广大人民群众喜闻乐见。然后就是回合制战斗模式加强加强再加强版，仙剑虽然每一代都是回合制，但是又每一代都有新花样，这个新花样也会成为正式发布前的宣传重点之一。至于这一代的亮点，第一，我个人认为是李逍遥的回归，毕竟这一代是姚仙的孩子，给足了逍遥哥戏份，对于一代迷的我来说，很满意，第二，就是它的剧情配音，感情丰富，声调饱满，非常幽默，十分满意，逗笑了我很多次。5前对于角色数量方面似乎有很大创新，可能是基情与百合的发展使得游戏也不得不跟上时代的步伐。</p>
@@ -7107,11 +7107,11 @@ $ git config --global user<span class="hljs-selector-class">.email</span> <span 
 <p>第五，角色进入居民屋可以翻箱倒柜，顺手牵羊，这个是真正的传统，我不知道姚仙在今天对于这个设计是怎么样的一个看法。</p>
 <p>还有很多，不列举了，关于这些问题，只希望仙剑开发者有朝一日能发现并解决之，这将是对所有仙剑爱好者极大的鼓舞。这些就是细节，细节就是诚意。</p>
 <p>至于我为什么半途就失去了将仙5通关的愿望，并不是因为游戏性，仙剑系列每一代的游戏性都半斤八两，只不过由于画面不断提高，所以才显得它的游戏性愈加飘渺，想要体验游戏性的话膝盖中箭才是最佳选择。我只是对这一代的主角全无好感而已。当然，对四代的主角也全无好感。这两代的人设简直就是同一个妈生的。</p>
-]]></description><pubDate>Wed Feb 13 2013 19:25:31 GMT+0800 (China Standard Time)</pubDate><link>https://wxsm.space/p/review-of-cp5</link><guid isPermaLink="true">https://wxsm.space/p/review-of-cp5</guid></item><item><title>最近状态不好</title><description><![CDATA[<p>开学两周以来身体真的不太好，感觉又和高三后期差不多，不过好在时间没有那么紧，每天可以抽一点两点时间出来锻炼，到现在也感觉有了那么一些好转。霍香正气丸吃了没有用，以后再也不买了。不敢去看医生，实在看不起，重点是看了也白看。</p>
+]]></description><pubDate>Wed Feb 13 2013 19:25:31 GMT+0800 (中国标准时间)</pubDate><link>https://wxsm.space/p/review-of-cp5</link><guid isPermaLink="true">https://wxsm.space/p/review-of-cp5</guid></item><item><title>最近状态不好</title><description><![CDATA[<p>开学两周以来身体真的不太好，感觉又和高三后期差不多，不过好在时间没有那么紧，每天可以抽一点两点时间出来锻炼，到现在也感觉有了那么一些好转。霍香正气丸吃了没有用，以后再也不买了。不敢去看医生，实在看不起，重点是看了也白看。</p>
 <p>本来平常的话也没什么，坏在上学期挂了两科，明天就要补考去，可惜真的没有精力很认真的看书做题所以它要重修就重修吧，大四上多几节课我也不是很在乎。不过从今往后大概真的别挂科了。毕竟没有班长大人的魄力，我还是图样啊。现在饭堂卖的东西也比以前干净很多了，也有面条和粥，而且还很便宜，所以应该不会像以前那样困难，虽然饭吃了可能还是会有点问题。这两周以来嘴巴都感觉特别特别苦，会想喝汽水，会想吃雪糕，可是肚子又胀胀的，不太敢动那些。忌生冷烟酒辛辣油腻，知道的，奶不能喝，青菜少吃，什么什么的，都还记得，所以妈你不用担心我。我有分寸。你要多注意你自己。每次你跟我说晚上痛得睡不着都让我非常揪心。</p>
 <p>晚上经常会小发烧，可能是炎症吧之前真没考虑到。今天好些，没有。所以最近都穿长袖示街。偶尔还是会感到冷和孤独，不过没有高中那么强烈。今天吃了一天宿舍菜，中间还被小吓一跳，那个新买的电磁炉水都没煲开就怒放两炮，然后随着一丝烧焦的味道就哑火了，还好后来又神奇复活以不至于没东西吃。吃完以后十分想念婆婆和大姨，我想吃炸茄子和葱条和腌菜艾米果&#8230;</p>
 <p>希望可以好起来。</p>
-]]></description><pubDate>Sun Sep 16 2012 05:33:11 GMT+0800 (China Standard Time)</pubDate><link>https://wxsm.space/p/not-feeling-good-recently</link><guid isPermaLink="true">https://wxsm.space/p/not-feeling-good-recently</guid></item><item><title>多年</title><description><![CDATA[<p>作者：<a href="&#109;&#x61;&#105;&#108;&#x74;&#x6f;&#58;&#x4c;&#111;&#x6f;&#x6c;&#x6f;&#x72;&#x6c;&#95;&#108;&#97;&#114;&#x40;&#113;&#x71;&#x2e;&#99;&#111;&#x6d;">&#x4c;&#111;&#x6f;&#x6c;&#x6f;&#x72;&#x6c;&#95;&#108;&#97;&#114;&#x40;&#113;&#x71;&#x2e;&#99;&#111;&#x6d;</a></p>
+]]></description><pubDate>Sun Sep 16 2012 05:33:11 GMT+0800 (中国标准时间)</pubDate><link>https://wxsm.space/p/not-feeling-good-recently</link><guid isPermaLink="true">https://wxsm.space/p/not-feeling-good-recently</guid></item><item><title>多年</title><description><![CDATA[<p>作者：<a href="&#109;&#x61;&#x69;&#x6c;&#x74;&#x6f;&#58;&#x4c;&#x6f;&#x6f;&#108;&#x6f;&#x72;&#x6c;&#95;&#108;&#x61;&#x72;&#64;&#113;&#113;&#x2e;&#99;&#111;&#109;">&#x4c;&#x6f;&#x6f;&#108;&#x6f;&#x72;&#x6c;&#95;&#108;&#x61;&#x72;&#64;&#113;&#113;&#x2e;&#99;&#111;&#109;</a></p>
 <p>&nbsp;</p>
 <blockquote>
 <p>最近玩上各种经典网络游戏，走火入魔。琐事缠身，生性懒惰，故停更至军训结束。附赠此篇，作于高三，聊表歉意。</p>
@@ -7164,7 +7164,7 @@ $ git config --global user<span class="hljs-selector-class">.email</span> <span 
 <p>可是国王却真真切切的是被我们杀死的。</p>
 <p>多年后我看着高空上滚滚而落的火球，长得奇形异状的妖怪在城池里肆意厮杀。那是一阵阵悲鸣在耳旁震响。我说：&#8221;我知道了，国王是被我们杀了，所以我们是妖怪。&#8221;</p>
 <p>所以我们才是真的妖怪。</p>
-]]></description><pubDate>Thu Jun 07 2012 05:42:05 GMT+0800 (China Standard Time)</pubDate><link>https://wxsm.space/p/long-long-ago</link><guid isPermaLink="true">https://wxsm.space/p/long-long-ago</guid></item><item><title>第三章</title><description><![CDATA[<p>清晨，一个晴朗的清晨。不论马修是一个多么慵懒的人，他的铁匠铺总是会坚持在每天清晨打开，早晨可以做很多事，譬如有许多客人或者是送货的人都会在清晨来访。但不可否认，这样的习惯现在已经让他感到越来越痛苦，虽然打铁是他从小热爱的活，但他发觉自从自己来到费伦后他对这唯一热爱的事业都已渐渐失去兴致。他现在实在累得慌，因为他昨晚刚在窑子里呆了一夜，但是这活还得继续，如果他还想再去窑子的话。朦胧睡眼之际，他已看到不远处一个男人牵着一匹马向自己这里走来。于是他开始将火架上的铁坯打得叮叮作响。</p>
+]]></description><pubDate>Thu Jun 07 2012 05:42:05 GMT+0800 (中国标准时间)</pubDate><link>https://wxsm.space/p/long-long-ago</link><guid isPermaLink="true">https://wxsm.space/p/long-long-ago</guid></item><item><title>第三章</title><description><![CDATA[<p>清晨，一个晴朗的清晨。不论马修是一个多么慵懒的人，他的铁匠铺总是会坚持在每天清晨打开，早晨可以做很多事，譬如有许多客人或者是送货的人都会在清晨来访。但不可否认，这样的习惯现在已经让他感到越来越痛苦，虽然打铁是他从小热爱的活，但他发觉自从自己来到费伦后他对这唯一热爱的事业都已渐渐失去兴致。他现在实在累得慌，因为他昨晚刚在窑子里呆了一夜，但是这活还得继续，如果他还想再去窑子的话。朦胧睡眼之际，他已看到不远处一个男人牵着一匹马向自己这里走来。于是他开始将火架上的铁坯打得叮叮作响。</p>
 <p>“老板，请问这里就是风暴铁匠铺吧？”牵着马的男人走近了向马修淡淡问道。这人约莫30岁，生得十分健壮，络腮胡子和一身皮革劲装看起来隐隐有些煞气。</p>
 <p>“额？不是。”眼见此人有些不善，马修十分迷惑地回答道：“我这儿只是个小铺子，你说的那地方不在这儿，你得到城北去找。”</p>
 <p>听了马修的话，男人笑了，他讪讪道：“哦&#8230;稍等，稍等。我来自深水城，我叫约克。”</p>
@@ -7245,7 +7245,7 @@ $ git config --global user<span class="hljs-selector-class">.email</span> <span 
 <p>“还有没有人知道这件事？”马修忽然猛地一惊向捉着凯瑞双肩问道：“除了那些强盗，还有没有人知道？”凯瑞已有些眩晕，仿佛随时都要昏过去，不过在被问到这个时他还是强硬清醒了些，想了片刻，他摇了摇头。</p>
 <p>“好，好，不要让别人知道，你千万不要再让别人知道这件事，一定不能！”马修瞪着凯瑞十分郑重地说，直到凯瑞点了几次头他才送开了他。不过一番打击之后，这个原本已经开始苍老的男人，此刻看起来竟真的就是个老人了。他又注意到了枕头旁边的一快羊皮卷，那正是凯瑞的入学推荐书。他凑过身去一把拿了过来，摊在眼前看了看上面的内容。上面的每一个字他今天都已经看过数次，就在今天早晨他还为了这小块羊皮挣得和别人挣得死去活来，不过现在&#8230;现在什么都没了。想到这里，两行浊泪又从这个男人的双眼流出。</p>
 <p>“我本来以为&#8230;你会成为一个法师&#8230;”</p>
-]]></description><pubDate>Sat Jun 02 2012 03:19:21 GMT+0800 (China Standard Time)</pubDate><link>https://wxsm.space/p/paladitch-chapter-3</link><guid isPermaLink="true">https://wxsm.space/p/paladitch-chapter-3</guid></item><item><title>第二章</title><description><![CDATA[<p>夜，深深地夜。</p>
+]]></description><pubDate>Sat Jun 02 2012 03:19:21 GMT+0800 (中国标准时间)</pubDate><link>https://wxsm.space/p/paladitch-chapter-3</link><guid isPermaLink="true">https://wxsm.space/p/paladitch-chapter-3</guid></item><item><title>第二章</title><description><![CDATA[<p>夜，深深地夜。</p>
 <p>当凯瑞跟着那名士兵从房间里出来时，城墙上的岗哨也正好换了一班。深水城乃至大多数人类城市都是有着严格的城防制度，哨兵通常被分为两班，一班为白哨，从正午开始放哨一直到午夜，而另一班为黑哨，与前者相反，他们是从午夜开始工作直至次日正午。此时正是由白转黑的午夜时分。凯瑞一路无话，只是紧紧地跟随在士兵身后，渐渐穿过一道道的巡哨口。而这为士兵此刻却是像打开了话匣子一般，开始对凯瑞说个不停。出门之后他首先就告诉了凯瑞，这里是深水城&#8230;</p>
 <p>约莫片刻之后，两人就来到了一间石室前，入目可见的是一道漆黑的铁门，透过门缝可以看到里边传来了橘黄色的火光。士兵走到门前直接一把将门拉开，然后示意凯瑞跟着他进去。凯瑞没有迟疑，直接跟了进去。一进到屋子里，他就环视了一番。室内十分空旷、简陋，脚踩着的是凹凸不平的石头地板，屋内四处也并没有什么饰物桌椅之类的东西，有的只是几座约莫一人高的十字铁架子散落在各个方向。其中一座铁架子旁边的地板上还放着一口火盆，里面的火炭此刻缓缓燃烧着，到是使整间屋子都有了些暖意。透过这火光向里看去，就在火盆的不远处，正躺着一个同样穿着制式战甲的人，映着摇曳的火光，那身铁甲十分的显眼。</p>
 <p>两人站定之后，领路的士兵便向那名躺在地上的军官说道：“军士长，他醒了！”待到话音落下许久，那名躺着的军官才从地板上坐了起来，惬意地伸着懒腰，淡淡地说道：“嗯，你回去吧。”说着又向领路的士兵挥了挥手，后者转头看了凯瑞一眼，随即默默地走出了房间，关上了大门。屋内顿时就只剩下了凯瑞和这名军官。直到此时，凯瑞才借着火光细细地打量眼前的这人，他模样十分阴郁，一双凶光直冒的三角眼此刻正诡异地盯着他，一张细长的嘴巴不知何时也开始诡异地笑了起来。乍看之下真是像极了教堂里那些用石头刻成的魔鬼雕像，但那满头散乱的的褐色长发和渣拉的须根看起来又略显些粗犷。有些恭维地说，这个男人的模样简直已经将魔鬼和恶魔这两种水火不容的存在给兼容并济了。凯瑞不喜欢这个人，不单单是因为这长相，他还感觉到面前的这个男人有些不怀好意。</p>
@@ -7261,7 +7261,7 @@ $ git config --global user<span class="hljs-selector-class">.email</span> <span 
 <p>两天。如果说每个人的一生中都会有一段黑暗，那么这两天所经历的绝对是让凯瑞最难忘的一段了。短短两天的时间，他失去了太多。失去了从小陪伴他长大并且保护他照顾他的哥哥阿诺，失去了说话的能力和开口大笑的权利，失去了做人的资格。饥饿、疲倦、哀伤，无时无刻不在摧残着他的身心，除此以外还有深刻的压抑。</p>
 <p>每当他看到那个负责送他去费伦的士兵掏出那张羊皮卷好奇地观看时，他都会感受到沉重的压抑。五个金币，不是五个银币，更不是五个铜币。而是金币。这笔钱无论对他本人还是对他的家庭来说都是一笔巨额的财富，中间他一直都不敢想象自己抵达费伦以后该如何支付这笔钱，他甚至已经有了放弃那张羊皮卷的冲动。反正他已经没有舌头了，这便意味着他几乎无法念出一个最简单的咒语，对于法师来说这等于是判了死刑。既然是这样，那为什么不干脆放弃呢？每当想到这里，他的心里都感到无比的刺痛。成为法师是一个梦想，不仅仅是他一个人的梦想。原本这已经是触手可及的了，但是却发生了这样的事，凯瑞不甘心，他怎的很不甘心。</p>
 <p>他就这样被马车运肉干一样地运了两天，当车外传来抵达费伦时，尽管内心是那样地恐惧可也还是忍不住爬出来瞪大眼睛仔细地看着这座巨大的城市，那是如此地繁华与美丽，入眼的每一处都是那么锦绣华丽。望着这般景象凯瑞终于也忍不住呜呜做声，他不由想到若是没有遇上那帮灰衣盗贼，此刻他应该就和阿诺等人一起站在这里吧？若真是这样该有多好，他们会有多么地惊喜，你们可能看到？这座城市比起胡夫城主的那副画像要美丽多少？想到胡夫城主他又不由想起不久前他接到胡夫城主传来的推荐函，那时母亲与外公是多么欣慰，他永远不会忘记那时母亲竟以侍奉神明的方式跪在了父亲的画像前痛哭倾诉，想到最后，他脑子里却只剩下多年前父亲曾说过的一句话，“只可惜，我猜中了开头，却猜不中这结尾！”</p>
-]]></description><pubDate>Thu May 24 2012 03:11:14 GMT+0800 (China Standard Time)</pubDate><link>https://wxsm.space/p/paladitch-chapter-2</link><guid isPermaLink="true">https://wxsm.space/p/paladitch-chapter-2</guid></item><item><title>第一章 · 噩梦</title><description><![CDATA[<p>连载作者：<a href="&#x6d;&#x61;&#x69;&#108;&#x74;&#x6f;&#58;&#76;&#x6f;&#111;&#108;&#111;&#114;&#108;&#x5f;&#108;&#97;&#x72;&#64;&#113;&#113;&#46;&#99;&#x6f;&#x6d;">&#76;&#x6f;&#111;&#108;&#111;&#114;&#108;&#x5f;&#108;&#97;&#x72;&#64;&#113;&#113;&#46;&#99;&#x6f;&#x6d;</a></p>
+]]></description><pubDate>Thu May 24 2012 03:11:14 GMT+0800 (中国标准时间)</pubDate><link>https://wxsm.space/p/paladitch-chapter-2</link><guid isPermaLink="true">https://wxsm.space/p/paladitch-chapter-2</guid></item><item><title>第一章 · 噩梦</title><description><![CDATA[<p>连载作者：<a href="&#109;&#97;&#x69;&#x6c;&#x74;&#111;&#x3a;&#x4c;&#111;&#111;&#x6c;&#111;&#114;&#x6c;&#95;&#108;&#x61;&#114;&#x40;&#x71;&#113;&#x2e;&#x63;&#111;&#109;">&#x4c;&#111;&#111;&#x6c;&#111;&#114;&#x6c;&#95;&#108;&#x61;&#114;&#x40;&#x71;&#113;&#x2e;&#x63;&#111;&#109;</a></p>
 <p><strong>本目录下之连载作品，未经授权，禁止转载</strong></p>
 <p>弯刀，斧头，血&#8230;放眼望去，整个世界都被覆盖了一层血红的氤氲。血色之下，数不清的灰衣人正拿着各种各样的锋利武器砍杀着周围的其他人，刀刀见血，刀刀见肉。那些被砍杀的人尖叫着、哭喊着求饶，求神明保佑，然而迎接他们的只有刀子和斧头。当中有几个披甲战士果断拔出了他们挂在腰间的长剑开始反击，他们一个个都无比矫健勇猛，即使是面对着数倍于自己的敌人也一往无前，长剑所到之处，要么是刀兵相击，要么就是一个灰衣人被直接斩杀。尤其是其中一个身形高大魁梧的战士，每一剑斩出还会带起微微的炽白色剑芒，一剑之威竟能够直接将灰衣人的武器切断，随即切开他们的躯体，激起一朵血花。而那些灰衣人的武器砍在这几个披甲战士的身上却只造成一道血痕，或者只是在他们的战甲上磨出一道白印。在这般实力对比之下，四周的灰衣人也渐渐感到胆寒，他们不再轻易地靠近这几个披甲战士，而是转向其他地方去切了那些弱小的普通人，随后围成了一个巨大的圈，将这几个披甲战士连同他们身边的几个酱油都包围了起来，双方都不敢轻举妄动。</p>
 <p>这般情况下，灰衣人若是阵型不齐就冒然冲到了披甲战士身前，那他们将付出沉重的伤亡，显然他们都怕死，没有人愿意做那个靠前的牺牲者。而反观披甲战士几人，他们更是势单力薄，只能几人紧紧地抱作一团，稍微一分散。立刻就会被众多灰衣人冲乱阵型，随后即会被分别包围，然后乱刀砍死。即便他们几人实力不凡，能够聚在一起向包围圈外冲杀出去，但他们身边的几个酱油确是无法跟得上他们。当中那个身形魁梧的披甲战士此刻就正护着身后的一个少年，显然他也并不愿意撇下他自己离开。几人就这么和众多的灰衣人焦灼地对峙着，双方都在各自地寻找契机，一个打破平衡的契机。</p>
@@ -7272,4 +7272,4 @@ $ git config --global user<span class="hljs-selector-class">.email</span> <span 
 <p>之后，当他放下双手想要继续向凯瑞说些什么时，却发现少年双眼一片茫然，神情呆若木鸡。就像是受了什么巨大的惊吓，突然就变成了这么个呆子。对此他却并不感到奇怪，在他看来这孩子有这些表现本就是理所当然的事，任谁遇到了这种灾难，心灵都难免遭受巨大的打击。一个数百人的车队被盗贼团抢劫，得了财务居然还杀人灭口，除了这个孩子侥幸活了下来，其余的人甚至当中还有一些来自边境的强壮士兵都被残忍地杀死了。“神呐，这都是些什么事啊？”士兵默默地叹了口气，他现下只有祈祷这个孩子不要因这次惊吓而真的变成了一个呆子。否则，那就真的&#8230;真的是一个悲剧啊。</p>
 <p>片刻之后，士兵弯腰凑到了床边，轻轻地握住了凯瑞的肩膀，这幼小的身躯此时正不停地颤抖。他对他说道：“振作些，孩子。我带你去见我的长官，也许他能够给你一些帮助。”说着他低头望了望地板。在这一握之下，凯瑞也回过神来，神情恢复了些许。他看向了眼前的这个充满善意的士兵，这确实不是他所熟悉的任何一个人，并且此刻他也注意到了这个士兵战甲上的军徽，这不是暴风城的军徽。原来这一切都是真的，弯刀，斧头，血&#8230;那一切都是真的，那么阿诺哥哥，那些陪同他一起来的战士，还有那些随行的商人，也全都死了。想到这里，凯瑞沉重的内心猛然间又更加地沉重，眼泪也不知不觉地从眼眶里溢了出来。他努力地支起身体，并对身前的士兵点了点头。此时，他的身体仍在打颤，仿佛随时都会再倒下去。眼见如此，那位士兵又伸出另一只手将他扶住，拖着他站了起来，并将一只手托在他腋下，以防他跌倒。</p>
 <p>凯瑞再次对士兵点了点头以示感谢，他嘴角已忍不住抽动了一下,想要对这名士兵说声“谢谢”，但又被他强行忍住了。他知道他说不出来，并非因为他性情傲慢，也不是因为这次打击让他失去了理智。他是真真切切地说不出来了，就在他刚醒过来呼一口气的时候，他就感觉自己的嘴里空荡荡的好像少了什么东西。直到那名士兵开口和他说话他想要回答时才发现，他的舌头不见了。</p>
-]]></description><pubDate>Tue May 22 2012 03:43:09 GMT+0800 (China Standard Time)</pubDate><link>https://wxsm.space/p/paladitch-chapter-1</link><guid isPermaLink="true">https://wxsm.space/p/paladitch-chapter-1</guid></item></channel></rss>
+]]></description><pubDate>Tue May 22 2012 03:43:09 GMT+0800 (中国标准时间)</pubDate><link>https://wxsm.space/p/paladitch-chapter-1</link><guid isPermaLink="true">https://wxsm.space/p/paladitch-chapter-1</guid></item></channel></rss>
